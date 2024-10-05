@@ -63,6 +63,8 @@ public:
 vector<Agent> agents;
 vector<Route> routes;
 vector<vector<ll>> history; // history of the agents' positions day by day
+vector<double> variance;
+vector<double> mean;
 ll Q; // number of agents
 ll K; // number of routes
 
@@ -164,7 +166,14 @@ void simulation_step()
         agent_history[agents[i].id] = assigned_routes[i];
     }
 
+    double step_mean = accumulate(agents.begin(), agents.end(), 0.0, [](double sum, Agent a) { return sum + a.sum_time; }) / agents.size();
+
+    double step_variance = accumulate(agents.begin(), agents.end(), 0.0, [step_mean](double sum, Agent a) { return sum + pow(a.sum_time - step_mean, 2); }) / agents.size();
+
     history.push_back(agent_history);
+
+    mean.push_back(step_mean);
+    variance.push_back(step_variance);
 
     sort(agents.begin(), agents.end()); // sort the agents by the sum of times
    
@@ -223,6 +232,32 @@ void simul_stats()
     }
 }
 
+void save_output()
+{
+    // save the output to the csv file
+    ofstream out("output.csv");
+    out << "Agent,Route" << endl;
+    for (int i = 0; i < history.size(); i++)
+    {
+        for (int j = 0; j < history[i].size(); j++)
+        {
+            out << j << "," << history[i][j] << endl;
+        }
+    }
+    out.close();
+
+    ofstream stats("stats.csv");
+    stats << "Mean,Variance" << endl;
+    for (int i = 0; i < mean.size(); i++)
+    {
+        stats << mean[i] << "," << variance[i] << endl;
+    }
+
+    stats.close();
+
+    cout << "Output saved to output.csv and stats.csv" << endl;
+}
+
 int main()
 {
     read_input();
@@ -260,4 +295,6 @@ int main()
     }
     
     simul_stats();
+
+    save_output();
 }
