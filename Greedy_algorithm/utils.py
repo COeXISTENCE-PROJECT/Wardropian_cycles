@@ -44,11 +44,13 @@ class PathUtils:
 
 
 PATH = '../assignments/'
-_debug = True
+_debug = False
 ROUND = 2 #
 
-def round_trip_time_and_flow(line: str, precision: int = 2) -> Tuple[int, float, float,float]:
+def round_trip_time_and_flow(line: str, precision: int = 2) -> Tuple[int, int, float,float]:
     origin, destination, flow, time = line.split()
+    origin, destination = int(origin), int(destination)
     flow = round(float(flow), precision)
     time = round(float(time), precision)
     return (origin, destination, flow, time)
+
