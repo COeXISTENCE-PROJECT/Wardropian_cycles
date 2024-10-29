@@ -11,11 +11,14 @@ class Route:
         self.time = time
         self.flow = flow
         self.path = path
+        
+    def __str__(self):
+        return f'route: {self.time} {self.flow} {self.path}'
 
 class OD_pair:
-    def __init__(self, origin: str, destination: str, flow: float):
-        self.origin = origin
-        self.destination = destination
+    def __init__(self, origin: int, destination: int, flow: float):
+        self.origin = int(origin)
+        self.destination = int(destination)
         self.flow = flow
         self.graph = {}
         self.routes = []
@@ -25,6 +28,12 @@ class OD_pair:
     
     def add_routes(self, routes: Route):
         self.routes.append(routes)
+    
+    def set_routes(self, routes: list):
+        self.routes = routes
+    
+    def __str__(self):
+        return f'pair: {self.origin} {self.destination} {self.flow}'
 
 def read_input(filename: str, pairs: list):
     with open(filename, 'r') as f:
@@ -38,7 +47,7 @@ def read_input(filename: str, pairs: list):
             flow = float(flow)
             pair = OD_pair(origin, destination, flow)
             # read the graph
-            graph = nx.Graph()
+            graph = nx.DiGraph()
             for j in range(i+1, len(lines)):
                 edge = lines[j]
                 if edge == '\n':
@@ -57,20 +66,56 @@ def read_input(filename: str, pairs: list):
             print(pair.origin, pair.destination, pair.flow)
             print(pair.graph.edges(data=True))
             print()
-    
+
+def unify_same_time_paths(pairs: list):
+    '''
+        Unify paths with the same time
+    '''
+    for pair in pairs:
+        if len(pair.routes) == 1:
+            continue
+        for i in range(len(pair.routes)):
+            for j in range(i+1, len(pair.routes)):
+                if abs(pair.routes[i].time - pair.routes[j].time) < 1e-9:
+                    pair.routes[i].flow += pair.routes[j].flow
+                    pair.routes[j].flow = 0
+        pair.routes = [route for route in pair.routes if route.flow > 0]
+    return pairs
+
+def average_paths(pairs: list):
+    '''
+        Average paths with the same origin and destination - used for UE (since this is the UE assumption)
+    '''
+    for pair in pairs:
+        if len(pair.routes) == 1:
+            continue
+        avg_time = 0
+        flow = 0
+        for route in pair.routes:
+            avg_time += route.time * route.flow
+            flow += route.flow
+        avg_time /= flow
+        for route in pair.routes:
+            route.time = avg_time
+    return pairs
             
 
-def write_results(filename: str, pairs: list):    
+def write_results(filename: str, pairs: list, asignment_type = 'SO'):    
     with open(filename, 'w') as f:
         f.write("origin destination total_flow\n")
-        f.write("time flow path\n")
+        f.write("time flow nodes_in_path\n")
         for pair in pairs:
+            # ignore pairs with only one route
+            if asignment_type == 'SO':
+                if len(pair.routes) == 1:
+                    continue
             f.write(f'{pair.origin} {pair.destination} {pair.flow}\n')
             for route in pair.routes:
                 f.write(f'{route.time} {route.flow} ')
                 for node in route.path:
                     f.write(f'{node} ')
                 f.write('\n')        
+            f.write('\n')
     
 
 def calculate_routes(pairs: list):
@@ -80,7 +125,7 @@ def calculate_routes(pairs: list):
         o = pair.origin
         d = pair.destination
         
-        if _debug:
+        if _debug or (o == 22 and d == 17):
             print(o, d)
             print(graph.edges(data=True))
         
@@ -115,6 +160,7 @@ def calculate_routes(pairs: list):
                     print()
             except nx.NetworkXNoPath:
                 break
+    return pairs
         
 
 if __name__ == "__main__":
@@ -127,5 +173,6 @@ if __name__ == "__main__":
         pairs = []
         read_input(PATH + f, pairs)
         calculate_routes(pairs)
+        pairs = unify_same_time_paths(pairs)
         write_results(f.replace('OD_pairs', 'paths'), pairs)
     pass
