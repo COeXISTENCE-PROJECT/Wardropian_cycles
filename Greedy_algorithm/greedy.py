@@ -2,7 +2,6 @@ import math
 import csv
 from functools import reduce
 
-debug = 0
 
 class Route:
     def __init__(self, id=0, flow=0, time=0.0):
@@ -21,8 +20,6 @@ class Agent:
         self.sum_time = 0.0
 
     def add_time(self, time):
-        if debug:
-            print(f"time adder: agent {self.id} of time {self.sum_time} increases by {time}")
         self.sum_time += time
         self.sum_time = round(self.sum_time * 1000) / 1000
 
@@ -38,7 +35,7 @@ def prep_data(route_data):
     total_agents = sum(q for q, _ in route_data)
     return total_agents, route_data
 
-def run_simulation(num_agents, route_data, max_steps=10000, eps=0):
+def run_simulation(num_agents, route_data, max_steps=10000, eps=0, debug=False):
     """
     Runs the simulation for a given number of agents and route data.
 
@@ -58,9 +55,9 @@ def run_simulation(num_agents, route_data, max_steps=10000, eps=0):
     variance = []
 
     def prepare_routes():
-        min_time = min(routes, key=lambda r: r.time).time
-        for route in routes:
-            route.time -= min_time
+        # min_time = min(routes, key=lambda r: r.time).time
+        # for route in routes:
+        #     route.time -= min_time
         routes.sort()
 
     def assign_routes(routes, agents):
@@ -83,7 +80,9 @@ def run_simulation(num_agents, route_data, max_steps=10000, eps=0):
 
         for i in range(len(agents)):
             agent_history[agents[i].id] = assigned_routes[i]
-
+        if debug:
+            for agent in agents:
+                print(f"Agent {agent.id} has time {agent.sum_time}")
         step_mean = sum(agent.sum_time for agent in agents) / len(agents)
         step_variance = sum((agent.sum_time - step_mean) ** 2 for agent in agents) / len(agents)
 
@@ -122,7 +121,7 @@ def run_simulation(num_agents, route_data, max_steps=10000, eps=0):
 
     # Return the simulation results
     return {
-        "convergence": converged,
+        "convergence": (converged, cntr),
         "history": history,
         "mean": mean,
         "variance": variance

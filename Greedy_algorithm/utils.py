@@ -54,3 +54,10 @@ def round_trip_time_and_flow(line: str, precision: int = 2) -> Tuple[int, int, f
     time = round(float(time), precision)
     return (origin, destination, flow, time)
 
+def num_of_routes(routes: list) -> int:
+    cntr = 0
+    for route in routes:
+        # calculate number of routes with flow > 1
+        if route.flow > 1:
+            cntr += 1
+    return cntr

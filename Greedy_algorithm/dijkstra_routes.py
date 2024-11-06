@@ -125,9 +125,16 @@ def calculate_routes(pairs: list):
         o = pair.origin
         d = pair.destination
         
-        if _debug or (o == 22 and d == 17):
+        if _debug:
             print(o, d)
             print(graph.edges(data=True))
+            #plot graph
+            import matplotlib.pyplot as plt
+            pos = nx.spring_layout(graph)
+            nx.draw(graph, pos, with_labels=True)
+            labels = nx.get_edge_attributes(graph, 'time')
+            nx.draw_networkx_edge_labels(graph, pos, edge_labels=labels)
+            plt.show()
         
         while True:
             try:
