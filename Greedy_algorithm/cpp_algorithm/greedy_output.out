@@ -1,7 +1,7 @@
-Not converged yet! Max diff: 6
-Not converged yet! Max diff: 2
 Not converged yet! Max diff: 4
 Not converged yet! Max diff: 3
+Not converged yet! Max diff: 4
+Not converged yet! Max diff: 2
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -98,15 +98,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 298
-Agent 5 has time 298
-Agent 8 has time 300
-Agent 6 has time 300
-Agent 0 has time 300
-Agent 2 has time 301
-Agent 3 has time 301
-Agent 4 has time 301
-Agent 1 has time 301
+Agent 5 has time 99
+Agent 1 has time 99
+Agent 0 has time 99
+Agent 2 has time 100
+Agent 4 has time 101
+Agent 3 has time 102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -208,15 +205,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 598
-Agent 5 has time 598
-Agent 8 has time 600
-Agent 6 has time 600
-Agent 0 has time 600
-Agent 7 has time 601
-Agent 3 has time 601
-Agent 2 has time 601
-Agent 1 has time 601
+Agent 4 has time 199
+Agent 3 has time 199
+Agent 5 has time 199
+Agent 1 has time 200
+Agent 0 has time 201
+Agent 2 has time 202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -318,15 +312,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 898
-Agent 5 has time 898
-Agent 8 has time 900
-Agent 6 has time 900
-Agent 0 has time 900
-Agent 4 has time 901
-Agent 3 has time 901
-Agent 7 has time 901
-Agent 1 has time 901
+Agent 0 has time 299
+Agent 2 has time 299
+Agent 4 has time 299
+Agent 3 has time 300
+Agent 5 has time 301
+Agent 1 has time 302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -428,15 +419,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 1198
-Agent 5 has time 1198
-Agent 8 has time 1200
-Agent 6 has time 1200
-Agent 0 has time 1200
-Agent 2 has time 1201
-Agent 3 has time 1201
-Agent 4 has time 1201
-Agent 1 has time 1201
+Agent 5 has time 399
+Agent 1 has time 399
+Agent 0 has time 399
+Agent 2 has time 400
+Agent 4 has time 401
+Agent 3 has time 402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -538,15 +526,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 1498
-Agent 5 has time 1498
-Agent 8 has time 1500
-Agent 6 has time 1500
-Agent 0 has time 1500
-Agent 7 has time 1501
-Agent 3 has time 1501
-Agent 2 has time 1501
-Agent 1 has time 1501
+Agent 4 has time 499
+Agent 3 has time 499
+Agent 5 has time 499
+Agent 1 has time 500
+Agent 0 has time 501
+Agent 2 has time 502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -648,15 +633,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 1798
-Agent 5 has time 1798
-Agent 8 has time 1800
-Agent 6 has time 1800
-Agent 0 has time 1800
-Agent 4 has time 1801
-Agent 3 has time 1801
-Agent 7 has time 1801
-Agent 1 has time 1801
+Agent 0 has time 599
+Agent 2 has time 599
+Agent 4 has time 599
+Agent 3 has time 600
+Agent 5 has time 601
+Agent 1 has time 602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -758,15 +740,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 2098
-Agent 5 has time 2098
-Agent 8 has time 2100
-Agent 6 has time 2100
-Agent 0 has time 2100
-Agent 2 has time 2101
-Agent 3 has time 2101
-Agent 4 has time 2101
-Agent 1 has time 2101
+Agent 5 has time 699
+Agent 1 has time 699
+Agent 0 has time 699
+Agent 2 has time 700
+Agent 4 has time 701
+Agent 3 has time 702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -868,15 +847,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 2398
-Agent 5 has time 2398
-Agent 8 has time 2400
-Agent 6 has time 2400
-Agent 0 has time 2400
-Agent 7 has time 2401
-Agent 3 has time 2401
-Agent 2 has time 2401
-Agent 1 has time 2401
+Agent 4 has time 799
+Agent 3 has time 799
+Agent 5 has time 799
+Agent 1 has time 800
+Agent 0 has time 801
+Agent 2 has time 802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -978,15 +954,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 2698
-Agent 5 has time 2698
-Agent 8 has time 2700
-Agent 6 has time 2700
-Agent 0 has time 2700
-Agent 4 has time 2701
-Agent 3 has time 2701
-Agent 7 has time 2701
-Agent 1 has time 2701
+Agent 0 has time 899
+Agent 2 has time 899
+Agent 4 has time 899
+Agent 3 has time 900
+Agent 5 has time 901
+Agent 1 has time 902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1088,15 +1061,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 2998
-Agent 5 has time 2998
-Agent 8 has time 3000
-Agent 6 has time 3000
-Agent 0 has time 3000
-Agent 2 has time 3001
-Agent 3 has time 3001
-Agent 4 has time 3001
-Agent 1 has time 3001
+Agent 5 has time 999
+Agent 1 has time 999
+Agent 0 has time 999
+Agent 2 has time 1000
+Agent 4 has time 1001
+Agent 3 has time 1002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1198,15 +1168,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 3298
-Agent 5 has time 3298
-Agent 8 has time 3300
-Agent 6 has time 3300
-Agent 0 has time 3300
-Agent 7 has time 3301
-Agent 3 has time 3301
-Agent 2 has time 3301
-Agent 1 has time 3301
+Agent 4 has time 1099
+Agent 3 has time 1099
+Agent 5 has time 1099
+Agent 1 has time 1100
+Agent 0 has time 1101
+Agent 2 has time 1102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1308,15 +1275,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 3598
-Agent 5 has time 3598
-Agent 8 has time 3600
-Agent 6 has time 3600
-Agent 0 has time 3600
-Agent 4 has time 3601
-Agent 3 has time 3601
-Agent 7 has time 3601
-Agent 1 has time 3601
+Agent 0 has time 1199
+Agent 2 has time 1199
+Agent 4 has time 1199
+Agent 3 has time 1200
+Agent 5 has time 1201
+Agent 1 has time 1202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1418,15 +1382,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 3898
-Agent 5 has time 3898
-Agent 8 has time 3900
-Agent 6 has time 3900
-Agent 0 has time 3900
-Agent 2 has time 3901
-Agent 3 has time 3901
-Agent 4 has time 3901
-Agent 1 has time 3901
+Agent 5 has time 1299
+Agent 1 has time 1299
+Agent 0 has time 1299
+Agent 2 has time 1300
+Agent 4 has time 1301
+Agent 3 has time 1302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1528,15 +1489,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 4198
-Agent 5 has time 4198
-Agent 8 has time 4200
-Agent 6 has time 4200
-Agent 0 has time 4200
-Agent 7 has time 4201
-Agent 3 has time 4201
-Agent 2 has time 4201
-Agent 1 has time 4201
+Agent 4 has time 1399
+Agent 3 has time 1399
+Agent 5 has time 1399
+Agent 1 has time 1400
+Agent 0 has time 1401
+Agent 2 has time 1402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1638,15 +1596,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 4498
-Agent 5 has time 4498
-Agent 8 has time 4500
-Agent 6 has time 4500
-Agent 0 has time 4500
-Agent 4 has time 4501
-Agent 3 has time 4501
-Agent 7 has time 4501
-Agent 1 has time 4501
+Agent 0 has time 1499
+Agent 2 has time 1499
+Agent 4 has time 1499
+Agent 3 has time 1500
+Agent 5 has time 1501
+Agent 1 has time 1502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1748,15 +1703,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 4798
-Agent 5 has time 4798
-Agent 8 has time 4800
-Agent 6 has time 4800
-Agent 0 has time 4800
-Agent 2 has time 4801
-Agent 3 has time 4801
-Agent 4 has time 4801
-Agent 1 has time 4801
+Agent 5 has time 1599
+Agent 1 has time 1599
+Agent 0 has time 1599
+Agent 2 has time 1600
+Agent 4 has time 1601
+Agent 3 has time 1602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1858,15 +1810,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 5098
-Agent 5 has time 5098
-Agent 8 has time 5100
-Agent 6 has time 5100
-Agent 0 has time 5100
-Agent 7 has time 5101
-Agent 3 has time 5101
-Agent 2 has time 5101
-Agent 1 has time 5101
+Agent 4 has time 1699
+Agent 3 has time 1699
+Agent 5 has time 1699
+Agent 1 has time 1700
+Agent 0 has time 1701
+Agent 2 has time 1702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -1968,15 +1917,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 5398
-Agent 5 has time 5398
-Agent 8 has time 5400
-Agent 6 has time 5400
-Agent 0 has time 5400
-Agent 4 has time 5401
-Agent 3 has time 5401
-Agent 7 has time 5401
-Agent 1 has time 5401
+Agent 0 has time 1799
+Agent 2 has time 1799
+Agent 4 has time 1799
+Agent 3 has time 1800
+Agent 5 has time 1801
+Agent 1 has time 1802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2078,15 +2024,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 5698
-Agent 5 has time 5698
-Agent 8 has time 5700
-Agent 6 has time 5700
-Agent 0 has time 5700
-Agent 2 has time 5701
-Agent 3 has time 5701
-Agent 4 has time 5701
-Agent 1 has time 5701
+Agent 5 has time 1899
+Agent 1 has time 1899
+Agent 0 has time 1899
+Agent 2 has time 1900
+Agent 4 has time 1901
+Agent 3 has time 1902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2188,15 +2131,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 5998
-Agent 5 has time 5998
-Agent 8 has time 6000
-Agent 6 has time 6000
-Agent 0 has time 6000
-Agent 7 has time 6001
-Agent 3 has time 6001
-Agent 2 has time 6001
-Agent 1 has time 6001
+Agent 4 has time 1999
+Agent 3 has time 1999
+Agent 5 has time 1999
+Agent 1 has time 2000
+Agent 0 has time 2001
+Agent 2 has time 2002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2298,15 +2238,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 6298
-Agent 5 has time 6298
-Agent 8 has time 6300
-Agent 6 has time 6300
-Agent 0 has time 6300
-Agent 4 has time 6301
-Agent 3 has time 6301
-Agent 7 has time 6301
-Agent 1 has time 6301
+Agent 0 has time 2099
+Agent 2 has time 2099
+Agent 4 has time 2099
+Agent 3 has time 2100
+Agent 5 has time 2101
+Agent 1 has time 2102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2408,15 +2345,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 6598
-Agent 5 has time 6598
-Agent 8 has time 6600
-Agent 6 has time 6600
-Agent 0 has time 6600
-Agent 2 has time 6601
-Agent 3 has time 6601
-Agent 4 has time 6601
-Agent 1 has time 6601
+Agent 5 has time 2199
+Agent 1 has time 2199
+Agent 0 has time 2199
+Agent 2 has time 2200
+Agent 4 has time 2201
+Agent 3 has time 2202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2518,15 +2452,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 6898
-Agent 5 has time 6898
-Agent 8 has time 6900
-Agent 6 has time 6900
-Agent 0 has time 6900
-Agent 7 has time 6901
-Agent 3 has time 6901
-Agent 2 has time 6901
-Agent 1 has time 6901
+Agent 4 has time 2299
+Agent 3 has time 2299
+Agent 5 has time 2299
+Agent 1 has time 2300
+Agent 0 has time 2301
+Agent 2 has time 2302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2628,15 +2559,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 7198
-Agent 5 has time 7198
-Agent 8 has time 7200
-Agent 6 has time 7200
-Agent 0 has time 7200
-Agent 4 has time 7201
-Agent 3 has time 7201
-Agent 7 has time 7201
-Agent 1 has time 7201
+Agent 0 has time 2399
+Agent 2 has time 2399
+Agent 4 has time 2399
+Agent 3 has time 2400
+Agent 5 has time 2401
+Agent 1 has time 2402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2738,15 +2666,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 7498
-Agent 5 has time 7498
-Agent 8 has time 7500
-Agent 6 has time 7500
-Agent 0 has time 7500
-Agent 2 has time 7501
-Agent 3 has time 7501
-Agent 4 has time 7501
-Agent 1 has time 7501
+Agent 5 has time 2499
+Agent 1 has time 2499
+Agent 0 has time 2499
+Agent 2 has time 2500
+Agent 4 has time 2501
+Agent 3 has time 2502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2848,15 +2773,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 7798
-Agent 5 has time 7798
-Agent 8 has time 7800
-Agent 6 has time 7800
-Agent 0 has time 7800
-Agent 7 has time 7801
-Agent 3 has time 7801
-Agent 2 has time 7801
-Agent 1 has time 7801
+Agent 4 has time 2599
+Agent 3 has time 2599
+Agent 5 has time 2599
+Agent 1 has time 2600
+Agent 0 has time 2601
+Agent 2 has time 2602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -2958,15 +2880,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 8098
-Agent 5 has time 8098
-Agent 8 has time 8100
-Agent 6 has time 8100
-Agent 0 has time 8100
-Agent 4 has time 8101
-Agent 3 has time 8101
-Agent 7 has time 8101
-Agent 1 has time 8101
+Agent 0 has time 2699
+Agent 2 has time 2699
+Agent 4 has time 2699
+Agent 3 has time 2700
+Agent 5 has time 2701
+Agent 1 has time 2702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3068,15 +2987,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 8398
-Agent 5 has time 8398
-Agent 8 has time 8400
-Agent 6 has time 8400
-Agent 0 has time 8400
-Agent 2 has time 8401
-Agent 3 has time 8401
-Agent 4 has time 8401
-Agent 1 has time 8401
+Agent 5 has time 2799
+Agent 1 has time 2799
+Agent 0 has time 2799
+Agent 2 has time 2800
+Agent 4 has time 2801
+Agent 3 has time 2802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3178,15 +3094,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 8698
-Agent 5 has time 8698
-Agent 8 has time 8700
-Agent 6 has time 8700
-Agent 0 has time 8700
-Agent 7 has time 8701
-Agent 3 has time 8701
-Agent 2 has time 8701
-Agent 1 has time 8701
+Agent 4 has time 2899
+Agent 3 has time 2899
+Agent 5 has time 2899
+Agent 1 has time 2900
+Agent 0 has time 2901
+Agent 2 has time 2902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3288,15 +3201,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 8998
-Agent 5 has time 8998
-Agent 8 has time 9000
-Agent 6 has time 9000
-Agent 0 has time 9000
-Agent 4 has time 9001
-Agent 3 has time 9001
-Agent 7 has time 9001
-Agent 1 has time 9001
+Agent 0 has time 2999
+Agent 2 has time 2999
+Agent 4 has time 2999
+Agent 3 has time 3000
+Agent 5 has time 3001
+Agent 1 has time 3002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3398,15 +3308,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 9298
-Agent 5 has time 9298
-Agent 8 has time 9300
-Agent 6 has time 9300
-Agent 0 has time 9300
-Agent 2 has time 9301
-Agent 3 has time 9301
-Agent 4 has time 9301
-Agent 1 has time 9301
+Agent 5 has time 3099
+Agent 1 has time 3099
+Agent 0 has time 3099
+Agent 2 has time 3100
+Agent 4 has time 3101
+Agent 3 has time 3102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3508,15 +3415,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 9598
-Agent 5 has time 9598
-Agent 8 has time 9600
-Agent 6 has time 9600
-Agent 0 has time 9600
-Agent 7 has time 9601
-Agent 3 has time 9601
-Agent 2 has time 9601
-Agent 1 has time 9601
+Agent 4 has time 3199
+Agent 3 has time 3199
+Agent 5 has time 3199
+Agent 1 has time 3200
+Agent 0 has time 3201
+Agent 2 has time 3202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3618,15 +3522,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 9898
-Agent 5 has time 9898
-Agent 8 has time 9900
-Agent 6 has time 9900
-Agent 0 has time 9900
-Agent 4 has time 9901
-Agent 3 has time 9901
-Agent 7 has time 9901
-Agent 1 has time 9901
+Agent 0 has time 3299
+Agent 2 has time 3299
+Agent 4 has time 3299
+Agent 3 has time 3300
+Agent 5 has time 3301
+Agent 1 has time 3302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3728,15 +3629,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 10198
-Agent 5 has time 10198
-Agent 8 has time 10200
-Agent 6 has time 10200
-Agent 0 has time 10200
-Agent 2 has time 10201
-Agent 3 has time 10201
-Agent 4 has time 10201
-Agent 1 has time 10201
+Agent 5 has time 3399
+Agent 1 has time 3399
+Agent 0 has time 3399
+Agent 2 has time 3400
+Agent 4 has time 3401
+Agent 3 has time 3402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3838,15 +3736,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 10498
-Agent 5 has time 10498
-Agent 8 has time 10500
-Agent 6 has time 10500
-Agent 0 has time 10500
-Agent 7 has time 10501
-Agent 3 has time 10501
-Agent 2 has time 10501
-Agent 1 has time 10501
+Agent 4 has time 3499
+Agent 3 has time 3499
+Agent 5 has time 3499
+Agent 1 has time 3500
+Agent 0 has time 3501
+Agent 2 has time 3502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -3948,15 +3843,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 10798
-Agent 5 has time 10798
-Agent 8 has time 10800
-Agent 6 has time 10800
-Agent 0 has time 10800
-Agent 4 has time 10801
-Agent 3 has time 10801
-Agent 7 has time 10801
-Agent 1 has time 10801
+Agent 0 has time 3599
+Agent 2 has time 3599
+Agent 4 has time 3599
+Agent 3 has time 3600
+Agent 5 has time 3601
+Agent 1 has time 3602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4058,15 +3950,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 11098
-Agent 5 has time 11098
-Agent 8 has time 11100
-Agent 6 has time 11100
-Agent 0 has time 11100
-Agent 2 has time 11101
-Agent 3 has time 11101
-Agent 4 has time 11101
-Agent 1 has time 11101
+Agent 5 has time 3699
+Agent 1 has time 3699
+Agent 0 has time 3699
+Agent 2 has time 3700
+Agent 4 has time 3701
+Agent 3 has time 3702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4168,15 +4057,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 11398
-Agent 5 has time 11398
-Agent 8 has time 11400
-Agent 6 has time 11400
-Agent 0 has time 11400
-Agent 7 has time 11401
-Agent 3 has time 11401
-Agent 2 has time 11401
-Agent 1 has time 11401
+Agent 4 has time 3799
+Agent 3 has time 3799
+Agent 5 has time 3799
+Agent 1 has time 3800
+Agent 0 has time 3801
+Agent 2 has time 3802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4278,15 +4164,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 11698
-Agent 5 has time 11698
-Agent 8 has time 11700
-Agent 6 has time 11700
-Agent 0 has time 11700
-Agent 4 has time 11701
-Agent 3 has time 11701
-Agent 7 has time 11701
-Agent 1 has time 11701
+Agent 0 has time 3899
+Agent 2 has time 3899
+Agent 4 has time 3899
+Agent 3 has time 3900
+Agent 5 has time 3901
+Agent 1 has time 3902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4388,15 +4271,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 11998
-Agent 5 has time 11998
-Agent 8 has time 12000
-Agent 6 has time 12000
-Agent 0 has time 12000
-Agent 2 has time 12001
-Agent 3 has time 12001
-Agent 4 has time 12001
-Agent 1 has time 12001
+Agent 5 has time 3999
+Agent 1 has time 3999
+Agent 0 has time 3999
+Agent 2 has time 4000
+Agent 4 has time 4001
+Agent 3 has time 4002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4498,15 +4378,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 12298
-Agent 5 has time 12298
-Agent 8 has time 12300
-Agent 6 has time 12300
-Agent 0 has time 12300
-Agent 7 has time 12301
-Agent 3 has time 12301
-Agent 2 has time 12301
-Agent 1 has time 12301
+Agent 4 has time 4099
+Agent 3 has time 4099
+Agent 5 has time 4099
+Agent 1 has time 4100
+Agent 0 has time 4101
+Agent 2 has time 4102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4608,15 +4485,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 12598
-Agent 5 has time 12598
-Agent 8 has time 12600
-Agent 6 has time 12600
-Agent 0 has time 12600
-Agent 4 has time 12601
-Agent 3 has time 12601
-Agent 7 has time 12601
-Agent 1 has time 12601
+Agent 0 has time 4199
+Agent 2 has time 4199
+Agent 4 has time 4199
+Agent 3 has time 4200
+Agent 5 has time 4201
+Agent 1 has time 4202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4718,15 +4592,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 12898
-Agent 5 has time 12898
-Agent 8 has time 12900
-Agent 6 has time 12900
-Agent 0 has time 12900
-Agent 2 has time 12901
-Agent 3 has time 12901
-Agent 4 has time 12901
-Agent 1 has time 12901
+Agent 5 has time 4299
+Agent 1 has time 4299
+Agent 0 has time 4299
+Agent 2 has time 4300
+Agent 4 has time 4301
+Agent 3 has time 4302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4828,15 +4699,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 13198
-Agent 5 has time 13198
-Agent 8 has time 13200
-Agent 6 has time 13200
-Agent 0 has time 13200
-Agent 7 has time 13201
-Agent 3 has time 13201
-Agent 2 has time 13201
-Agent 1 has time 13201
+Agent 4 has time 4399
+Agent 3 has time 4399
+Agent 5 has time 4399
+Agent 1 has time 4400
+Agent 0 has time 4401
+Agent 2 has time 4402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -4938,15 +4806,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 13498
-Agent 5 has time 13498
-Agent 8 has time 13500
-Agent 6 has time 13500
-Agent 0 has time 13500
-Agent 4 has time 13501
-Agent 3 has time 13501
-Agent 7 has time 13501
-Agent 1 has time 13501
+Agent 0 has time 4499
+Agent 2 has time 4499
+Agent 4 has time 4499
+Agent 3 has time 4500
+Agent 5 has time 4501
+Agent 1 has time 4502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5048,15 +4913,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 13798
-Agent 5 has time 13798
-Agent 8 has time 13800
-Agent 6 has time 13800
-Agent 0 has time 13800
-Agent 2 has time 13801
-Agent 3 has time 13801
-Agent 4 has time 13801
-Agent 1 has time 13801
+Agent 5 has time 4599
+Agent 1 has time 4599
+Agent 0 has time 4599
+Agent 2 has time 4600
+Agent 4 has time 4601
+Agent 3 has time 4602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5158,15 +5020,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 14098
-Agent 5 has time 14098
-Agent 8 has time 14100
-Agent 6 has time 14100
-Agent 0 has time 14100
-Agent 7 has time 14101
-Agent 3 has time 14101
-Agent 2 has time 14101
-Agent 1 has time 14101
+Agent 4 has time 4699
+Agent 3 has time 4699
+Agent 5 has time 4699
+Agent 1 has time 4700
+Agent 0 has time 4701
+Agent 2 has time 4702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5268,15 +5127,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 14398
-Agent 5 has time 14398
-Agent 8 has time 14400
-Agent 6 has time 14400
-Agent 0 has time 14400
-Agent 4 has time 14401
-Agent 3 has time 14401
-Agent 7 has time 14401
-Agent 1 has time 14401
+Agent 0 has time 4799
+Agent 2 has time 4799
+Agent 4 has time 4799
+Agent 3 has time 4800
+Agent 5 has time 4801
+Agent 1 has time 4802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5378,15 +5234,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 14698
-Agent 5 has time 14698
-Agent 8 has time 14700
-Agent 6 has time 14700
-Agent 0 has time 14700
-Agent 2 has time 14701
-Agent 3 has time 14701
-Agent 4 has time 14701
-Agent 1 has time 14701
+Agent 5 has time 4899
+Agent 1 has time 4899
+Agent 0 has time 4899
+Agent 2 has time 4900
+Agent 4 has time 4901
+Agent 3 has time 4902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5488,15 +5341,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 14998
-Agent 5 has time 14998
-Agent 8 has time 15000
-Agent 6 has time 15000
-Agent 0 has time 15000
-Agent 7 has time 15001
-Agent 3 has time 15001
-Agent 2 has time 15001
-Agent 1 has time 15001
+Agent 4 has time 4999
+Agent 3 has time 4999
+Agent 5 has time 4999
+Agent 1 has time 5000
+Agent 0 has time 5001
+Agent 2 has time 5002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5598,15 +5448,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 15298
-Agent 5 has time 15298
-Agent 8 has time 15300
-Agent 6 has time 15300
-Agent 0 has time 15300
-Agent 4 has time 15301
-Agent 3 has time 15301
-Agent 7 has time 15301
-Agent 1 has time 15301
+Agent 0 has time 5099
+Agent 2 has time 5099
+Agent 4 has time 5099
+Agent 3 has time 5100
+Agent 5 has time 5101
+Agent 1 has time 5102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5708,15 +5555,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 15598
-Agent 5 has time 15598
-Agent 8 has time 15600
-Agent 6 has time 15600
-Agent 0 has time 15600
-Agent 2 has time 15601
-Agent 3 has time 15601
-Agent 4 has time 15601
-Agent 1 has time 15601
+Agent 5 has time 5199
+Agent 1 has time 5199
+Agent 0 has time 5199
+Agent 2 has time 5200
+Agent 4 has time 5201
+Agent 3 has time 5202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5818,15 +5662,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 15898
-Agent 5 has time 15898
-Agent 8 has time 15900
-Agent 6 has time 15900
-Agent 0 has time 15900
-Agent 7 has time 15901
-Agent 3 has time 15901
-Agent 2 has time 15901
-Agent 1 has time 15901
+Agent 4 has time 5299
+Agent 3 has time 5299
+Agent 5 has time 5299
+Agent 1 has time 5300
+Agent 0 has time 5301
+Agent 2 has time 5302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -5928,15 +5769,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 16198
-Agent 5 has time 16198
-Agent 8 has time 16200
-Agent 6 has time 16200
-Agent 0 has time 16200
-Agent 4 has time 16201
-Agent 3 has time 16201
-Agent 7 has time 16201
-Agent 1 has time 16201
+Agent 0 has time 5399
+Agent 2 has time 5399
+Agent 4 has time 5399
+Agent 3 has time 5400
+Agent 5 has time 5401
+Agent 1 has time 5402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6038,15 +5876,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 16498
-Agent 5 has time 16498
-Agent 8 has time 16500
-Agent 6 has time 16500
-Agent 0 has time 16500
-Agent 2 has time 16501
-Agent 3 has time 16501
-Agent 4 has time 16501
-Agent 1 has time 16501
+Agent 5 has time 5499
+Agent 1 has time 5499
+Agent 0 has time 5499
+Agent 2 has time 5500
+Agent 4 has time 5501
+Agent 3 has time 5502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6148,15 +5983,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 16798
-Agent 5 has time 16798
-Agent 8 has time 16800
-Agent 6 has time 16800
-Agent 0 has time 16800
-Agent 7 has time 16801
-Agent 3 has time 16801
-Agent 2 has time 16801
-Agent 1 has time 16801
+Agent 4 has time 5599
+Agent 3 has time 5599
+Agent 5 has time 5599
+Agent 1 has time 5600
+Agent 0 has time 5601
+Agent 2 has time 5602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6258,15 +6090,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 17098
-Agent 5 has time 17098
-Agent 8 has time 17100
-Agent 6 has time 17100
-Agent 0 has time 17100
-Agent 4 has time 17101
-Agent 3 has time 17101
-Agent 7 has time 17101
-Agent 1 has time 17101
+Agent 0 has time 5699
+Agent 2 has time 5699
+Agent 4 has time 5699
+Agent 3 has time 5700
+Agent 5 has time 5701
+Agent 1 has time 5702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6368,15 +6197,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 17398
-Agent 5 has time 17398
-Agent 8 has time 17400
-Agent 6 has time 17400
-Agent 0 has time 17400
-Agent 2 has time 17401
-Agent 3 has time 17401
-Agent 4 has time 17401
-Agent 1 has time 17401
+Agent 5 has time 5799
+Agent 1 has time 5799
+Agent 0 has time 5799
+Agent 2 has time 5800
+Agent 4 has time 5801
+Agent 3 has time 5802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6478,15 +6304,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 17698
-Agent 5 has time 17698
-Agent 8 has time 17700
-Agent 6 has time 17700
-Agent 0 has time 17700
-Agent 7 has time 17701
-Agent 3 has time 17701
-Agent 2 has time 17701
-Agent 1 has time 17701
+Agent 4 has time 5899
+Agent 3 has time 5899
+Agent 5 has time 5899
+Agent 1 has time 5900
+Agent 0 has time 5901
+Agent 2 has time 5902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6588,15 +6411,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 17998
-Agent 5 has time 17998
-Agent 8 has time 18000
-Agent 6 has time 18000
-Agent 0 has time 18000
-Agent 4 has time 18001
-Agent 3 has time 18001
-Agent 7 has time 18001
-Agent 1 has time 18001
+Agent 0 has time 5999
+Agent 2 has time 5999
+Agent 4 has time 5999
+Agent 3 has time 6000
+Agent 5 has time 6001
+Agent 1 has time 6002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6698,15 +6518,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 18298
-Agent 5 has time 18298
-Agent 8 has time 18300
-Agent 6 has time 18300
-Agent 0 has time 18300
-Agent 2 has time 18301
-Agent 3 has time 18301
-Agent 4 has time 18301
-Agent 1 has time 18301
+Agent 5 has time 6099
+Agent 1 has time 6099
+Agent 0 has time 6099
+Agent 2 has time 6100
+Agent 4 has time 6101
+Agent 3 has time 6102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6808,15 +6625,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 18598
-Agent 5 has time 18598
-Agent 8 has time 18600
-Agent 6 has time 18600
-Agent 0 has time 18600
-Agent 7 has time 18601
-Agent 3 has time 18601
-Agent 2 has time 18601
-Agent 1 has time 18601
+Agent 4 has time 6199
+Agent 3 has time 6199
+Agent 5 has time 6199
+Agent 1 has time 6200
+Agent 0 has time 6201
+Agent 2 has time 6202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -6918,15 +6732,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 18898
-Agent 5 has time 18898
-Agent 8 has time 18900
-Agent 6 has time 18900
-Agent 0 has time 18900
-Agent 4 has time 18901
-Agent 3 has time 18901
-Agent 7 has time 18901
-Agent 1 has time 18901
+Agent 0 has time 6299
+Agent 2 has time 6299
+Agent 4 has time 6299
+Agent 3 has time 6300
+Agent 5 has time 6301
+Agent 1 has time 6302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7028,15 +6839,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 19198
-Agent 5 has time 19198
-Agent 8 has time 19200
-Agent 6 has time 19200
-Agent 0 has time 19200
-Agent 2 has time 19201
-Agent 3 has time 19201
-Agent 4 has time 19201
-Agent 1 has time 19201
+Agent 5 has time 6399
+Agent 1 has time 6399
+Agent 0 has time 6399
+Agent 2 has time 6400
+Agent 4 has time 6401
+Agent 3 has time 6402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7138,15 +6946,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 19498
-Agent 5 has time 19498
-Agent 8 has time 19500
-Agent 6 has time 19500
-Agent 0 has time 19500
-Agent 7 has time 19501
-Agent 3 has time 19501
-Agent 2 has time 19501
-Agent 1 has time 19501
+Agent 4 has time 6499
+Agent 3 has time 6499
+Agent 5 has time 6499
+Agent 1 has time 6500
+Agent 0 has time 6501
+Agent 2 has time 6502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7248,15 +7053,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 19798
-Agent 5 has time 19798
-Agent 8 has time 19800
-Agent 6 has time 19800
-Agent 0 has time 19800
-Agent 4 has time 19801
-Agent 3 has time 19801
-Agent 7 has time 19801
-Agent 1 has time 19801
+Agent 0 has time 6599
+Agent 2 has time 6599
+Agent 4 has time 6599
+Agent 3 has time 6600
+Agent 5 has time 6601
+Agent 1 has time 6602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7358,15 +7160,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 20098
-Agent 5 has time 20098
-Agent 8 has time 20100
-Agent 6 has time 20100
-Agent 0 has time 20100
-Agent 2 has time 20101
-Agent 3 has time 20101
-Agent 4 has time 20101
-Agent 1 has time 20101
+Agent 5 has time 6699
+Agent 1 has time 6699
+Agent 0 has time 6699
+Agent 2 has time 6700
+Agent 4 has time 6701
+Agent 3 has time 6702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7468,15 +7267,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 20398
-Agent 5 has time 20398
-Agent 8 has time 20400
-Agent 6 has time 20400
-Agent 0 has time 20400
-Agent 7 has time 20401
-Agent 3 has time 20401
-Agent 2 has time 20401
-Agent 1 has time 20401
+Agent 4 has time 6799
+Agent 3 has time 6799
+Agent 5 has time 6799
+Agent 1 has time 6800
+Agent 0 has time 6801
+Agent 2 has time 6802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7578,15 +7374,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 20698
-Agent 5 has time 20698
-Agent 8 has time 20700
-Agent 6 has time 20700
-Agent 0 has time 20700
-Agent 4 has time 20701
-Agent 3 has time 20701
-Agent 7 has time 20701
-Agent 1 has time 20701
+Agent 0 has time 6899
+Agent 2 has time 6899
+Agent 4 has time 6899
+Agent 3 has time 6900
+Agent 5 has time 6901
+Agent 1 has time 6902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7688,15 +7481,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 20998
-Agent 5 has time 20998
-Agent 8 has time 21000
-Agent 6 has time 21000
-Agent 0 has time 21000
-Agent 2 has time 21001
-Agent 3 has time 21001
-Agent 4 has time 21001
-Agent 1 has time 21001
+Agent 5 has time 6999
+Agent 1 has time 6999
+Agent 0 has time 6999
+Agent 2 has time 7000
+Agent 4 has time 7001
+Agent 3 has time 7002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7798,15 +7588,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 21298
-Agent 5 has time 21298
-Agent 8 has time 21300
-Agent 6 has time 21300
-Agent 0 has time 21300
-Agent 7 has time 21301
-Agent 3 has time 21301
-Agent 2 has time 21301
-Agent 1 has time 21301
+Agent 4 has time 7099
+Agent 3 has time 7099
+Agent 5 has time 7099
+Agent 1 has time 7100
+Agent 0 has time 7101
+Agent 2 has time 7102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -7908,15 +7695,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 21598
-Agent 5 has time 21598
-Agent 8 has time 21600
-Agent 6 has time 21600
-Agent 0 has time 21600
-Agent 4 has time 21601
-Agent 3 has time 21601
-Agent 7 has time 21601
-Agent 1 has time 21601
+Agent 0 has time 7199
+Agent 2 has time 7199
+Agent 4 has time 7199
+Agent 3 has time 7200
+Agent 5 has time 7201
+Agent 1 has time 7202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8018,15 +7802,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 21898
-Agent 5 has time 21898
-Agent 8 has time 21900
-Agent 6 has time 21900
-Agent 0 has time 21900
-Agent 2 has time 21901
-Agent 3 has time 21901
-Agent 4 has time 21901
-Agent 1 has time 21901
+Agent 5 has time 7299
+Agent 1 has time 7299
+Agent 0 has time 7299
+Agent 2 has time 7300
+Agent 4 has time 7301
+Agent 3 has time 7302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8128,15 +7909,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 22198
-Agent 5 has time 22198
-Agent 8 has time 22200
-Agent 6 has time 22200
-Agent 0 has time 22200
-Agent 7 has time 22201
-Agent 3 has time 22201
-Agent 2 has time 22201
-Agent 1 has time 22201
+Agent 4 has time 7399
+Agent 3 has time 7399
+Agent 5 has time 7399
+Agent 1 has time 7400
+Agent 0 has time 7401
+Agent 2 has time 7402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8238,15 +8016,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 22498
-Agent 5 has time 22498
-Agent 8 has time 22500
-Agent 6 has time 22500
-Agent 0 has time 22500
-Agent 4 has time 22501
-Agent 3 has time 22501
-Agent 7 has time 22501
-Agent 1 has time 22501
+Agent 0 has time 7499
+Agent 2 has time 7499
+Agent 4 has time 7499
+Agent 3 has time 7500
+Agent 5 has time 7501
+Agent 1 has time 7502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8348,15 +8123,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 22798
-Agent 5 has time 22798
-Agent 8 has time 22800
-Agent 6 has time 22800
-Agent 0 has time 22800
-Agent 2 has time 22801
-Agent 3 has time 22801
-Agent 4 has time 22801
-Agent 1 has time 22801
+Agent 5 has time 7599
+Agent 1 has time 7599
+Agent 0 has time 7599
+Agent 2 has time 7600
+Agent 4 has time 7601
+Agent 3 has time 7602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8458,15 +8230,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 23098
-Agent 5 has time 23098
-Agent 8 has time 23100
-Agent 6 has time 23100
-Agent 0 has time 23100
-Agent 7 has time 23101
-Agent 3 has time 23101
-Agent 2 has time 23101
-Agent 1 has time 23101
+Agent 4 has time 7699
+Agent 3 has time 7699
+Agent 5 has time 7699
+Agent 1 has time 7700
+Agent 0 has time 7701
+Agent 2 has time 7702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8568,15 +8337,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 23398
-Agent 5 has time 23398
-Agent 8 has time 23400
-Agent 6 has time 23400
-Agent 0 has time 23400
-Agent 4 has time 23401
-Agent 3 has time 23401
-Agent 7 has time 23401
-Agent 1 has time 23401
+Agent 0 has time 7799
+Agent 2 has time 7799
+Agent 4 has time 7799
+Agent 3 has time 7800
+Agent 5 has time 7801
+Agent 1 has time 7802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8678,15 +8444,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 23698
-Agent 5 has time 23698
-Agent 8 has time 23700
-Agent 6 has time 23700
-Agent 0 has time 23700
-Agent 2 has time 23701
-Agent 3 has time 23701
-Agent 4 has time 23701
-Agent 1 has time 23701
+Agent 5 has time 7899
+Agent 1 has time 7899
+Agent 0 has time 7899
+Agent 2 has time 7900
+Agent 4 has time 7901
+Agent 3 has time 7902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8788,15 +8551,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 23998
-Agent 5 has time 23998
-Agent 8 has time 24000
-Agent 6 has time 24000
-Agent 0 has time 24000
-Agent 7 has time 24001
-Agent 3 has time 24001
-Agent 2 has time 24001
-Agent 1 has time 24001
+Agent 4 has time 7999
+Agent 3 has time 7999
+Agent 5 has time 7999
+Agent 1 has time 8000
+Agent 0 has time 8001
+Agent 2 has time 8002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -8898,15 +8658,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 24298
-Agent 5 has time 24298
-Agent 8 has time 24300
-Agent 6 has time 24300
-Agent 0 has time 24300
-Agent 4 has time 24301
-Agent 3 has time 24301
-Agent 7 has time 24301
-Agent 1 has time 24301
+Agent 0 has time 8099
+Agent 2 has time 8099
+Agent 4 has time 8099
+Agent 3 has time 8100
+Agent 5 has time 8101
+Agent 1 has time 8102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9008,15 +8765,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 24598
-Agent 5 has time 24598
-Agent 8 has time 24600
-Agent 6 has time 24600
-Agent 0 has time 24600
-Agent 2 has time 24601
-Agent 3 has time 24601
-Agent 4 has time 24601
-Agent 1 has time 24601
+Agent 5 has time 8199
+Agent 1 has time 8199
+Agent 0 has time 8199
+Agent 2 has time 8200
+Agent 4 has time 8201
+Agent 3 has time 8202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9118,15 +8872,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 24898
-Agent 5 has time 24898
-Agent 8 has time 24900
-Agent 6 has time 24900
-Agent 0 has time 24900
-Agent 7 has time 24901
-Agent 3 has time 24901
-Agent 2 has time 24901
-Agent 1 has time 24901
+Agent 4 has time 8299
+Agent 3 has time 8299
+Agent 5 has time 8299
+Agent 1 has time 8300
+Agent 0 has time 8301
+Agent 2 has time 8302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9228,15 +8979,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 25198
-Agent 5 has time 25198
-Agent 8 has time 25200
-Agent 6 has time 25200
-Agent 0 has time 25200
-Agent 4 has time 25201
-Agent 3 has time 25201
-Agent 7 has time 25201
-Agent 1 has time 25201
+Agent 0 has time 8399
+Agent 2 has time 8399
+Agent 4 has time 8399
+Agent 3 has time 8400
+Agent 5 has time 8401
+Agent 1 has time 8402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9338,15 +9086,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 25498
-Agent 5 has time 25498
-Agent 8 has time 25500
-Agent 6 has time 25500
-Agent 0 has time 25500
-Agent 2 has time 25501
-Agent 3 has time 25501
-Agent 4 has time 25501
-Agent 1 has time 25501
+Agent 5 has time 8499
+Agent 1 has time 8499
+Agent 0 has time 8499
+Agent 2 has time 8500
+Agent 4 has time 8501
+Agent 3 has time 8502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9448,15 +9193,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 25798
-Agent 5 has time 25798
-Agent 8 has time 25800
-Agent 6 has time 25800
-Agent 0 has time 25800
-Agent 7 has time 25801
-Agent 3 has time 25801
-Agent 2 has time 25801
-Agent 1 has time 25801
+Agent 4 has time 8599
+Agent 3 has time 8599
+Agent 5 has time 8599
+Agent 1 has time 8600
+Agent 0 has time 8601
+Agent 2 has time 8602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9558,15 +9300,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 26098
-Agent 5 has time 26098
-Agent 8 has time 26100
-Agent 6 has time 26100
-Agent 0 has time 26100
-Agent 4 has time 26101
-Agent 3 has time 26101
-Agent 7 has time 26101
-Agent 1 has time 26101
+Agent 0 has time 8699
+Agent 2 has time 8699
+Agent 4 has time 8699
+Agent 3 has time 8700
+Agent 5 has time 8701
+Agent 1 has time 8702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9668,15 +9407,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 26398
-Agent 5 has time 26398
-Agent 8 has time 26400
-Agent 6 has time 26400
-Agent 0 has time 26400
-Agent 2 has time 26401
-Agent 3 has time 26401
-Agent 4 has time 26401
-Agent 1 has time 26401
+Agent 5 has time 8799
+Agent 1 has time 8799
+Agent 0 has time 8799
+Agent 2 has time 8800
+Agent 4 has time 8801
+Agent 3 has time 8802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9778,15 +9514,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 26698
-Agent 5 has time 26698
-Agent 8 has time 26700
-Agent 6 has time 26700
-Agent 0 has time 26700
-Agent 7 has time 26701
-Agent 3 has time 26701
-Agent 2 has time 26701
-Agent 1 has time 26701
+Agent 4 has time 8899
+Agent 3 has time 8899
+Agent 5 has time 8899
+Agent 1 has time 8900
+Agent 0 has time 8901
+Agent 2 has time 8902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9888,15 +9621,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 26998
-Agent 5 has time 26998
-Agent 8 has time 27000
-Agent 6 has time 27000
-Agent 0 has time 27000
-Agent 4 has time 27001
-Agent 3 has time 27001
-Agent 7 has time 27001
-Agent 1 has time 27001
+Agent 0 has time 8999
+Agent 2 has time 8999
+Agent 4 has time 8999
+Agent 3 has time 9000
+Agent 5 has time 9001
+Agent 1 has time 9002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -9998,15 +9728,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 27298
-Agent 5 has time 27298
-Agent 8 has time 27300
-Agent 6 has time 27300
-Agent 0 has time 27300
-Agent 2 has time 27301
-Agent 3 has time 27301
-Agent 4 has time 27301
-Agent 1 has time 27301
+Agent 5 has time 9099
+Agent 1 has time 9099
+Agent 0 has time 9099
+Agent 2 has time 9100
+Agent 4 has time 9101
+Agent 3 has time 9102
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10108,15 +9835,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 27598
-Agent 5 has time 27598
-Agent 8 has time 27600
-Agent 6 has time 27600
-Agent 0 has time 27600
-Agent 7 has time 27601
-Agent 3 has time 27601
-Agent 2 has time 27601
-Agent 1 has time 27601
+Agent 4 has time 9199
+Agent 3 has time 9199
+Agent 5 has time 9199
+Agent 1 has time 9200
+Agent 0 has time 9201
+Agent 2 has time 9202
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10218,15 +9942,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 27898
-Agent 5 has time 27898
-Agent 8 has time 27900
-Agent 6 has time 27900
-Agent 0 has time 27900
-Agent 4 has time 27901
-Agent 3 has time 27901
-Agent 7 has time 27901
-Agent 1 has time 27901
+Agent 0 has time 9299
+Agent 2 has time 9299
+Agent 4 has time 9299
+Agent 3 has time 9300
+Agent 5 has time 9301
+Agent 1 has time 9302
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10328,15 +10049,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 28198
-Agent 5 has time 28198
-Agent 8 has time 28200
-Agent 6 has time 28200
-Agent 0 has time 28200
-Agent 2 has time 28201
-Agent 3 has time 28201
-Agent 4 has time 28201
-Agent 1 has time 28201
+Agent 5 has time 9399
+Agent 1 has time 9399
+Agent 0 has time 9399
+Agent 2 has time 9400
+Agent 4 has time 9401
+Agent 3 has time 9402
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10438,15 +10156,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 28498
-Agent 5 has time 28498
-Agent 8 has time 28500
-Agent 6 has time 28500
-Agent 0 has time 28500
-Agent 7 has time 28501
-Agent 3 has time 28501
-Agent 2 has time 28501
-Agent 1 has time 28501
+Agent 4 has time 9499
+Agent 3 has time 9499
+Agent 5 has time 9499
+Agent 1 has time 9500
+Agent 0 has time 9501
+Agent 2 has time 9502
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10548,15 +10263,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 28798
-Agent 5 has time 28798
-Agent 8 has time 28800
-Agent 6 has time 28800
-Agent 0 has time 28800
-Agent 4 has time 28801
-Agent 3 has time 28801
-Agent 7 has time 28801
-Agent 1 has time 28801
+Agent 0 has time 9599
+Agent 2 has time 9599
+Agent 4 has time 9599
+Agent 3 has time 9600
+Agent 5 has time 9601
+Agent 1 has time 9602
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10658,15 +10370,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 29098
-Agent 5 has time 29098
-Agent 8 has time 29100
-Agent 6 has time 29100
-Agent 0 has time 29100
-Agent 2 has time 29101
-Agent 3 has time 29101
-Agent 4 has time 29101
-Agent 1 has time 29101
+Agent 5 has time 9699
+Agent 1 has time 9699
+Agent 0 has time 9699
+Agent 2 has time 9700
+Agent 4 has time 9701
+Agent 3 has time 9702
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10768,15 +10477,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 4 has time 29398
-Agent 5 has time 29398
-Agent 8 has time 29400
-Agent 6 has time 29400
-Agent 0 has time 29400
-Agent 7 has time 29401
-Agent 3 has time 29401
-Agent 2 has time 29401
-Agent 1 has time 29401
+Agent 4 has time 9799
+Agent 3 has time 9799
+Agent 5 has time 9799
+Agent 1 has time 9800
+Agent 0 has time 9801
+Agent 2 has time 9802
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10878,15 +10584,12 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 2 has time 29698
-Agent 5 has time 29698
-Agent 8 has time 29700
-Agent 6 has time 29700
-Agent 0 has time 29700
-Agent 4 has time 29701
-Agent 3 has time 29701
-Agent 7 has time 29701
-Agent 1 has time 29701
+Agent 0 has time 9899
+Agent 2 has time 9899
+Agent 4 has time 9899
+Agent 3 has time 9900
+Agent 5 has time 9901
+Agent 1 has time 9902
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
@@ -10988,35 +10691,26 @@ Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Agent stats: 
-Agent 7 has time 29998
-Agent 5 has time 29998
-Agent 8 has time 30000
-Agent 6 has time 30000
-Agent 0 has time 30000
-Agent 2 has time 30001
-Agent 3 has time 30001
-Agent 4 has time 30001
-Agent 1 has time 30001
+Agent 5 has time 9999
+Agent 1 has time 9999
+Agent 0 has time 9999
+Agent 2 has time 10000
+Agent 4 has time 10001
+Agent 3 has time 10002
 Not converged yet! Max diff: 3
 Not converged yet! Max diff: 3
 Did not converge!
 Simulation stats: 
 Agent 0 stats: 
-1 0 0 9999 1 
+1667 3332 5002 
 Agent 1 stats: 
-0 2501 2499 2500 2501 
+1666 3336 4999 
 Agent 2 stats: 
-3332 1 2 3333 3333 
+1667 3332 5002 
 Agent 3 stats: 
-1 2499 2500 2501 2500 
+1667 3334 5000 
 Agent 4 stats: 
-3332 0 1 3335 3333 
+1667 3333 5001 
 Agent 5 stats: 
-0 2499 2499 2504 2499 
-Agent 6 stats: 
-0 0 0 10001 0 
-Agent 7 stats: 
-3334 0 1 3332 3334 
-Agent 8 stats: 
-1 2501 2499 2499 2501 
+1667 3335 4999 
 Output saved to output.csv and stats.csv

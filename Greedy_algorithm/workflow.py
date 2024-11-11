@@ -44,6 +44,7 @@ if __name__ == "__main__":
     #TODO: fix near-zero routes in SO - currently ingnored
     
     diff = 0
+    len_simul = 200
     for pairSO, pairUE in zip(pairs_SO, pairs_UE):
         if pairSO.origin != pairUE.origin or pairSO.destination != pairUE.destination:
             print("Error: OD pairs do not match")
@@ -55,7 +56,8 @@ if __name__ == "__main__":
         agents = pairSO.flow
         print("Running simulation for ", pairSO.origin, pairSO.destination)
         agents, routes = prep_data(routes)
-        results = run_simulation(agents, routes, 100, 0.0001)
+        thresholds = [0.01, 0.001, 0.0001]
+        results = run_simulation(agents, routes, thresholds,len_simul, 0.0)
         history = results['history']
         mean = results['mean']
         variance = results['variance']
@@ -64,12 +66,15 @@ if __name__ == "__main__":
             print("Did not converge for ", pairSO.origin, pairSO.destination)
         else:
             print("Converged in ", convergence[1], " steps")
-        print("Difference for individual between UE and SO: ", pairUE.routes[0].time - mean[-1]/convergence[1])
+        print("Difference for individual between UE and SO: ", pairUE.routes[0].time - mean[-1]/len_simul)
         diff = diff + pairUE.routes[0].time - mean[-1]/convergence[1]
         print("Mean: ", mean)
         print("Variance: ", variance)
         print("History: ", history)
         print("Agents: ", agents)
+        print("Fairness: ", results['fairness'])
+        print("Almost convergence: ", results['almost_convergence'])
+        print("Fairness standarized: ", results['fairness_stand'])
     
     print("Total difference: ", diff)
     if diff < 0:
