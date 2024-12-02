@@ -1,0 +1,6234 @@
+OD pair: 1-20
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 1-24
+Naive cycle length (# of agents):  40
+GCD cycle length:  8
+OD pair: 1-32
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 1-33
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 1-34
+Naive cycle length (# of agents):  30
+GCD cycle length:  10
+OD pair: 1-38
+Naive cycle length (# of agents):  15
+GCD cycle length:  3
+OD pair: 1-46
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 1-65
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 1-101
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 5-101
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 6-20
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 6-38
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 6-65
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 6-94
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 6-101
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 7-65
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 7-101
+Naive cycle length (# of agents):  28
+GCD cycle length:  7
+OD pair: 8-65
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 8-98
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 8-101
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 8-102
+Naive cycle length (# of agents):  44
+GCD cycle length:  11
+OD pair: 9-65
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 10-65
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 10-74
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 10-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 10-101
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 10-102
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 11-65
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 11-84
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 11-90
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 11-101
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 11-105
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 12-53
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 12-58
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 12-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 12-62
+Naive cycle length (# of agents):  12
+GCD cycle length:  3
+OD pair: 12-63
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 12-64
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 12-65
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 12-70
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 12-71
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 12-72
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 12-91
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 12-92
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 12-93
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 12-95
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 12-100
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 13-53
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 13-60
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 13-62
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 13-63
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 13-71
+Naive cycle length (# of agents):  12
+GCD cycle length:  3
+OD pair: 13-72
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 13-73
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 13-100
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 14-53
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 14-63
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 14-64
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 14-70
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 14-71
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 14-95
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 15-42
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 15-65
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 15-74
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 15-80
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 15-84
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 15-85
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 15-88
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 15-98
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 15-102
+Naive cycle length (# of agents):  80
+GCD cycle length:  40
+OD pair: 15-105
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 15-107
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 16-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 16-98
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 16-102
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 16-105
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 18-26
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 18-34
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 18-41
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 18-51
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 18-53
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 18-75
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 18-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 18-102
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 18-105
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 19-51
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 19-84
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 19-90
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 19-105
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 20-51
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 21-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 21-105
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 22-8
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 22-12
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 22-15
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 22-16
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 22-44
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 22-45
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 22-71
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 23-3
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 23-8
+Naive cycle length (# of agents):  45
+GCD cycle length:  45
+OD pair: 23-10
+Naive cycle length (# of agents):  70
+GCD cycle length:  70
+OD pair: 23-11
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 23-12
+Naive cycle length (# of agents):  28
+GCD cycle length:  14
+OD pair: 23-14
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 23-15
+Naive cycle length (# of agents):  105
+GCD cycle length:  105
+OD pair: 23-16
+Naive cycle length (# of agents):  68
+GCD cycle length:  68
+OD pair: 23-17
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 23-18
+Naive cycle length (# of agents):  58
+GCD cycle length:  58
+OD pair: 23-19
+Naive cycle length (# of agents):  60
+GCD cycle length:  60
+OD pair: 23-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 23-24
+Naive cycle length (# of agents):  524
+GCD cycle length:  524
+OD pair: 23-33
+Naive cycle length (# of agents):  223
+GCD cycle length:  223
+OD pair: 23-35
+Naive cycle length (# of agents):  233
+GCD cycle length:  233
+OD pair: 23-36
+Naive cycle length (# of agents):  153
+GCD cycle length:  9
+OD pair: 23-37
+Naive cycle length (# of agents):  141
+GCD cycle length:  141
+OD pair: 23-41
+Naive cycle length (# of agents):  68
+GCD cycle length:  34
+OD pair: 23-42
+Naive cycle length (# of agents):  69
+GCD cycle length:  69
+OD pair: 23-43
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 23-44
+Naive cycle length (# of agents):  251
+GCD cycle length:  251
+OD pair: 23-45
+Naive cycle length (# of agents):  95
+GCD cycle length:  95
+OD pair: 23-51
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 23-52
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 23-53
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 23-61
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 23-63
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 23-64
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 23-65
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 23-68
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 23-69
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 23-70
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 23-71
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 23-72
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 23-73
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 23-75
+Naive cycle length (# of agents):  172
+GCD cycle length:  172
+OD pair: 23-85
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 23-91
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 23-92
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 23-93
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 23-94
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 23-95
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 23-100
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 23-101
+Naive cycle length (# of agents):  80
+GCD cycle length:  20
+OD pair: 24-3
+Naive cycle length (# of agents):  55
+GCD cycle length:  11
+OD pair: 24-8
+Naive cycle length (# of agents):  40
+GCD cycle length:  5
+OD pair: 24-9
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 24-12
+Naive cycle length (# of agents):  32
+GCD cycle length:  8
+OD pair: 24-13
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 24-14
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 24-15
+Naive cycle length (# of agents):  89
+GCD cycle length:  89
+OD pair: 24-16
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 24-17
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 24-19
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 24-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 24-44
+Naive cycle length (# of agents):  210
+GCD cycle length:  210
+OD pair: 24-45
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 24-68
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 24-70
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 24-71
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 24-72
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 24-94
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 24-95
+Naive cycle length (# of agents):  18
+GCD cycle length:  6
+OD pair: 24-101
+Naive cycle length (# of agents):  65
+GCD cycle length:  13
+OD pair: 25-3
+Naive cycle length (# of agents):  75
+GCD cycle length:  25
+OD pair: 25-6
+Naive cycle length (# of agents):  15
+GCD cycle length:  3
+OD pair: 25-7
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 25-8
+Naive cycle length (# of agents):  16
+GCD cycle length:  4
+OD pair: 25-9
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 25-12
+Naive cycle length (# of agents):  24
+GCD cycle length:  8
+OD pair: 25-13
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 25-14
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 25-15
+Naive cycle length (# of agents):  32
+GCD cycle length:  8
+OD pair: 25-16
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 25-17
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 25-19
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 25-24
+Naive cycle length (# of agents):  267
+GCD cycle length:  89
+OD pair: 25-30
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 25-32
+Naive cycle length (# of agents):  30
+GCD cycle length:  3
+OD pair: 25-33
+Naive cycle length (# of agents):  145
+GCD cycle length:  145
+OD pair: 25-37
+Naive cycle length (# of agents):  95
+GCD cycle length:  95
+OD pair: 25-38
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 25-44
+Naive cycle length (# of agents):  122
+GCD cycle length:  122
+OD pair: 25-45
+Naive cycle length (# of agents):  40
+GCD cycle length:  20
+OD pair: 25-46
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 25-60
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 25-62
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 25-64
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 25-65
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 25-67
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 25-68
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 25-69
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 25-70
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 25-71
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 25-72
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 25-73
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 25-91
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 25-94
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 25-95
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 25-101
+Naive cycle length (# of agents):  30
+GCD cycle length:  6
+OD pair: 26-1
+Naive cycle length (# of agents):  96
+GCD cycle length:  96
+OD pair: 26-8
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 26-10
+Naive cycle length (# of agents):  34
+GCD cycle length:  17
+OD pair: 26-11
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 26-12
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 26-15
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 26-16
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 26-18
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 26-24
+Naive cycle length (# of agents):  139
+GCD cycle length:  139
+OD pair: 26-33
+Naive cycle length (# of agents):  42
+GCD cycle length:  3
+OD pair: 26-35
+Naive cycle length (# of agents):  96
+GCD cycle length:  96
+OD pair: 26-38
+Naive cycle length (# of agents):  21
+GCD cycle length:  3
+OD pair: 26-44
+Naive cycle length (# of agents):  79
+GCD cycle length:  79
+OD pair: 26-45
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 26-59
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 26-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 26-62
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 26-63
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 26-64
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 26-65
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 26-68
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 26-69
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 26-70
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 26-71
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 26-72
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 26-73
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 26-91
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 26-92
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 26-93
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 26-94
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 26-95
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 26-97
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 26-100
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 26-101
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 27-3
+Naive cycle length (# of agents):  127
+GCD cycle length:  127
+OD pair: 27-8
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 27-12
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 27-14
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 27-15
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 27-16
+Naive cycle length (# of agents):  24
+GCD cycle length:  8
+OD pair: 27-17
+Naive cycle length (# of agents):  32
+GCD cycle length:  8
+OD pair: 27-19
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 27-20
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 27-33
+Naive cycle length (# of agents):  109
+GCD cycle length:  109
+OD pair: 27-37
+Naive cycle length (# of agents):  82
+GCD cycle length:  82
+OD pair: 27-38
+Naive cycle length (# of agents):  42
+GCD cycle length:  3
+OD pair: 27-44
+Naive cycle length (# of agents):  127
+GCD cycle length:  127
+OD pair: 27-45
+Naive cycle length (# of agents):  63
+GCD cycle length:  7
+OD pair: 27-46
+Naive cycle length (# of agents):  12
+GCD cycle length:  3
+OD pair: 27-59
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 27-61
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 27-62
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 27-63
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 27-64
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 27-65
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 27-67
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 27-68
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 27-69
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 27-70
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 27-71
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 27-72
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 27-73
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 27-91
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 27-95
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 27-97
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 27-101
+Naive cycle length (# of agents):  60
+GCD cycle length:  60
+OD pair: 28-3
+Naive cycle length (# of agents):  86
+GCD cycle length:  86
+OD pair: 28-18
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 28-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 28-33
+Naive cycle length (# of agents):  137
+GCD cycle length:  137
+OD pair: 28-34
+Naive cycle length (# of agents):  142
+GCD cycle length:  71
+OD pair: 28-38
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 28-44
+Naive cycle length (# of agents):  176
+GCD cycle length:  176
+OD pair: 28-45
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 28-46
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 28-59
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 28-60
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 28-61
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 28-62
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 28-63
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 28-64
+Naive cycle length (# of agents):  20
+GCD cycle length:  2
+OD pair: 28-65
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 28-67
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 28-68
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 28-69
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 28-70
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 28-71
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 28-72
+Naive cycle length (# of agents):  28
+GCD cycle length:  2
+OD pair: 28-73
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 28-91
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 28-92
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 28-93
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 28-94
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 28-95
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 28-97
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 28-100
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 28-101
+Naive cycle length (# of agents):  55
+GCD cycle length:  55
+OD pair: 29-3
+Naive cycle length (# of agents):  154
+GCD cycle length:  11
+OD pair: 29-8
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 29-10
+Naive cycle length (# of agents):  34
+GCD cycle length:  17
+OD pair: 29-11
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 29-12
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 29-15
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 29-16
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 29-17
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 29-18
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 29-19
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 29-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 29-24
+Naive cycle length (# of agents):  44
+GCD cycle length:  22
+OD pair: 29-33
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 29-38
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 29-44
+Naive cycle length (# of agents):  76
+GCD cycle length:  76
+OD pair: 29-58
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 29-60
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 29-61
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 29-62
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 29-63
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 29-64
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 29-65
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 29-68
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 29-69
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 29-70
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 29-71
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 29-72
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 29-73
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 29-91
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 29-92
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 29-93
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 29-94
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 29-95
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 29-97
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 29-100
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 29-101
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 30-8
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 30-10
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 30-11
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 30-12
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 30-15
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 30-16
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 30-18
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 30-33
+Naive cycle length (# of agents):  30
+GCD cycle length:  15
+OD pair: 30-38
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 30-44
+Naive cycle length (# of agents):  42
+GCD cycle length:  14
+OD pair: 30-57
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 30-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 30-62
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 30-63
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 30-64
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 30-65
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 30-67
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 30-70
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 30-71
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 30-72
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 30-73
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 30-91
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 30-92
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 30-93
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 30-95
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 30-97
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 30-100
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 30-101
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 31-20
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 31-35
+Naive cycle length (# of agents):  184
+GCD cycle length:  184
+OD pair: 31-44
+Naive cycle length (# of agents):  157
+GCD cycle length:  157
+OD pair: 31-58
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 31-59
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 31-60
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 31-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 31-62
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 31-63
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 31-64
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 31-65
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 31-67
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 31-68
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 31-69
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 31-70
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 31-71
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 31-72
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 31-73
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 31-91
+Naive cycle length (# of agents):  20
+GCD cycle length:  2
+OD pair: 31-94
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 31-95
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 31-97
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 31-101
+Naive cycle length (# of agents):  62
+GCD cycle length:  62
+OD pair: 31-102
+Naive cycle length (# of agents):  84
+GCD cycle length:  42
+OD pair: 32-20
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 32-43
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 32-52
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 32-65
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 32-68
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 32-72
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 32-94
+Naive cycle length (# of agents):  18
+GCD cycle length:  6
+OD pair: 32-101
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 33-3
+Naive cycle length (# of agents):  75
+GCD cycle length:  75
+OD pair: 33-6
+Naive cycle length (# of agents):  53
+GCD cycle length:  53
+OD pair: 33-7
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 33-8
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 33-9
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 33-10
+Naive cycle length (# of agents):  88
+GCD cycle length:  22
+OD pair: 33-11
+Naive cycle length (# of agents):  50
+GCD cycle length:  25
+OD pair: 33-12
+Naive cycle length (# of agents):  40
+GCD cycle length:  40
+OD pair: 33-13
+Naive cycle length (# of agents):  76
+GCD cycle length:  76
+OD pair: 33-14
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 33-15
+Naive cycle length (# of agents):  135
+GCD cycle length:  135
+OD pair: 33-16
+Naive cycle length (# of agents):  92
+GCD cycle length:  46
+OD pair: 33-17
+Naive cycle length (# of agents):  44
+GCD cycle length:  22
+OD pair: 33-19
+Naive cycle length (# of agents):  90
+GCD cycle length:  90
+OD pair: 33-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 33-23
+Naive cycle length (# of agents):  309
+GCD cycle length:  103
+OD pair: 33-24
+Naive cycle length (# of agents):  539
+GCD cycle length:  539
+OD pair: 33-42
+Naive cycle length (# of agents):  107
+GCD cycle length:  107
+OD pair: 33-44
+Naive cycle length (# of agents):  270
+GCD cycle length:  270
+OD pair: 33-45
+Naive cycle length (# of agents):  135
+GCD cycle length:  135
+OD pair: 33-55
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 33-59
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 33-60
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 33-63
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 33-68
+Naive cycle length (# of agents):  63
+GCD cycle length:  63
+OD pair: 33-69
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 33-70
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 33-71
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 33-72
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 33-94
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 33-95
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 33-97
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 33-101
+Naive cycle length (# of agents):  123
+GCD cycle length:  123
+OD pair: 34-12
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 34-13
+Naive cycle length (# of agents):  63
+GCD cycle length:  63
+OD pair: 34-14
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 34-15
+Naive cycle length (# of agents):  120
+GCD cycle length:  30
+OD pair: 34-16
+Naive cycle length (# of agents):  71
+GCD cycle length:  71
+OD pair: 34-17
+Naive cycle length (# of agents):  32
+GCD cycle length:  8
+OD pair: 34-19
+Naive cycle length (# of agents):  92
+GCD cycle length:  46
+OD pair: 34-20
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 34-26
+Naive cycle length (# of agents):  24
+GCD cycle length:  12
+OD pair: 34-44
+Naive cycle length (# of agents):  262
+GCD cycle length:  262
+OD pair: 34-45
+Naive cycle length (# of agents):  86
+GCD cycle length:  43
+OD pair: 34-69
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 34-70
+Naive cycle length (# of agents):  30
+GCD cycle length:  15
+OD pair: 34-71
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 34-72
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 34-94
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 34-95
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 34-101
+Naive cycle length (# of agents):  93
+GCD cycle length:  93
+OD pair: 35-8
+Naive cycle length (# of agents):  34
+GCD cycle length:  17
+OD pair: 35-9
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 35-12
+Naive cycle length (# of agents):  32
+GCD cycle length:  8
+OD pair: 35-13
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 35-14
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 35-15
+Naive cycle length (# of agents):  109
+GCD cycle length:  109
+OD pair: 35-16
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 35-17
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 35-18
+Naive cycle length (# of agents):  53
+GCD cycle length:  53
+OD pair: 35-19
+Naive cycle length (# of agents):  63
+GCD cycle length:  63
+OD pair: 35-20
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 35-36
+Naive cycle length (# of agents):  108
+GCD cycle length:  108
+OD pair: 35-38
+Naive cycle length (# of agents):  80
+GCD cycle length:  80
+OD pair: 35-44
+Naive cycle length (# of agents):  269
+GCD cycle length:  269
+OD pair: 35-45
+Naive cycle length (# of agents):  76
+GCD cycle length:  76
+OD pair: 35-61
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 35-63
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 35-64
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 35-65
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 35-68
+Naive cycle length (# of agents):  28
+GCD cycle length:  2
+OD pair: 35-69
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 35-70
+Naive cycle length (# of agents):  28
+GCD cycle length:  2
+OD pair: 35-71
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 35-72
+Naive cycle length (# of agents):  20
+GCD cycle length:  2
+OD pair: 35-73
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 35-91
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 35-94
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 35-95
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 35-101
+Naive cycle length (# of agents):  81
+GCD cycle length:  81
+OD pair: 36-20
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 36-44
+Naive cycle length (# of agents):  91
+GCD cycle length:  91
+OD pair: 36-45
+Naive cycle length (# of agents):  54
+GCD cycle length:  27
+OD pair: 36-59
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 36-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 36-62
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 36-63
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 36-64
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 36-65
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 36-68
+Naive cycle length (# of agents):  28
+GCD cycle length:  2
+OD pair: 36-69
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 36-70
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 36-71
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 36-72
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 36-73
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 36-74
+Naive cycle length (# of agents):  90
+GCD cycle length:  45
+OD pair: 36-91
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 36-94
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 36-101
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 37-59
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 37-60
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 37-61
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 37-62
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 37-63
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 37-64
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 37-65
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 37-68
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 37-69
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 37-70
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 37-71
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 37-72
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 37-73
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 37-91
+Naive cycle length (# of agents):  20
+GCD cycle length:  2
+OD pair: 37-94
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 37-95
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 37-101
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 38-3
+Naive cycle length (# of agents):  75
+GCD cycle length:  75
+OD pair: 38-6
+Naive cycle length (# of agents):  16
+GCD cycle length:  4
+OD pair: 38-8
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 38-10
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 38-11
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 38-12
+Naive cycle length (# of agents):  20
+GCD cycle length:  5
+OD pair: 38-13
+Naive cycle length (# of agents):  20
+GCD cycle length:  5
+OD pair: 38-15
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 38-16
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 38-17
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 38-18
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 38-19
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 38-24
+Naive cycle length (# of agents):  87
+GCD cycle length:  87
+OD pair: 38-36
+Naive cycle length (# of agents):  57
+GCD cycle length:  19
+OD pair: 38-37
+Naive cycle length (# of agents):  54
+GCD cycle length:  54
+OD pair: 38-39
+Naive cycle length (# of agents):  69
+GCD cycle length:  69
+OD pair: 38-40
+Naive cycle length (# of agents):  40
+GCD cycle length:  5
+OD pair: 38-41
+Naive cycle length (# of agents):  55
+GCD cycle length:  5
+OD pair: 38-42
+Naive cycle length (# of agents):  54
+GCD cycle length:  54
+OD pair: 38-43
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 38-44
+Naive cycle length (# of agents):  79
+GCD cycle length:  79
+OD pair: 38-45
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 38-49
+Naive cycle length (# of agents):  20
+GCD cycle length:  5
+OD pair: 38-50
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 38-51
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 38-52
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 38-53
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 38-55
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 38-58
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 38-59
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 38-60
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 38-61
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 38-62
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 38-63
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 38-64
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 38-65
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 38-68
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 38-70
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 38-71
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 38-72
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 38-73
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 38-91
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 38-92
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 38-94
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 38-95
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 38-97
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 38-100
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 38-101
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 39-7
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 39-8
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 39-9
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 39-10
+Naive cycle length (# of agents):  44
+GCD cycle length:  11
+OD pair: 39-11
+Naive cycle length (# of agents):  37
+GCD cycle length:  37
+OD pair: 39-12
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 39-17
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 39-19
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 39-37
+Naive cycle length (# of agents):  79
+GCD cycle length:  79
+OD pair: 39-38
+Naive cycle length (# of agents):  124
+GCD cycle length:  124
+OD pair: 39-44
+Naive cycle length (# of agents):  91
+GCD cycle length:  91
+OD pair: 39-46
+Naive cycle length (# of agents):  24
+GCD cycle length:  6
+OD pair: 39-70
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 39-71
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 39-72
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 39-94
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 39-95
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 39-97
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 39-98
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 39-101
+Naive cycle length (# of agents):  68
+GCD cycle length:  68
+OD pair: 39-102
+Naive cycle length (# of agents):  62
+GCD cycle length:  31
+OD pair: 40-1
+Naive cycle length (# of agents):  92
+GCD cycle length:  92
+OD pair: 40-3
+Naive cycle length (# of agents):  128
+GCD cycle length:  128
+OD pair: 40-5
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 40-6
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 40-7
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 40-8
+Naive cycle length (# of agents):  44
+GCD cycle length:  44
+OD pair: 40-9
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 40-12
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 40-13
+Naive cycle length (# of agents):  44
+GCD cycle length:  11
+OD pair: 40-14
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 40-17
+Naive cycle length (# of agents):  48
+GCD cycle length:  48
+OD pair: 40-19
+Naive cycle length (# of agents):  52
+GCD cycle length:  26
+OD pair: 40-20
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 40-23
+Naive cycle length (# of agents):  140
+GCD cycle length:  140
+OD pair: 40-31
+Naive cycle length (# of agents):  91
+GCD cycle length:  91
+OD pair: 40-32
+Naive cycle length (# of agents):  87
+GCD cycle length:  29
+OD pair: 40-35
+Naive cycle length (# of agents):  269
+GCD cycle length:  269
+OD pair: 40-37
+Naive cycle length (# of agents):  135
+GCD cycle length:  135
+OD pair: 40-44
+Naive cycle length (# of agents):  223
+GCD cycle length:  223
+OD pair: 40-74
+Naive cycle length (# of agents):  183
+GCD cycle length:  183
+OD pair: 40-79
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 40-80
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 40-84
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 40-88
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 40-90
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 40-98
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 40-102
+Naive cycle length (# of agents):  189
+GCD cycle length:  189
+OD pair: 40-105
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 41-1
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 41-3
+Naive cycle length (# of agents):  72
+GCD cycle length:  2
+OD pair: 41-5
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 41-6
+Naive cycle length (# of agents):  36
+GCD cycle length:  2
+OD pair: 41-7
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 41-8
+Naive cycle length (# of agents):  26
+GCD cycle length:  2
+OD pair: 41-9
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 41-10
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 41-11
+Naive cycle length (# of agents):  46
+GCD cycle length:  2
+OD pair: 41-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 41-32
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 41-37
+Naive cycle length (# of agents):  85
+GCD cycle length:  85
+OD pair: 41-38
+Naive cycle length (# of agents):  75
+GCD cycle length:  75
+OD pair: 41-45
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 41-64
+Naive cycle length (# of agents):  20
+GCD cycle length:  2
+OD pair: 41-65
+Naive cycle length (# of agents):  20
+GCD cycle length:  2
+OD pair: 41-73
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 41-91
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 41-94
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 41-95
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 41-97
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 41-101
+Naive cycle length (# of agents):  79
+GCD cycle length:  79
+OD pair: 42-3
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 42-6
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 42-7
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 42-8
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 42-17
+Naive cycle length (# of agents):  30
+GCD cycle length:  15
+OD pair: 42-19
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 42-23
+Naive cycle length (# of agents):  74
+GCD cycle length:  37
+OD pair: 42-25
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 42-27
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 42-45
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 42-59
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 42-60
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 42-61
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 42-64
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 42-65
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 42-68
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 42-70
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 42-71
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 42-72
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 42-73
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 42-74
+Naive cycle length (# of agents):  74
+GCD cycle length:  74
+OD pair: 42-75
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 42-76
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 42-77
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 42-78
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 42-91
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 42-95
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 42-97
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 42-98
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 42-102
+Naive cycle length (# of agents):  78
+GCD cycle length:  26
+OD pair: 42-106
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 43-3
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 43-5
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 43-7
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 43-8
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 43-9
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 43-12
+Naive cycle length (# of agents):  24
+GCD cycle length:  8
+OD pair: 43-13
+Naive cycle length (# of agents):  38
+GCD cycle length:  19
+OD pair: 43-14
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 43-17
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 43-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 43-23
+Naive cycle length (# of agents):  60
+GCD cycle length:  30
+OD pair: 43-25
+Naive cycle length (# of agents):  42
+GCD cycle length:  21
+OD pair: 43-26
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 43-27
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 43-28
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 43-31
+Naive cycle length (# of agents):  68
+GCD cycle length:  68
+OD pair: 43-34
+Naive cycle length (# of agents):  79
+GCD cycle length:  79
+OD pair: 43-35
+Naive cycle length (# of agents):  138
+GCD cycle length:  138
+OD pair: 43-36
+Naive cycle length (# of agents):  62
+GCD cycle length:  62
+OD pair: 43-74
+Naive cycle length (# of agents):  86
+GCD cycle length:  86
+OD pair: 43-75
+Naive cycle length (# of agents):  40
+GCD cycle length:  40
+OD pair: 43-76
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 43-77
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 43-78
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 43-81
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 43-87
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 43-98
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 43-102
+Naive cycle length (# of agents):  91
+GCD cycle length:  91
+OD pair: 43-104
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 43-106
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 44-23
+Naive cycle length (# of agents):  28
+GCD cycle length:  4
+OD pair: 44-25
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 44-27
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 44-75
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 44-76
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 44-84
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 44-87
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 44-98
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 44-101
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 44-102
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 44-106
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 45-1
+Naive cycle length (# of agents):  20
+GCD cycle length:  5
+OD pair: 45-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 45-22
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 45-23
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 45-24
+Naive cycle length (# of agents):  37
+GCD cycle length:  37
+OD pair: 45-25
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 45-26
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 45-27
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 45-28
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 45-29
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 45-30
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 45-31
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 45-33
+Naive cycle length (# of agents):  50
+GCD cycle length:  5
+OD pair: 45-34
+Naive cycle length (# of agents):  50
+GCD cycle length:  5
+OD pair: 45-35
+Naive cycle length (# of agents):  52
+GCD cycle length:  52
+OD pair: 45-36
+Naive cycle length (# of agents):  50
+GCD cycle length:  5
+OD pair: 45-38
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 45-46
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 45-57
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 45-58
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 45-59
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 45-60
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 45-61
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 45-62
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 45-63
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 45-64
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 45-65
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 45-68
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 45-70
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 45-71
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 45-72
+Naive cycle length (# of agents):  22
+GCD cycle length:  2
+OD pair: 45-74
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 45-75
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 45-76
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 45-77
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 45-78
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 45-84
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 45-85
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 45-87
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 45-88
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 45-91
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 45-94
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 45-95
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 45-97
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 45-98
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 45-102
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 45-103
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 45-105
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 46-3
+Naive cycle length (# of agents):  71
+GCD cycle length:  71
+OD pair: 46-6
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 46-8
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 46-9
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 46-10
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 46-11
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 46-12
+Naive cycle length (# of agents):  25
+GCD cycle length:  5
+OD pair: 46-13
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 46-14
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 46-15
+Naive cycle length (# of agents):  30
+GCD cycle length:  5
+OD pair: 46-16
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 46-17
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 46-24
+Naive cycle length (# of agents):  35
+GCD cycle length:  7
+OD pair: 46-36
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 46-37
+Naive cycle length (# of agents):  53
+GCD cycle length:  53
+OD pair: 46-39
+Naive cycle length (# of agents):  36
+GCD cycle length:  9
+OD pair: 46-40
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 46-41
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 46-42
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 46-43
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 46-44
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 46-45
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 46-50
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 46-51
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 46-52
+Naive cycle length (# of agents):  12
+GCD cycle length:  3
+OD pair: 46-53
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 47-1
+Naive cycle length (# of agents):  37
+GCD cycle length:  37
+OD pair: 47-3
+Naive cycle length (# of agents):  178
+GCD cycle length:  178
+OD pair: 47-5
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 47-6
+Naive cycle length (# of agents):  20
+GCD cycle length:  10
+OD pair: 47-7
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 47-8
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 47-9
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 47-12
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 47-13
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 47-14
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 47-17
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 47-20
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 47-32
+Naive cycle length (# of agents):  42
+GCD cycle length:  21
+OD pair: 47-37
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 47-81
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 48-1
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 48-3
+Naive cycle length (# of agents):  52
+GCD cycle length:  52
+OD pair: 48-5
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 48-6
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 48-8
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 48-12
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 48-13
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 48-14
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 48-20
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 48-26
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 48-27
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 48-31
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 48-32
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 48-33
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 48-35
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 48-37
+Naive cycle length (# of agents):  44
+GCD cycle length:  22
+OD pair: 48-38
+Naive cycle length (# of agents):  35
+GCD cycle length:  7
+OD pair: 48-52
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 48-98
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 48-102
+Naive cycle length (# of agents):  77
+GCD cycle length:  77
+OD pair: 49-1
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 49-3
+Naive cycle length (# of agents):  81
+GCD cycle length:  81
+OD pair: 49-5
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 49-6
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 49-7
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 49-8
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 49-9
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 49-10
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 49-11
+Naive cycle length (# of agents):  39
+GCD cycle length:  13
+OD pair: 49-12
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 49-13
+Naive cycle length (# of agents):  32
+GCD cycle length:  8
+OD pair: 49-14
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 49-15
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 49-16
+Naive cycle length (# of agents):  62
+GCD cycle length:  62
+OD pair: 49-20
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 49-26
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 49-27
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 49-28
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 49-29
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 49-30
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 49-31
+Naive cycle length (# of agents):  64
+GCD cycle length:  32
+OD pair: 49-32
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 49-35
+Naive cycle length (# of agents):  124
+GCD cycle length:  31
+OD pair: 49-36
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 49-37
+Naive cycle length (# of agents):  67
+GCD cycle length:  67
+OD pair: 49-44
+Naive cycle length (# of agents):  109
+GCD cycle length:  109
+OD pair: 49-45
+Naive cycle length (# of agents):  53
+GCD cycle length:  53
+OD pair: 49-52
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 49-98
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 49-102
+Naive cycle length (# of agents):  118
+GCD cycle length:  118
+OD pair: 50-1
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 50-3
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 50-6
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 50-8
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 50-9
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 50-12
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 50-13
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 50-14
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 50-17
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 50-20
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 50-23
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 50-25
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 50-29
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 50-30
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 50-32
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 50-35
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 50-37
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 50-74
+Naive cycle length (# of agents):  20
+GCD cycle length:  10
+OD pair: 50-84
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 50-85
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 50-98
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 50-102
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 50-105
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 51-1
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 51-3
+Naive cycle length (# of agents):  69
+GCD cycle length:  69
+OD pair: 51-5
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 51-6
+Naive cycle length (# of agents):  32
+GCD cycle length:  2
+OD pair: 51-7
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 51-8
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 51-9
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 51-10
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 51-11
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 51-12
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 51-13
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 51-14
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 51-17
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 51-20
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 51-22
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 51-23
+Naive cycle length (# of agents):  50
+GCD cycle length:  10
+OD pair: 51-24
+Naive cycle length (# of agents):  77
+GCD cycle length:  77
+OD pair: 51-25
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 51-27
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 51-29
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 51-30
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 51-32
+Naive cycle length (# of agents):  48
+GCD cycle length:  48
+OD pair: 51-33
+Naive cycle length (# of agents):  46
+GCD cycle length:  23
+OD pair: 51-34
+Naive cycle length (# of agents):  75
+GCD cycle length:  75
+OD pair: 51-37
+Naive cycle length (# of agents):  90
+GCD cycle length:  90
+OD pair: 51-38
+Naive cycle length (# of agents):  72
+GCD cycle length:  6
+OD pair: 51-39
+Naive cycle length (# of agents):  42
+GCD cycle length:  6
+OD pair: 51-41
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 51-44
+Naive cycle length (# of agents):  183
+GCD cycle length:  183
+OD pair: 51-46
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 51-47
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 51-74
+Naive cycle length (# of agents):  93
+GCD cycle length:  31
+OD pair: 51-75
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 51-76
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 51-77
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 51-78
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 51-84
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 51-85
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 51-88
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 51-98
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 51-101
+Naive cycle length (# of agents):  86
+GCD cycle length:  43
+OD pair: 51-102
+Naive cycle length (# of agents):  95
+GCD cycle length:  95
+OD pair: 51-105
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 51-106
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 52-1
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 52-3
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 52-5
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 52-6
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 52-7
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 52-8
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 52-9
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 52-10
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 52-11
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 52-12
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 52-13
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 52-14
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 52-15
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 52-16
+Naive cycle length (# of agents):  24
+GCD cycle length:  12
+OD pair: 52-17
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 52-18
+Naive cycle length (# of agents):  24
+GCD cycle length:  12
+OD pair: 52-19
+Naive cycle length (# of agents):  25
+GCD cycle length:  5
+OD pair: 52-21
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 52-23
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 52-25
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 52-27
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 52-32
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 52-48
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 52-49
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 52-57
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 52-58
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 52-59
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 52-61
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 52-62
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 52-63
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 52-64
+Naive cycle length (# of agents):  38
+GCD cycle length:  19
+OD pair: 52-65
+Naive cycle length (# of agents):  20
+GCD cycle length:  5
+OD pair: 52-68
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 52-70
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 52-71
+Naive cycle length (# of agents):  24
+GCD cycle length:  12
+OD pair: 52-72
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 52-73
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 52-74
+Naive cycle length (# of agents):  42
+GCD cycle length:  42
+OD pair: 52-75
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 52-84
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 52-88
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 52-91
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 52-92
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 52-93
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 52-94
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 52-95
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 52-97
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 52-98
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 52-100
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 52-101
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 52-102
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 52-105
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 53-3
+Naive cycle length (# of agents):  50
+GCD cycle length:  50
+OD pair: 53-8
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 53-9
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 53-10
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 53-11
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 53-12
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 53-13
+Naive cycle length (# of agents):  40
+GCD cycle length:  40
+OD pair: 53-14
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 53-17
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 53-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 53-23
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 53-25
+Naive cycle length (# of agents):  20
+GCD cycle length:  10
+OD pair: 53-27
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 53-37
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 53-74
+Naive cycle length (# of agents):  56
+GCD cycle length:  56
+OD pair: 53-75
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 53-76
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 53-84
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 53-85
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 53-90
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 53-98
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 53-102
+Naive cycle length (# of agents):  55
+GCD cycle length:  55
+OD pair: 53-105
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 54-1
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 54-3
+Naive cycle length (# of agents):  52
+GCD cycle length:  26
+OD pair: 54-6
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 54-8
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 54-12
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 54-13
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 54-14
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 54-23
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 54-24
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 54-25
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 54-26
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 54-27
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 54-28
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 54-29
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 54-30
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 54-31
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 54-32
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 54-33
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 54-34
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 54-35
+Naive cycle length (# of agents):  32
+GCD cycle length:  16
+OD pair: 54-37
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 54-38
+Naive cycle length (# of agents):  52
+GCD cycle length:  52
+OD pair: 54-50
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 54-52
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 54-74
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 54-75
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 54-76
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 54-77
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 54-78
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 54-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 54-85
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 54-98
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 54-102
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 54-105
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 55-1
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 55-3
+Naive cycle length (# of agents):  45
+GCD cycle length:  45
+OD pair: 55-8
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 55-9
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 55-12
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 55-13
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 55-14
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 55-22
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 55-26
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 55-27
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 55-31
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 55-32
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 55-33
+Naive cycle length (# of agents):  32
+GCD cycle length:  16
+OD pair: 55-35
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 55-37
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 55-38
+Naive cycle length (# of agents):  69
+GCD cycle length:  23
+OD pair: 55-50
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 55-52
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 55-75
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 55-76
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 55-77
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 55-78
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 55-85
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 55-98
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 55-102
+Naive cycle length (# of agents):  37
+GCD cycle length:  37
+OD pair: 56-1
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 56-3
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 56-6
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 56-9
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 56-10
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 56-11
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 56-12
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 56-13
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 56-15
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 56-16
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 56-17
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 56-18
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 56-19
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 56-20
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 56-23
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 56-24
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 56-25
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 56-28
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 56-29
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 56-30
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 56-32
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 56-33
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 56-35
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 56-36
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 56-37
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 56-38
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 56-44
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 56-45
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 56-52
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 56-53
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 56-64
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 56-65
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 56-74
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 56-75
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 56-76
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 56-77
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 56-78
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 56-79
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 56-82
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 56-84
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 56-85
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 56-87
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 56-90
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 56-92
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 56-93
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 56-100
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 56-102
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 56-105
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 57-1
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 57-3
+Naive cycle length (# of agents):  52
+GCD cycle length:  52
+OD pair: 57-6
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 57-8
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 57-9
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 57-10
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 57-11
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 57-12
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 57-13
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 57-14
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 57-15
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 57-16
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 57-17
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 57-18
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 57-19
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 57-20
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 57-23
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 57-24
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 57-25
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 57-26
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 57-27
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 57-28
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 57-29
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 57-30
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 57-31
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 57-32
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 57-33
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 57-34
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 57-35
+Naive cycle length (# of agents):  71
+GCD cycle length:  71
+OD pair: 57-36
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 57-37
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 57-38
+Naive cycle length (# of agents):  87
+GCD cycle length:  87
+OD pair: 57-41
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 57-44
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 57-45
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 57-52
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 57-53
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 57-64
+Naive cycle length (# of agents):  18
+GCD cycle length:  2
+OD pair: 57-65
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 57-74
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 57-75
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 57-77
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 57-78
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 57-81
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 57-84
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 57-85
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 57-87
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 57-90
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 57-98
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 57-100
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 57-102
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 57-103
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 57-105
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 58-1
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 58-3
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 58-6
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 58-8
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 58-9
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 58-10
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 58-11
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 58-12
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 58-13
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 58-14
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 58-15
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 58-20
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 58-27
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 58-28
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 58-29
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 58-30
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 58-31
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 58-32
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 58-35
+Naive cycle length (# of agents):  52
+GCD cycle length:  13
+OD pair: 58-36
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 58-37
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 58-38
+Naive cycle length (# of agents):  53
+GCD cycle length:  53
+OD pair: 58-44
+Naive cycle length (# of agents):  40
+GCD cycle length:  20
+OD pair: 58-45
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 58-52
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 58-53
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 58-81
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 58-98
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 58-102
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 59-1
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 59-3
+Naive cycle length (# of agents):  48
+GCD cycle length:  48
+OD pair: 59-9
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 59-10
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 59-11
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 59-12
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 59-13
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 59-15
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 59-16
+Naive cycle length (# of agents):  30
+GCD cycle length:  2
+OD pair: 59-17
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 59-18
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 59-19
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 59-20
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 59-22
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 59-23
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 59-24
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 59-25
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 59-28
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 59-29
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 59-30
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 59-31
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 59-32
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 59-33
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 59-35
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 59-36
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 59-37
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 59-38
+Naive cycle length (# of agents):  32
+GCD cycle length:  16
+OD pair: 59-44
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 59-45
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 59-52
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 59-53
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 59-64
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 59-65
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 59-74
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 59-75
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 59-77
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 59-78
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 59-84
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 59-85
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 59-87
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 59-90
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 59-98
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 59-100
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 59-102
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 59-105
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 59-106
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 60-1
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 60-3
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 60-6
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 60-8
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 60-9
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 60-10
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 60-11
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 60-12
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 60-13
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 60-14
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 60-15
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 60-23
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 60-25
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 60-28
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 60-29
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 60-31
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 60-32
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 60-33
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 60-35
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 60-36
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 60-37
+Naive cycle length (# of agents):  24
+GCD cycle length:  12
+OD pair: 60-38
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 60-44
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 60-45
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 60-52
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 60-74
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 60-75
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 60-84
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 60-85
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 60-98
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 60-100
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 60-102
+Naive cycle length (# of agents):  54
+GCD cycle length:  9
+OD pair: 60-105
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 61-1
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 61-3
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 61-6
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 61-8
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 61-9
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 61-10
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 61-11
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 61-12
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 61-13
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 61-14
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 61-15
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 61-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 61-23
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 61-25
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 61-26
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 61-27
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 61-28
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 61-31
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 61-32
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 61-35
+Naive cycle length (# of agents):  40
+GCD cycle length:  40
+OD pair: 61-36
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 61-37
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 61-38
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 61-44
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 61-45
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 61-52
+Naive cycle length (# of agents):  15
+GCD cycle length:  3
+OD pair: 61-53
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 61-74
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 61-75
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 61-78
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 61-84
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 61-85
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 61-98
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 61-102
+Naive cycle length (# of agents):  80
+GCD cycle length:  16
+OD pair: 61-105
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 62-1
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 62-3
+Naive cycle length (# of agents):  60
+GCD cycle length:  60
+OD pair: 62-5
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 62-6
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 62-7
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 62-8
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 62-9
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 62-10
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 62-11
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 62-12
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 62-13
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 62-14
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 62-15
+Naive cycle length (# of agents):  58
+GCD cycle length:  58
+OD pair: 62-16
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 62-20
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 62-23
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 62-24
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 62-25
+Naive cycle length (# of agents):  20
+GCD cycle length:  10
+OD pair: 62-26
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 62-27
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 62-28
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 62-29
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 62-30
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 62-31
+Naive cycle length (# of agents):  42
+GCD cycle length:  21
+OD pair: 62-32
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 62-33
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 62-34
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 62-35
+Naive cycle length (# of agents):  77
+GCD cycle length:  77
+OD pair: 62-36
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 62-37
+Naive cycle length (# of agents):  54
+GCD cycle length:  54
+OD pair: 62-38
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 62-39
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 62-41
+Naive cycle length (# of agents):  54
+GCD cycle length:  6
+OD pair: 62-44
+Naive cycle length (# of agents):  79
+GCD cycle length:  79
+OD pair: 62-45
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 62-52
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 62-53
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 62-74
+Naive cycle length (# of agents):  70
+GCD cycle length:  70
+OD pair: 62-75
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 62-76
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 62-84
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 62-98
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 62-102
+Naive cycle length (# of agents):  74
+GCD cycle length:  74
+OD pair: 62-105
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 63-1
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 63-3
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 63-6
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 63-8
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 63-9
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 63-10
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 63-11
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 63-12
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 63-13
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 63-14
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 63-15
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 63-20
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 63-23
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 63-24
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 63-25
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 63-27
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 63-28
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 63-29
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 63-31
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 63-32
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 63-33
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 63-34
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 63-35
+Naive cycle length (# of agents):  50
+GCD cycle length:  50
+OD pair: 63-36
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 63-37
+Naive cycle length (# of agents):  40
+GCD cycle length:  10
+OD pair: 63-38
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 63-39
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 63-41
+Naive cycle length (# of agents):  18
+GCD cycle length:  6
+OD pair: 63-44
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 63-45
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 63-52
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 63-53
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 63-74
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 63-75
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 63-78
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 63-84
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 63-85
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 63-98
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 63-102
+Naive cycle length (# of agents):  66
+GCD cycle length:  66
+OD pair: 63-105
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 64-1
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 64-3
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 64-5
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 64-6
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 64-7
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 64-8
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 64-9
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 64-10
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 64-11
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 64-12
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 64-13
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 64-14
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 64-15
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 64-20
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 64-23
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 64-24
+Naive cycle length (# of agents):  18
+GCD cycle length:  6
+OD pair: 64-25
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 64-27
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 64-28
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 64-29
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 64-30
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 64-31
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 64-32
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 64-33
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 64-34
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 64-35
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 64-36
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 64-37
+Naive cycle length (# of agents):  55
+GCD cycle length:  11
+OD pair: 64-38
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 64-39
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 64-41
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 64-42
+Naive cycle length (# of agents):  54
+GCD cycle length:  27
+OD pair: 64-44
+Naive cycle length (# of agents):  71
+GCD cycle length:  71
+OD pair: 64-45
+Naive cycle length (# of agents):  32
+GCD cycle length:  16
+OD pair: 64-52
+Naive cycle length (# of agents):  21
+GCD cycle length:  3
+OD pair: 64-53
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 64-74
+Naive cycle length (# of agents):  60
+GCD cycle length:  30
+OD pair: 64-75
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 64-76
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 64-78
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 64-84
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 64-85
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 64-98
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 64-102
+Naive cycle length (# of agents):  97
+GCD cycle length:  97
+OD pair: 64-105
+Naive cycle length (# of agents):  12
+GCD cycle length:  4
+OD pair: 65-1
+Naive cycle length (# of agents):  93
+GCD cycle length:  93
+OD pair: 65-3
+Naive cycle length (# of agents):  159
+GCD cycle length:  159
+OD pair: 65-5
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 65-6
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 65-7
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 65-8
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 65-9
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 65-10
+Naive cycle length (# of agents):  74
+GCD cycle length:  74
+OD pair: 65-11
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 65-15
+Naive cycle length (# of agents):  128
+GCD cycle length:  128
+OD pair: 65-20
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 65-23
+Naive cycle length (# of agents):  46
+GCD cycle length:  23
+OD pair: 65-24
+Naive cycle length (# of agents):  45
+GCD cycle length:  45
+OD pair: 65-25
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 65-26
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 65-27
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 65-28
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 65-29
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 65-30
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 65-31
+Naive cycle length (# of agents):  72
+GCD cycle length:  72
+OD pair: 65-32
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 65-33
+Naive cycle length (# of agents):  58
+GCD cycle length:  29
+OD pair: 65-34
+Naive cycle length (# of agents):  51
+GCD cycle length:  17
+OD pair: 65-35
+Naive cycle length (# of agents):  136
+GCD cycle length:  136
+OD pair: 65-36
+Naive cycle length (# of agents):  86
+GCD cycle length:  86
+OD pair: 65-37
+Naive cycle length (# of agents):  94
+GCD cycle length:  94
+OD pair: 65-38
+Naive cycle length (# of agents):  24
+GCD cycle length:  6
+OD pair: 65-39
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 65-41
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 65-42
+Naive cycle length (# of agents):  65
+GCD cycle length:  65
+OD pair: 65-43
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 65-44
+Naive cycle length (# of agents):  178
+GCD cycle length:  178
+OD pair: 65-45
+Naive cycle length (# of agents):  69
+GCD cycle length:  69
+OD pair: 65-51
+Naive cycle length (# of agents):  72
+GCD cycle length:  6
+OD pair: 65-52
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 65-53
+Naive cycle length (# of agents):  48
+GCD cycle length:  16
+OD pair: 65-74
+Naive cycle length (# of agents):  100
+GCD cycle length:  100
+OD pair: 65-75
+Naive cycle length (# of agents):  24
+GCD cycle length:  12
+OD pair: 65-76
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 65-77
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 65-78
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 65-84
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 65-85
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 65-98
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 65-102
+Naive cycle length (# of agents):  119
+GCD cycle length:  119
+OD pair: 65-105
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 65-107
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 66-1
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 66-3
+Naive cycle length (# of agents):  40
+GCD cycle length:  40
+OD pair: 66-10
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 66-11
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 66-13
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 66-15
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 66-24
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 66-31
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 66-32
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 66-33
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 66-35
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 66-36
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 66-38
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 66-41
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 66-44
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 66-45
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 66-52
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 66-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 66-98
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 66-102
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 66-105
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 67-1
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 67-3
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 67-5
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 67-8
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 67-10
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 67-11
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 67-12
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 67-13
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 67-15
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 67-31
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 67-33
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 67-35
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 67-36
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 67-38
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 67-44
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 67-45
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 67-52
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 67-74
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 67-84
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 67-102
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 68-1
+Naive cycle length (# of agents):  68
+GCD cycle length:  68
+OD pair: 68-3
+Naive cycle length (# of agents):  202
+GCD cycle length:  202
+OD pair: 68-5
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 68-6
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 68-7
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 68-8
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 68-9
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 68-10
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 68-11
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 68-12
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 68-13
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 68-14
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 68-15
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 68-20
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 68-22
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 68-23
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 68-24
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 68-25
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 68-26
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 68-27
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 68-28
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 68-29
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 68-30
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 68-31
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 68-32
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 68-33
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 68-34
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 68-35
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 68-36
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 68-37
+Naive cycle length (# of agents):  55
+GCD cycle length:  55
+OD pair: 68-38
+Naive cycle length (# of agents):  60
+GCD cycle length:  60
+OD pair: 68-39
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 68-44
+Naive cycle length (# of agents):  56
+GCD cycle length:  56
+OD pair: 68-45
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 68-46
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 68-47
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 68-48
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 68-52
+Naive cycle length (# of agents):  24
+GCD cycle length:  3
+OD pair: 68-53
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 68-54
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 68-55
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 68-74
+Naive cycle length (# of agents):  55
+GCD cycle length:  55
+OD pair: 68-75
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 68-76
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 68-77
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 68-78
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 68-84
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 68-85
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 68-87
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 68-88
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 68-90
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 68-94
+Naive cycle length (# of agents):  22
+GCD cycle length:  11
+OD pair: 68-95
+Naive cycle length (# of agents):  55
+GCD cycle length:  11
+OD pair: 68-97
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 68-98
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 68-101
+Naive cycle length (# of agents):  99
+GCD cycle length:  11
+OD pair: 68-102
+Naive cycle length (# of agents):  157
+GCD cycle length:  157
+OD pair: 68-104
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 68-105
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 68-106
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 69-1
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 69-3
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 69-10
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 69-11
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 69-13
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 69-15
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 69-31
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 69-33
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 69-36
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 69-38
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 69-52
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 69-53
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 69-102
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 70-1
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 70-3
+Naive cycle length (# of agents):  72
+GCD cycle length:  72
+OD pair: 70-6
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 70-8
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 70-9
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 70-10
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 70-11
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 70-12
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 70-13
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 70-14
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 70-15
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 70-20
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 70-22
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 70-23
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 70-24
+Naive cycle length (# of agents):  34
+GCD cycle length:  17
+OD pair: 70-25
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 70-26
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 70-27
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 70-28
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 70-29
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 70-31
+Naive cycle length (# of agents):  42
+GCD cycle length:  21
+OD pair: 70-32
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 70-33
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 70-34
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 70-35
+Naive cycle length (# of agents):  81
+GCD cycle length:  81
+OD pair: 70-36
+Naive cycle length (# of agents):  57
+GCD cycle length:  57
+OD pair: 70-37
+Naive cycle length (# of agents):  70
+GCD cycle length:  10
+OD pair: 70-38
+Naive cycle length (# of agents):  44
+GCD cycle length:  44
+OD pair: 70-39
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 70-41
+Naive cycle length (# of agents):  30
+GCD cycle length:  6
+OD pair: 70-44
+Naive cycle length (# of agents):  67
+GCD cycle length:  67
+OD pair: 70-45
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 70-52
+Naive cycle length (# of agents):  33
+GCD cycle length:  3
+OD pair: 70-53
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 70-74
+Naive cycle length (# of agents):  52
+GCD cycle length:  52
+OD pair: 70-75
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 70-76
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 70-77
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 70-78
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 70-80
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 70-81
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 70-84
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 70-85
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 70-88
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 70-98
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 70-102
+Naive cycle length (# of agents):  139
+GCD cycle length:  139
+OD pair: 70-105
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 71-1
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 71-3
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 71-10
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 71-11
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 71-12
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 71-13
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 71-15
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 71-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 71-24
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 71-28
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 71-31
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 71-33
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 71-34
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 71-35
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 71-36
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 71-37
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 71-38
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 71-41
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 71-44
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 71-45
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 71-52
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 71-74
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 71-78
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 71-98
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 71-102
+Naive cycle length (# of agents):  30
+GCD cycle length:  30
+OD pair: 72-1
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 72-3
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 72-8
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 72-10
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 72-11
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 72-12
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 72-14
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 72-15
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 72-16
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 72-17
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 72-19
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 72-28
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 72-31
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 72-35
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 72-38
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 72-41
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 72-52
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 72-53
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 72-74
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 72-98
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 72-102
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 73-1
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 73-3
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 73-8
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 73-10
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 73-11
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 73-12
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 73-13
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 73-14
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 73-15
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 73-16
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 73-17
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 73-19
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 73-20
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 73-34
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 73-41
+Naive cycle length (# of agents):  15
+GCD cycle length:  5
+OD pair: 73-51
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 73-71
+Naive cycle length (# of agents):  9
+GCD cycle length:  3
+OD pair: 73-84
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 73-85
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 73-102
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 73-105
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 74-1
+Naive cycle length (# of agents):  777
+GCD cycle length:  777
+OD pair: 74-16
+Naive cycle length (# of agents):  168
+GCD cycle length:  56
+OD pair: 74-24
+Naive cycle length (# of agents):  200
+GCD cycle length:  200
+OD pair: 74-33
+Naive cycle length (# of agents):  119
+GCD cycle length:  119
+OD pair: 74-34
+Naive cycle length (# of agents):  128
+GCD cycle length:  128
+OD pair: 74-36
+Naive cycle length (# of agents):  216
+GCD cycle length:  36
+OD pair: 74-38
+Naive cycle length (# of agents):  70
+GCD cycle length:  70
+OD pair: 74-46
+Naive cycle length (# of agents):  12
+GCD cycle length:  3
+OD pair: 74-59
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 74-61
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 74-62
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 74-63
+Naive cycle length (# of agents):  38
+GCD cycle length:  19
+OD pair: 74-64
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 74-65
+Naive cycle length (# of agents):  63
+GCD cycle length:  63
+OD pair: 74-68
+Naive cycle length (# of agents):  54
+GCD cycle length:  27
+OD pair: 74-70
+Naive cycle length (# of agents):  66
+GCD cycle length:  22
+OD pair: 74-71
+Naive cycle length (# of agents):  48
+GCD cycle length:  24
+OD pair: 74-72
+Naive cycle length (# of agents):  76
+GCD cycle length:  76
+OD pair: 74-94
+Naive cycle length (# of agents):  14
+GCD cycle length:  14
+OD pair: 74-95
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 74-97
+Naive cycle length (# of agents):  18
+GCD cycle length:  6
+OD pair: 74-101
+Naive cycle length (# of agents):  124
+GCD cycle length:  124
+OD pair: 75-1
+Naive cycle length (# of agents):  125
+GCD cycle length:  125
+OD pair: 75-20
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 75-37
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 75-44
+Naive cycle length (# of agents):  68
+GCD cycle length:  68
+OD pair: 75-45
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 75-60
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 75-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 75-62
+Naive cycle length (# of agents):  12
+GCD cycle length:  2
+OD pair: 75-63
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 75-64
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 75-65
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 75-68
+Naive cycle length (# of agents):  21
+GCD cycle length:  7
+OD pair: 75-69
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 75-70
+Naive cycle length (# of agents):  45
+GCD cycle length:  45
+OD pair: 75-71
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 75-72
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 75-73
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 75-101
+Naive cycle length (# of agents):  24
+GCD cycle length:  6
+OD pair: 76-1
+Naive cycle length (# of agents):  133
+GCD cycle length:  133
+OD pair: 76-8
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 76-10
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 76-11
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 76-12
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 76-15
+Naive cycle length (# of agents):  38
+GCD cycle length:  19
+OD pair: 76-16
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 76-18
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 76-23
+Naive cycle length (# of agents):  28
+GCD cycle length:  7
+OD pair: 76-44
+Naive cycle length (# of agents):  53
+GCD cycle length:  53
+OD pair: 76-45
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 76-49
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 76-59
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 76-60
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 76-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 76-64
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 76-65
+Naive cycle length (# of agents):  30
+GCD cycle length:  2
+OD pair: 76-68
+Naive cycle length (# of agents):  16
+GCD cycle length:  2
+OD pair: 76-69
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 76-70
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 76-71
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 76-72
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 76-73
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 76-92
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 76-93
+Naive cycle length (# of agents):  14
+GCD cycle length:  2
+OD pair: 76-100
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 76-101
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 77-23
+Naive cycle length (# of agents):  160
+GCD cycle length:  40
+OD pair: 77-92
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 77-100
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 77-101
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 78-1
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 78-8
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 78-12
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 78-15
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 78-16
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 78-17
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 78-19
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 78-37
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 78-44
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 78-45
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 78-60
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 78-61
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 78-62
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 78-63
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 78-65
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 78-68
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 78-70
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 78-72
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 78-73
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 78-101
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 79-1
+Naive cycle length (# of agents):  30
+GCD cycle length:  15
+OD pair: 79-24
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 79-33
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 79-34
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 79-36
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 79-65
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 79-101
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 80-1
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 80-32
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 80-33
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 80-34
+Naive cycle length (# of agents):  16
+GCD cycle length:  8
+OD pair: 80-36
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 80-101
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 80-110
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 81-10
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 81-11
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 81-12
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 81-15
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 81-16
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 81-35
+Naive cycle length (# of agents):  32
+GCD cycle length:  16
+OD pair: 81-44
+Naive cycle length (# of agents):  20
+GCD cycle length:  5
+OD pair: 81-45
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 81-62
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 81-72
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 81-73
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 81-92
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 82-10
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 82-12
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 82-45
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 82-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 82-64
+Naive cycle length (# of agents):  8
+GCD cycle length:  2
+OD pair: 82-70
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 82-71
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 82-72
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 82-92
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 83-10
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 83-11
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 84-1
+Naive cycle length (# of agents):  655
+GCD cycle length:  131
+OD pair: 84-24
+Naive cycle length (# of agents):  24
+GCD cycle length:  8
+OD pair: 84-32
+Naive cycle length (# of agents):  30
+GCD cycle length:  15
+OD pair: 84-33
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 84-34
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 84-36
+Naive cycle length (# of agents):  34
+GCD cycle length:  17
+OD pair: 84-46
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 84-65
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 84-101
+Naive cycle length (# of agents):  18
+GCD cycle length:  6
+OD pair: 85-1
+Naive cycle length (# of agents):  709
+GCD cycle length:  709
+OD pair: 85-38
+Naive cycle length (# of agents):  274
+GCD cycle length:  274
+OD pair: 85-101
+Naive cycle length (# of agents):  26
+GCD cycle length:  13
+OD pair: 87-1
+Naive cycle length (# of agents):  34
+GCD cycle length:  34
+OD pair: 87-8
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 87-10
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 87-11
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 87-12
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 87-15
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 87-16
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 87-18
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 87-23
+Naive cycle length (# of agents):  42
+GCD cycle length:  7
+OD pair: 87-44
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 87-45
+Naive cycle length (# of agents):  24
+GCD cycle length:  24
+OD pair: 87-61
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 87-62
+Naive cycle length (# of agents):  10
+GCD cycle length:  2
+OD pair: 87-65
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 87-67
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 87-68
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 87-70
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 87-92
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 88-1
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 88-24
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 88-32
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 88-33
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 88-35
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 88-65
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 88-101
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 89-1
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 89-33
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 89-36
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 90-1
+Naive cycle length (# of agents):  68
+GCD cycle length:  68
+OD pair: 90-24
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 90-33
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 90-34
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 90-36
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 90-101
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 91-1
+Naive cycle length (# of agents):  146
+GCD cycle length:  146
+OD pair: 91-3
+Naive cycle length (# of agents):  151
+GCD cycle length:  151
+OD pair: 91-5
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 91-6
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 91-8
+Naive cycle length (# of agents):  27
+GCD cycle length:  27
+OD pair: 91-9
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 91-10
+Naive cycle length (# of agents):  58
+GCD cycle length:  58
+OD pair: 91-11
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 91-12
+Naive cycle length (# of agents):  29
+GCD cycle length:  29
+OD pair: 91-13
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 91-14
+Naive cycle length (# of agents):  30
+GCD cycle length:  15
+OD pair: 91-15
+Naive cycle length (# of agents):  103
+GCD cycle length:  103
+OD pair: 91-16
+Naive cycle length (# of agents):  272
+GCD cycle length:  136
+OD pair: 91-17
+Naive cycle length (# of agents):  129
+GCD cycle length:  129
+OD pair: 91-18
+Naive cycle length (# of agents):  148
+GCD cycle length:  37
+OD pair: 91-19
+Naive cycle length (# of agents):  127
+GCD cycle length:  127
+OD pair: 91-20
+Naive cycle length (# of agents):  60
+GCD cycle length:  60
+OD pair: 91-21
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 91-22
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 91-23
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 91-24
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 91-25
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 91-26
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 91-27
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 91-28
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 91-29
+Naive cycle length (# of agents):  36
+GCD cycle length:  36
+OD pair: 91-30
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 91-31
+Naive cycle length (# of agents):  54
+GCD cycle length:  27
+OD pair: 91-32
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 91-33
+Naive cycle length (# of agents):  28
+GCD cycle length:  7
+OD pair: 91-34
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 91-35
+Naive cycle length (# of agents):  102
+GCD cycle length:  102
+OD pair: 91-36
+Naive cycle length (# of agents):  53
+GCD cycle length:  53
+OD pair: 91-37
+Naive cycle length (# of agents):  85
+GCD cycle length:  85
+OD pair: 91-38
+Naive cycle length (# of agents):  28
+GCD cycle length:  7
+OD pair: 91-39
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 91-41
+Naive cycle length (# of agents):  49
+GCD cycle length:  49
+OD pair: 91-42
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 91-43
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 91-44
+Naive cycle length (# of agents):  85
+GCD cycle length:  85
+OD pair: 91-45
+Naive cycle length (# of agents):  38
+GCD cycle length:  38
+OD pair: 91-51
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 91-52
+Naive cycle length (# of agents):  47
+GCD cycle length:  47
+OD pair: 91-53
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 91-65
+Naive cycle length (# of agents):  77
+GCD cycle length:  77
+OD pair: 91-71
+Naive cycle length (# of agents):  410
+GCD cycle length:  410
+OD pair: 91-74
+Naive cycle length (# of agents):  90
+GCD cycle length:  90
+OD pair: 91-75
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 91-76
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 91-77
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 91-78
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 91-81
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 91-84
+Naive cycle length (# of agents):  18
+GCD cycle length:  18
+OD pair: 91-85
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 91-87
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 91-105
+Naive cycle length (# of agents):  26
+GCD cycle length:  26
+OD pair: 91-106
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 91-108
+Naive cycle length (# of agents):  37
+GCD cycle length:  37
+OD pair: 91-109
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 92-1
+Naive cycle length (# of agents):  162
+GCD cycle length:  81
+OD pair: 92-3
+Naive cycle length (# of agents):  247
+GCD cycle length:  247
+OD pair: 92-5
+Naive cycle length (# of agents):  23
+GCD cycle length:  23
+OD pair: 92-6
+Naive cycle length (# of agents):  55
+GCD cycle length:  11
+OD pair: 92-7
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 92-8
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 92-9
+Naive cycle length (# of agents):  61
+GCD cycle length:  61
+OD pair: 92-10
+Naive cycle length (# of agents):  156
+GCD cycle length:  156
+OD pair: 92-11
+Naive cycle length (# of agents):  86
+GCD cycle length:  86
+OD pair: 92-12
+Naive cycle length (# of agents):  72
+GCD cycle length:  72
+OD pair: 92-13
+Naive cycle length (# of agents):  104
+GCD cycle length:  104
+OD pair: 92-14
+Naive cycle length (# of agents):  59
+GCD cycle length:  59
+OD pair: 92-15
+Naive cycle length (# of agents):  255
+GCD cycle length:  85
+OD pair: 92-16
+Naive cycle length (# of agents):  529
+GCD cycle length:  529
+OD pair: 92-17
+Naive cycle length (# of agents):  319
+GCD cycle length:  319
+OD pair: 92-18
+Naive cycle length (# of agents):  325
+GCD cycle length:  325
+OD pair: 92-19
+Naive cycle length (# of agents):  264
+GCD cycle length:  66
+OD pair: 92-20
+Naive cycle length (# of agents):  130
+GCD cycle length:  130
+OD pair: 92-21
+Naive cycle length (# of agents):  37
+GCD cycle length:  37
+OD pair: 92-22
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 92-23
+Naive cycle length (# of agents):  60
+GCD cycle length:  60
+OD pair: 92-24
+Naive cycle length (# of agents):  48
+GCD cycle length:  6
+OD pair: 92-25
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 92-27
+Naive cycle length (# of agents):  56
+GCD cycle length:  56
+OD pair: 92-31
+Naive cycle length (# of agents):  194
+GCD cycle length:  97
+OD pair: 92-32
+Naive cycle length (# of agents):  133
+GCD cycle length:  133
+OD pair: 92-33
+Naive cycle length (# of agents):  50
+GCD cycle length:  25
+OD pair: 92-34
+Naive cycle length (# of agents):  107
+GCD cycle length:  107
+OD pair: 92-35
+Naive cycle length (# of agents):  222
+GCD cycle length:  74
+OD pair: 92-36
+Naive cycle length (# of agents):  201
+GCD cycle length:  201
+OD pair: 92-37
+Naive cycle length (# of agents):  236
+GCD cycle length:  236
+OD pair: 92-38
+Naive cycle length (# of agents):  35
+GCD cycle length:  7
+OD pair: 92-39
+Naive cycle length (# of agents):  39
+GCD cycle length:  39
+OD pair: 92-41
+Naive cycle length (# of agents):  100
+GCD cycle length:  100
+OD pair: 92-42
+Naive cycle length (# of agents):  122
+GCD cycle length:  122
+OD pair: 92-43
+Naive cycle length (# of agents):  94
+GCD cycle length:  94
+OD pair: 92-44
+Naive cycle length (# of agents):  289
+GCD cycle length:  289
+OD pair: 92-47
+Naive cycle length (# of agents):  12
+GCD cycle length:  6
+OD pair: 92-51
+Naive cycle length (# of agents):  87
+GCD cycle length:  87
+OD pair: 92-52
+Naive cycle length (# of agents):  78
+GCD cycle length:  78
+OD pair: 92-65
+Naive cycle length (# of agents):  230
+GCD cycle length:  115
+OD pair: 92-71
+Naive cycle length (# of agents):  341
+GCD cycle length:  341
+OD pair: 92-74
+Naive cycle length (# of agents):  207
+GCD cycle length:  207
+OD pair: 92-75
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 92-76
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 92-77
+Naive cycle length (# of agents):  33
+GCD cycle length:  11
+OD pair: 92-78
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 92-80
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 92-84
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 92-85
+Naive cycle length (# of agents):  22
+GCD cycle length:  22
+OD pair: 92-87
+Naive cycle length (# of agents):  15
+GCD cycle length:  15
+OD pair: 92-88
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 92-103
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 92-105
+Naive cycle length (# of agents):  41
+GCD cycle length:  41
+OD pair: 92-106
+Naive cycle length (# of agents):  18
+GCD cycle length:  9
+OD pair: 92-107
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 92-108
+Naive cycle length (# of agents):  65
+GCD cycle length:  65
+OD pair: 92-109
+Naive cycle length (# of agents):  96
+GCD cycle length:  96
+OD pair: 93-17
+Naive cycle length (# of agents):  74
+GCD cycle length:  74
+OD pair: 93-18
+Naive cycle length (# of agents):  89
+GCD cycle length:  89
+OD pair: 93-19
+Naive cycle length (# of agents):  312
+GCD cycle length:  312
+OD pair: 93-20
+Naive cycle length (# of agents):  74
+GCD cycle length:  74
+OD pair: 93-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 93-85
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 93-98
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 93-108
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 94-1
+Naive cycle length (# of agents):  27
+GCD cycle length:  9
+OD pair: 94-3
+Naive cycle length (# of agents):  36
+GCD cycle length:  9
+OD pair: 94-5
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 94-6
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 94-7
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 94-8
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 94-9
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 94-10
+Naive cycle length (# of agents):  35
+GCD cycle length:  35
+OD pair: 94-11
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 94-12
+Naive cycle length (# of agents):  33
+GCD cycle length:  33
+OD pair: 94-13
+Naive cycle length (# of agents):  32
+GCD cycle length:  32
+OD pair: 94-14
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 94-15
+Naive cycle length (# of agents):  64
+GCD cycle length:  64
+OD pair: 94-20
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 94-23
+Naive cycle length (# of agents):  32
+GCD cycle length:  16
+OD pair: 94-24
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 94-25
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 94-26
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 94-27
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 94-28
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 94-29
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 94-30
+Naive cycle length (# of agents):  6
+GCD cycle length:  2
+OD pair: 94-31
+Naive cycle length (# of agents):  73
+GCD cycle length:  73
+OD pair: 94-32
+Naive cycle length (# of agents):  36
+GCD cycle length:  9
+OD pair: 94-33
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 94-34
+Naive cycle length (# of agents):  19
+GCD cycle length:  19
+OD pair: 94-35
+Naive cycle length (# of agents):  68
+GCD cycle length:  34
+OD pair: 94-36
+Naive cycle length (# of agents):  46
+GCD cycle length:  46
+OD pair: 94-37
+Naive cycle length (# of agents):  45
+GCD cycle length:  45
+OD pair: 94-38
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 94-39
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 94-40
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 94-41
+Naive cycle length (# of agents):  48
+GCD cycle length:  48
+OD pair: 94-44
+Naive cycle length (# of agents):  71
+GCD cycle length:  71
+OD pair: 94-45
+Naive cycle length (# of agents):  25
+GCD cycle length:  25
+OD pair: 94-52
+Naive cycle length (# of agents):  24
+GCD cycle length:  3
+OD pair: 94-53
+Naive cycle length (# of agents):  20
+GCD cycle length:  20
+OD pair: 94-74
+Naive cycle length (# of agents):  51
+GCD cycle length:  51
+OD pair: 94-75
+Naive cycle length (# of agents):  14
+GCD cycle length:  7
+OD pair: 94-76
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 94-77
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 94-78
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 94-80
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 94-84
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 94-85
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 94-87
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 94-90
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 94-105
+Naive cycle length (# of agents):  13
+GCD cycle length:  13
+OD pair: 95-1
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 95-3
+Naive cycle length (# of agents):  43
+GCD cycle length:  43
+OD pair: 95-6
+Naive cycle length (# of agents):  7
+GCD cycle length:  7
+OD pair: 95-9
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 95-10
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 95-11
+Naive cycle length (# of agents):  10
+GCD cycle length:  10
+OD pair: 95-12
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 95-13
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 95-15
+Naive cycle length (# of agents):  31
+GCD cycle length:  31
+OD pair: 95-22
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 95-24
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 95-31
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 95-32
+Naive cycle length (# of agents):  12
+GCD cycle length:  12
+OD pair: 95-33
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 95-35
+Naive cycle length (# of agents):  16
+GCD cycle length:  16
+OD pair: 95-36
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 95-37
+Naive cycle length (# of agents):  24
+GCD cycle length:  12
+OD pair: 95-38
+Naive cycle length (# of agents):  3
+GCD cycle length:  3
+OD pair: 95-39
+Naive cycle length (# of agents):  8
+GCD cycle length:  8
+OD pair: 95-41
+Naive cycle length (# of agents):  17
+GCD cycle length:  17
+OD pair: 95-44
+Naive cycle length (# of agents):  30
+GCD cycle length:  10
+OD pair: 95-45
+Naive cycle length (# of agents):  28
+GCD cycle length:  28
+OD pair: 95-52
+Naive cycle length (# of agents):  11
+GCD cycle length:  11
+OD pair: 95-53
+Naive cycle length (# of agents):  9
+GCD cycle length:  9
+OD pair: 95-74
+Naive cycle length (# of agents):  21
+GCD cycle length:  21
+OD pair: 95-75
+Naive cycle length (# of agents):  6
+GCD cycle length:  6
+OD pair: 95-78
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 95-84
+Naive cycle length (# of agents):  6
+GCD cycle length:  3
+OD pair: 95-105
+Naive cycle length (# of agents):  8
+GCD cycle length:  4
+OD pair: 97-1
+Naive cycle length (# of agents):  128
+GCD cycle length:  16
+OD pair: 97-29
+Naive cycle length (# of agents):  42
+GCD cycle length:  7
+OD pair: 97-74
+Naive cycle length (# of agents):  10
+GCD cycle length:  5
+OD pair: 97-77
+Naive cycle length (# of agents):  2
+GCD cycle length:  2
+OD pair: 97-105
+Naive cycle length (# of agents):  5
+GCD cycle length:  5
+OD pair: 98-48
+Naive cycle length (# of agents):  180
+GCD cycle length:  180
+OD pair: 98-58
+Naive cycle length (# of agents):  180
+GCD cycle length:  36
+OD pair: 98-71
+Naive cycle length (# of agents):  172
+GCD cycle length:  86
+OD pair: 99-10
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 99-11
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 99-13
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 99-15
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 99-16
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
+OD pair: 99-33
+Naive cycle length (# of agents):  4
+GCD cycle length:  2
+OD pair: 99-42
+Naive cycle length (# of agents):  4
+GCD cycle length:  4
