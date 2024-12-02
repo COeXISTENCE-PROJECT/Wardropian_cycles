@@ -3,8 +3,6 @@
 import numpy as np
 from utils import unify_paths
 
-
-
 def read_input(filename: str, pairs: list):
     od_pairs = []
     with open(filename, 'r') as f:

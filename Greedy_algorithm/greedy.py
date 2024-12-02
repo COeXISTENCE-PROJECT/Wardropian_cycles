@@ -18,12 +18,12 @@ class Agent:
     def __init__(self, id=0):
         self.id = id
         self.sum_time = 0.0
-        self.inequity = 0.0
+        self.sum_deviation = 0.0
 
     def add_time(self, time, mean_time):
         self.sum_time += time
         self.sum_time = round(self.sum_time * 1000) / 1000
-        self.inequity += time - mean_time
+        self.sum_deviation += time - mean_time
 
     def __lt__(self, other):
         # The agent with the highest sum of times is first
@@ -56,7 +56,7 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
     mean = []
     variance = []
     fairness = []
-    fairness_stand = []
+    fairness_norm = []
     almost_convergence = [-1] * len(thresholds)
 
     def prepare_routes():
@@ -90,12 +90,12 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
                 print(f"Agent {agent.id} has time {agent.sum_time}")
         step_mean = sum(agent.sum_time for agent in agents) / len(agents)
         step_variance = sum((agent.sum_time - step_mean) ** 2 for agent in agents) / len(agents)
-        step_fairness = sum(pow(agent.inequity, 2) for agent in agents) / (len(agents) * mean_time)
+        step_fairness = sum(pow(agent.sum_deviation, 2) for agent in agents) / (len(agents))
         history.append(agent_history)
         mean.append(step_mean)
         variance.append(step_variance)
         fairness.append(step_fairness)
-        fairness_stand.append(step_fairness /fairness[0])
+        fairness_norm.append(step_fairness /fairness[0]) # normalize fairness to make it comparable
         if(len(mean) != len(variance)):
             print("Error: mean and variance are not the same length")
             print("Mean: ", len(mean))
@@ -114,9 +114,9 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
             print(f"Converged in {cntr} steps!")
         return True
     
-    def fairness_convergence(eps):
+    def norm_fairness_convergence(eps):
         # if fairness is less than eps
-        if fairness[-1] < eps:
+        if fairness_norm[-1] < eps:
             return True
         return False
     
@@ -135,7 +135,7 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
                 print(f"Agent {agent.id} has time {agent.sum_time}")
             
         for i, threshold in enumerate(thresholds):
-            if almost_convergence[i] == -1 and fairness_convergence(threshold):
+            if almost_convergence[i] == -1 and norm_fairness_convergence(threshold):
                 almost_convergence[i] = cntr
 
         if check_convergence(eps, cntr):
@@ -150,15 +150,16 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
         "mean": mean,
         "variance": variance,
         "fairness": fairness,
-        "fairness_stand": fairness_stand,
+        "fairness_norm": fairness_norm,
         "almost_convergence": almost_convergence
     }
 
 # Example usage of the run_simulation function
 if __name__ == "__main__":
-    num_agents = 5
-    route_data = [(2, 10.0), (3, 5.0), (1, 8.0)]
-    thresholds = [0.1, 0.01, 0.001]
+    num_agents = 9
+    route_data = [(2, 15.0), (3, 14.0), (4, 9.0)]
+    avg_time = sum(q * t for q, t in route_data) / num_agents
+    thresholds = [0.3, 0.1, 0.05]
     results = run_simulation(num_agents, route_data, thresholds,max_steps=10000, eps=0.1)
 
     # Output the results
@@ -169,3 +170,4 @@ if __name__ == "__main__":
     print("Fairness:", results["fairness"])
     print("Converged:", results["convergence"][0])  
     print("Convergence thresholds:", results["almost_convergence"])
+    print("average time", avg_time)
