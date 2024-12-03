@@ -1,10 +1,66 @@
 from typing import Tuple
 from pathlib import Path
-
+import networkx as nx
 
 def get_project_root() -> Path:
     return Path(__file__).resolve().parent.absolute()
 
+
+class Agent:
+    def __init__(self, id=0):
+        self.id = id
+        self.sum_time = 0.0
+        self.sum_deviation = 0.0
+
+    def add_time(self, time, mean_time):
+        self.sum_time += time
+        self.sum_time = round(self.sum_time * 1000) / 1000
+        self.sum_deviation += time - mean_time
+
+    def __lt__(self, other):
+        # The agent with the highest sum of times is first
+        return self.sum_time < other.sum_time
+
+class Route:
+    def __init__(self, time: float, flow: float, id: int = 0, path: list = []):
+        self.time = time
+        self.flow = flow
+        self.path = path
+        self.id = id
+        
+    def get_num_routes(self):
+        return len(self.path)
+        
+    def __str__(self):
+        return f'route: {self.time} {self.flow} {self.path}'
+
+    def __lt__(self, other):
+        # The route with the highest time is first
+        return self.time > other.time
+    
+class OD_pair:
+    def __init__(self, origin: int, destination: int, flow: float):
+        self.origin = int(origin)
+        self.destination = int(destination)
+        self.flow = flow
+        self.graph = {}
+        self.routes = []
+        
+    def add_graph(self, graph: nx.Graph):
+        self.graph = graph
+    
+    def add_routes(self, routes: Route):
+        self.routes.append(routes)
+    
+    def set_routes(self, routes: list):
+        self.routes = routes
+    
+    def recalculate_flow(self):
+        self.flow = sum([route.flow for route in self.routes])
+    
+    def __str__(self):
+        return f'pair: {self.origin} {self.destination} {self.flow}'
+    
 
 class PathUtils:
     """

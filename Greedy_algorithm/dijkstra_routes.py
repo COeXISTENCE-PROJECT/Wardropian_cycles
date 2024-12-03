@@ -2,40 +2,22 @@ import networkx as nx
 import numpy as np
 from os import listdir
 from os.path import isfile, join
-from utils import round_trip_time_and_flow, PATH, _debug, ROUND
+from utils import round_trip_time_and_flow, PATH, _debug, ROUND, OD_pair, Route
 # in this file I create routes from times and flows on each segment using Dijkstra algorithm for finding shortest path in the graph.
 
 
-class Route:
-    def __init__(self, time: float, flow: float, path: list):
-        self.time = time
-        self.flow = flow
-        self.path = path
-        
-    def __str__(self):
-        return f'route: {self.time} {self.flow} {self.path}'
-
-class OD_pair:
-    def __init__(self, origin: int, destination: int, flow: float):
-        self.origin = int(origin)
-        self.destination = int(destination)
-        self.flow = flow
-        self.graph = {}
-        self.routes = []
-        
-    def add_graph(self, graph: nx.Graph):
-        self.graph = graph
-    
-    def add_routes(self, routes: Route):
-        self.routes.append(routes)
-    
-    def set_routes(self, routes: list):
-        self.routes = routes
-    
-    def __str__(self):
-        return f'pair: {self.origin} {self.destination} {self.flow}'
 
 def read_input(filename: str, pairs: list):
+    '''
+    Read the input file and create OD pairs using the graph representing the network
+    
+    Parameters:
+        filename: str - the name of the file to read
+        pairs: list - the list of OD pairs to be filled
+    
+    Returns:
+        None
+    '''
     with open(filename, 'r') as f:
         lines = f.readlines()
         # skip the header
@@ -69,7 +51,13 @@ def read_input(filename: str, pairs: list):
 
 def unify_same_time_paths(pairs: list):
     '''
-        Unify paths with the same time
+    Unify paths with the same time, changes are made in place
+    
+    Parameters:
+        pairs: list - the list of OD pairs
+        
+    Returns:
+        None
     '''
     for pair in pairs:
         if len(pair.routes) == 1:
@@ -84,7 +72,14 @@ def unify_same_time_paths(pairs: list):
 
 def average_paths(pairs: list):
     '''
-        Average paths with the same origin and destination - used for UE (since this is the UE assumption)
+    Make average path out of paths with the same origin and destination - used for UE (since this is the UE assumption)
+    Changes are made in place
+    
+    Parameters:
+        pairs: list - the list of OD pairs
+        
+    Returns:
+        None
     '''
     for pair in pairs:
         if len(pair.routes) == 1:
@@ -119,6 +114,15 @@ def write_results(filename: str, pairs: list, asignment_type = 'SO'):
     
 
 def calculate_routes(pairs: list):
+    '''
+    Calculate the routes for each OD pair using Dijkstra algorithm from the graph
+    
+    Parameters:
+        pairs: list - the list of OD pairs
+        
+    Returns:
+        list - the list of OD pairs with routes filled and flows updated
+    '''
     for pair in pairs:
         graph = pair.graph
         routes = {}
@@ -152,7 +156,7 @@ def calculate_routes(pairs: list):
                 sum_time = 0
                 for i in range(len(route) - 1):
                     sum_time += graph[route[i]][route[i+1]]['time']
-                od_route = Route(sum_time, min_flow, route)
+                od_route = Route(sum_time, min_flow, pair.get_num_routes(), route)
                   
                 # remove the empty edges
                 for i in range(len(route) - 1):

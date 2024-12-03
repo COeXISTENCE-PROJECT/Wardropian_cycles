@@ -1,37 +1,21 @@
 import math
 import csv
 from functools import reduce
+from utils import Route, Agent
 
 
-class Route:
-    def __init__(self, id=0, flow=0, time=0.0):
-        self.id = id
-        self.flow= flow
-        self.time = time
-
-    def __lt__(self, other):
-        # The route with the highest time is first
-        return self.time > other.time
-
-
-class Agent:
-    def __init__(self, id=0):
-        self.id = id
-        self.sum_time = 0.0
-        self.sum_deviation = 0.0
-
-    def add_time(self, time, mean_time):
-        self.sum_time += time
-        self.sum_time = round(self.sum_time * 1000) / 1000
-        self.sum_deviation += time - mean_time
-
-    def __lt__(self, other):
-        # The agent with the highest sum of times is first
-        return self.sum_time < other.sum_time
 
 def prep_data(route_data):
-    # Prepare the data for the simulation - round q to the nearest integer
-    # route data is a list of Route objects
+    '''
+    Prepare the data for the simulation - round q to the nearest integer
+    
+    Parameters:
+        route_data (list of tuple): Each tuple represents a route as (flow, time), where flow is the number of agents that can take this route, and time is the associated time.
+        recommended to use the Route object from utils.py
+        
+    Returns:
+        tuple: A tuple containing the total number of agents needed and the route data.
+    '''
     route_data = [(round(r.flow), r.time) for r in route_data]
     # calculate the total number of agents needed
     total_agents = sum(q for q, _ in route_data)

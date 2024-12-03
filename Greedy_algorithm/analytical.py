@@ -1,8 +1,19 @@
 from utils import *
 from dijkstra_routes import read_input, calculate_routes, unify_same_time_paths
 from math import gcd
+from random import randint
+from utils import Route, OD_pair
 
 def solve_pair(OD_pair):
+    '''
+    Solve the OD pair using the analytical solution.
+    
+    Parameters:
+        OD_pair (OD_pair): The OD pair to solve. The OD pair should have a list of routes.
+        
+    Returns:
+        dict: A dictionary containing the number of agents needed for the naive and gcd solutions.
+    '''
     result = {}
     agents = sum([round(route.flow) for route in OD_pair.routes])
     result["naive"] = agents
@@ -14,6 +25,15 @@ def solve_pair(OD_pair):
     return result
 
 def analytical_simulation(pairs):
+    '''
+    Analytically solve the OD pairs.
+    
+    Parameters:
+        pairs (list of OD_pair): The OD pairs to solve.
+        
+    Returns:
+        list: A list of dictionaries containing the lengths of cycles in the naive and gcd solutions.
+    '''
     res = []
     for pair in pairs:
         if num_of_routes(pair.routes) < 2:
@@ -26,13 +46,16 @@ def analytical_simulation(pairs):
 # Example usage of the analytical_simulation function    
 if __name__ == "__main__":
     
-    name = str(PathUtils.barcelona_net_file )
-    name = name.split("/")[-1].split("_")[0]
     pairs_SO = []
-    read_input(f'./assignments/{name}_result_SO_OD_pairs0001.txt', pairs_SO)
-    pairs_SO = calculate_routes(pairs_SO)
-    pairs_SO = unify_same_time_paths(pairs_SO)
-    
+    for i in range(1,10):
+        pair = OD_pair(i, i+1, 0.0)
+        for j in range(1,randint(2,5)):
+            time = randint(1,10)
+            flow = randint(1,10)
+            pair.add_routes(Route(time, flow, j))
+        pair.recalculate_flow()
+        pairs_SO.append(pair)
+        
     res = analytical_simulation(pairs_SO)
     
     # Output the results
