@@ -28,9 +28,6 @@ class Route:
         self.path = path
         self.id = id
         
-    def get_num_routes(self):
-        return len(self.path)
-        
     def __str__(self):
         return f'route: {self.time} {self.flow} {self.path}'
 
@@ -54,6 +51,9 @@ class OD_pair:
     
     def set_routes(self, routes: list):
         self.routes = routes
+        
+    def get_num_routes(self):
+        return len(self.routes)
     
     def recalculate_flow(self):
         self.flow = sum([route.flow for route in self.routes])
@@ -93,7 +93,7 @@ class PathUtils:
     sioux_falls_trips_file = input_networks_folder / "SiouxFalls_trips.tntp"
     winnipeg_trips_file = input_networks_folder / "Winnipeg_trips.tntp"
     
-
+    # Time files
 
 
 
@@ -117,3 +117,54 @@ def num_of_routes(routes: list) -> int:
         if route.flow > 1:
             cntr += 1
     return cntr
+
+
+
+# Cost functions for the assignment problem
+import math
+import numpy as np
+
+def BPRcostFunction(optimal: bool,
+                    fft: float,
+                    alpha: float,
+                    flow: float,
+                    capacity: float,
+                    beta: float,
+                    length: float,
+                    maxSpeed: float
+                    ) -> float:
+    if capacity < 1e-3:
+        return np.finfo(np.float32).max
+    if optimal:
+        return fft * (1 + (alpha * math.pow((flow * 1.0 / capacity), beta)) * (beta + 1))
+    return fft * (1 + alpha * math.pow((flow * 1.0 / capacity), beta))
+
+
+def constantCostFunction(optimal: bool,
+                         fft: float,
+                         alpha: float,
+                         flow: float,
+                         capacity: float,
+                         beta: float,
+                         length: float,
+                         maxSpeed: float
+                         ) -> float:
+    if optimal:
+        return fft + flow
+    return fft
+
+
+def greenshieldsCostFunction(optimal: bool,
+                             fft: float,
+                             alpha: float,
+                             flow: float,
+                             capacity: float,
+                             beta: float,
+                             length: float,
+                             maxSpeed: float
+                             ) -> float:
+    if capacity < 1e-3:
+        return np.finfo(np.float32).max
+    if optimal:
+        return (length * (capacity ** 2)) / (maxSpeed * (capacity - flow) ** 2)
+    return length / (maxSpeed * (1 - (flow / capacity)))
