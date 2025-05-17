@@ -1,5 +1,6 @@
 import networkx as nx
 import numpy as np
+import matplotlib.pyplot as plt
 from os import listdir
 from os.path import isfile, join
 from utils import round_trip_time_and_flow, PATH, _debug, ROUND, OD_pair, Route
@@ -133,7 +134,6 @@ def calculate_routes(pairs: list):
             print(o, d)
             print(graph.edges(data=True))
             #plot graph
-            import matplotlib.pyplot as plt
             pos = nx.spring_layout(graph)
             nx.draw(graph, pos, with_labels=True)
             labels = nx.get_edge_attributes(graph, 'time')
