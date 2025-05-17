@@ -119,6 +119,23 @@ def num_of_routes(routes: list) -> int:
     return cntr
 
 
+def plot_stats():
+    '''
+    Plot the statistics of the simulation.
+    '''
+    data = pd.read_csv('stats.csv')
+
+    # plot the mean and variance over time
+
+    plt.figure()
+    # plt.plot(data['Mean'], label='mean')
+    plt.plot(data['Variance'], label='variance')
+    plt.xlabel('days')
+    plt.ylabel('value')
+
+    plt.legend()
+    plt.show()
+
 
 # Cost functions for the assignment problem
 import math

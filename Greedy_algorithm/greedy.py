@@ -17,6 +17,8 @@ def prep_data(route_data):
         tuple: A tuple containing the total number of agents needed and the route data.
     '''
     route_data = [(round(r.flow), r.time) for r in route_data]
+    # remove routes with 0 flow
+    route_data = [r for r in route_data if r[0] > 0]
     # calculate the total number of agents needed
     total_agents = sum(q for q, _ in route_data)
     return total_agents, route_data
@@ -35,7 +37,7 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
         dict: A dictionary containing the history of agent positions, mean times, variances and fairness for each step.
     """
     agents = [Agent(i) for i in range(num_agents)]
-    routes = [Route(j, q, t) for j, (q, t) in enumerate(route_data)]
+    routes = [Route(t,q,j) for j, (q, t) in enumerate(route_data)]
     history = []
     mean = []
     variance = []
@@ -110,14 +112,20 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
     converged = False
     convergence_iter = -1
     mean_time = sum(route.flow * route.time for route in routes) / num_agents
+    if debug:
+        print(f"Mean time: {mean_time}")
+        print(f"Initial routes:" + str([(r.flow, r.time) for r in routes]))
     while cntr < max_steps:
         cntr += 1
         simulation_step()
-        if cntr % 100 == 0 and debug:
+        if cntr % len(agents) == 0 and debug:
             print(f"Step {cntr} stats:")
-            for agent in agents:
-                print(f"Agent {agent.id} has time {agent.sum_time}")
-            
+            # print for each agent number of times it has been assigned to each route
+            for i in range(len(agents)):
+                tab = [0] * len(routes)
+                for j in range(len(history)):
+                    tab[history[j][i]] += 1
+                print(f"Agent {i} has been assigned to routes: {tab}")
         for i, threshold in enumerate(thresholds):
             if almost_convergence[i] == -1 and norm_fairness_convergence(threshold):
                 almost_convergence[i] = cntr

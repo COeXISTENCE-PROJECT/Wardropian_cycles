@@ -5,7 +5,13 @@ import openmatrix as omx
 from utils import PathUtils
 
 
-def import_network(network_file: str, demand_file: str, force_reprocess: bool = False):
+def import_network(
+    network_file: str,
+    demand_file: str,
+    UE_od_link_assignment_file: str = None,
+    UE_trip_times_file: str = None,
+    force_reprocess: bool = False
+    ):
     """
     This method imports the network and the demand from the respective tntp files (see ttps://github.com/bstabler/TransportationNetworks)
     After having imported them, it stores them in a quicker format in the same directory as the input files,
@@ -13,8 +19,10 @@ def import_network(network_file: str, demand_file: str, force_reprocess: bool = 
 
     :param network_file: network (net) file name
     :param demand_file: demand (trips) file name
+    :param UE_link_assignment: User Equilibrium link assignment file name (initial link flows for CSO)
+    :param UE_trip_times_file: trip times of the User Equilibrium assignment
     :param force_reprocess: True if the network should be reprocessed from the tntp file
-    :return: None
+    :return: network_df, demand_df, UE_od_link_df, UE_trips_df
     """
 
     network_file_csv = network_file.split(".")[0].split("/")[-1] + ".csv"
@@ -51,7 +59,25 @@ def import_network(network_file: str, demand_file: str, force_reprocess: bool = 
                          sep='\t',
                          index=False)
 
-    return net_df, demand_df
+    UE_trips_df = None
+    if UE_trip_times_file:
+        UE_trip_times_file_csv = PathUtils.processed_networks_folder / (UE_trip_times_file.split(".")[1].split("/")[-1] + ".csv")
+        if UE_trip_times_file_csv.is_file():
+            UE_trips_df = pd.read_csv(str(UE_trip_times_file_csv),
+                                    sep=',')
+            
+    UE_od_link_df = None
+    if UE_od_link_assignment_file:
+        UE_od_link_assignment_file_csv = PathUtils.processed_networks_folder / (UE_od_link_assignment_file.split(".")[1].split("/")[-1] + ".csv")
+        if UE_od_link_assignment_file_csv.is_file():
+            UE_od_link_df = pd.read_csv(str(UE_od_link_assignment_file_csv),
+                                    sep=',')
+    
+            
+    # initialize on the UE distribution of the trips
+    UE_od_split = None
+            
+    return net_df, demand_df, UE_od_link_df, UE_trips_df
 
 
 def _net_file2df(network_file: str):
@@ -115,3 +141,8 @@ def _demand_file2matrix(demand_file: str, omx_write_file_path: str = None):  # R
 
     return mat
 
+def _read_UE_time(ue_file: str):
+    '''
+        for the CSO, reads the file with UE results and returns the dictionary od -> OD_time for User Equilibrium
+    '''
+    

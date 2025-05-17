@@ -46,23 +46,32 @@ def analytical_simulation(pairs):
 # Example usage of the analytical_simulation function    
 if __name__ == "__main__":
     
-    pairs_SO = []
-    for i in range(1,10):
-        pair = OD_pair(i, i+1, 0.0)
-        for j in range(1,randint(2,5)):
-            time = randint(1,10)
-            flow = randint(1,10)
-            pair.add_routes(Route(time, flow, j))
-        pair.recalculate_flow()
-        pairs_SO.append(pair)
+    # pairs_SO = []
+    # for i in range(1,10):
+    #     pair = OD_pair(i, i+1, 0.0)
+    #     for j in range(1,randint(2,5)):
+    #         time = randint(1,10)
+    #         flow = randint(1,10)
+    #         pair.add_routes(Route(time, flow, j))
+    #     pair.recalculate_flow()
+    #     pairs_SO.append(pair)
+    net_file = str(PathUtils.sioux_falls_net_file)
+    name = net_file.split("/")[-1].split("_")[0]
+    
+    pairs_CSO = []
+    read_input(f'./assignments/{name}_result_SO_OD_pairs.txt', pairs_CSO)
+    pairs_CSO = calculate_routes(pairs_CSO)
+    pairs_CSO = unify_same_time_paths(pairs_CSO)
+    # write_results(f'./assignments/{name}_result_CSO_routes.txt', pairs_CSO, 'CSO')
+
         
-    res = analytical_simulation(pairs_SO)
+    res = analytical_simulation(pairs_CSO)
     
     # Output the results
     for r in res:
         if r["naive"] == 0:
             continue
-        print("OD pair:", r["origin"],"-", r["destination"], sep="")
+        print("OD pair: ", r["origin"],"-", r["destination"], sep="")
         print("Naive cycle length (# of agents): ", r["naive"])
         print("GCD cycle length: ", r["gcd"])
         
