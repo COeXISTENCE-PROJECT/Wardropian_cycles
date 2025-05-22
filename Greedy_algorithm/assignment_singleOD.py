@@ -167,11 +167,15 @@ def BPRcostFunction(optimal: bool,
     full_flow = flow + noiseFlow
     if capacity < 1e-3:
         return np.finfo(np.float32).max
+
+    if full_flow < 1e-6:
+        return fft
+
     if optimal:
-        if full_flow < 1e-5:
-            return fft
-        return fft * (1 + (alpha * math.pow(((full_flow * 1.0) / capacity), beta)) * (beta*(flow/full_flow) + 1))
-    return fft * (1 + alpha * math.pow(((full_flow * 1.0) / capacity), beta))
+        ratio = flow / full_flow if full_flow > 1e-6 else 0
+        return fft * (1 + alpha * (full_flow / capacity)**beta * (beta * ratio + 1))
+
+    return fft * (1 + alpha * (full_flow / capacity)**beta)
 
 
 def constantCostFunction(optimal: bool,
@@ -247,8 +251,12 @@ def findAlpha(x_bar, network: FlowTransportNetwork, optimal: bool = False, costF
                                    )
             sum_derivative = sum_derivative + (x_bar[l] - network.linkSet[l].flow) * tmpCost
         return sum_derivative
-    
-    sol = scipy.optimize.root_scalar(df, x0=np.array([0.5]), bracket=(0, 1))
+    if df(0.0) * df(1.0) < 0:
+        sol = scipy.optimize.root_scalar(df, x0=np.array([0.5]), bracket=(0, 1))
+    else:
+        # return the value of alpha that gives the minimum value of the function
+        print("Warning: the function's derivative is not changing sign in the interval [0, 1]")
+        sol = scipy.optimize.minimize_scalar(df, bounds=(0, 1), method='bounded')
     assert 0 <= sol.root <= 1
     return sol.root
 
