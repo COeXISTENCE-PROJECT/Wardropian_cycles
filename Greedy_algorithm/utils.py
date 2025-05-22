@@ -1,6 +1,8 @@
 from typing import Tuple
 from pathlib import Path
 import networkx as nx
+import matplotlib.pyplot as plt
+import pandas as pd
 
 def get_project_root() -> Path:
     return Path(__file__).resolve().parent.absolute()
@@ -83,6 +85,9 @@ class PathUtils:
     eastern_massachusetts_net_file = input_networks_folder / "EMA_net.tntp"
     sioux_falls_net_file = input_networks_folder / "SiouxFalls_net.tntp"
     winnipeg_net_file = input_networks_folder / "Winnipeg_net.tntp"
+    berlin_prenzlauberg_center_net_file = input_networks_folder / "Berlin-Prenzlauerberg-Center_net.tntp"
+    terrassa_net_file = input_networks_folder / "Terrassa-Asym_net.tntp"
+    berlin_tiergarten_net_file = input_networks_folder / "Berlin-Tiergarten_net.tntp"
     
     # Demand files
     anaheim_trips_file = input_networks_folder / "Anaheim_trips.tntp"
@@ -92,7 +97,9 @@ class PathUtils:
     eastern_massachusetts_trips_file = input_networks_folder / "EMA_trips.tntp"
     sioux_falls_trips_file = input_networks_folder / "SiouxFalls_trips.tntp"
     winnipeg_trips_file = input_networks_folder / "Winnipeg_trips.tntp"
-    
+    berlin_prenzlauberg_center_trips_file = input_networks_folder / "Berlin-Prenzlauerberg-Center_trips.tntp"
+    terrassa_trips_file = input_networks_folder / "Terrassa-Asym_trips.tntp"
+    berlin_tiergarten_trips_file = input_networks_folder / "Berlin-Tiergarten_trips.tntp"
     # Time files
 
 

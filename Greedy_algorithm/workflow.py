@@ -3,8 +3,8 @@ from utils import PathUtils, num_of_routes
 from dijkstra_routes import read_input, write_results, calculate_routes, unify_same_time_paths, average_paths
 from greedy import run_simulation, prep_data
 
-_compute_assignments = False
-
+_compute_assignments = True
+_compute_CSO = False
 
 if __name__ == "__main__":
     net_file = str(PathUtils.sioux_falls_net_file)
@@ -15,20 +15,21 @@ if __name__ == "__main__":
                                                             costFunction=BPRcostFunction,
                                                             systemOptimal=True,
                                                             verbose=True,
-                                                            accuracy=0.00005,
+                                                            accuracy=0.000005,
                                                             maxIter=6000,
-                                                            maxTime=6000000,results_file=f'./assignments/{name}_result_SO.txt',force_net_reprocess=True)
+                                                            maxTime=6000000,results_file=f'./assignments/{name}_fixedBPR_result_SO.txt',force_net_reprocess=True)
 
         total_system_travel_time_equilibrium = computeAssignment(net_file=net_file,
                                                                 algorithm="FW",
                                                                 costFunction=BPRcostFunction,
                                                                 systemOptimal=False,
                                                                 verbose=True,
-                                                                accuracy=0.00005,
+                                                                accuracy=0.000005,
                                                                 maxIter=6000,
                                                                 maxTime=6000000, results_file=f'./assignments/{name}_result_UE.txt')
-        
-        total_system_travel_time_constrained_optimal = computeAssignment(net_file=net_file,
+
+        if _compute_CSO:
+            total_system_travel_time_constrained_optimal = computeAssignment(net_file=net_file,
                                                                 algorithm="FW",
                                                                 costFunction=BPRcostFunction,
                                                                 systemOptimal=True,
@@ -39,14 +40,15 @@ if __name__ == "__main__":
                                                                 CSO=(True,f'./assignments/{name}_result_UE.txt'))
 
         print("Computed for: ", name)
-        print("UE - SO = ", total_system_travel_time_equilibrium - total_system_travel_time_optimal)
-        print("CSO - SO = ", total_system_travel_time_constrained_optimal - total_system_travel_time_optimal)
+        # print("UE - SO = ", total_system_travel_time_equilibrium - total_system_travel_time_optimal)
+        # if _compute_CSO:
+        #     print("CSO - SO = ", total_system_travel_time_constrained_optimal - total_system_travel_time_optimal)
     
     pairs_SO = []
-    read_input(f'./assignments/{name}_result_SO_OD_pairs.txt', pairs_SO)
+    read_input(f'./assignments/{name}_fixedBPR_result_SO_OD_pairs.txt', pairs_SO)
     pairs_SO = calculate_routes(pairs_SO)
     pairs_SO = unify_same_time_paths(pairs_SO)
-    write_results(f'./assignments/{name}_result_SO_routes.txt', pairs_SO, 'SO')
+    write_results(f'./assignments/{name}_result_fixedBPR_SO_routes.txt', pairs_SO, 'SO')
     
     pairs_UE = []
     read_input(f'./assignments/{name}_result_UE_OD_pairs.txt', pairs_UE)
@@ -54,11 +56,12 @@ if __name__ == "__main__":
     pairs_UE = average_paths(pairs_UE)
     write_results(f'./assignments/{name}_result_UE_routes.txt', pairs_UE, 'UE')
     
-    pairs_CSO = []
-    read_input(f'./assignments/{name}_result_SO_CSO_OD_pairs.txt', pairs_CSO)
-    pairs_CSO = calculate_routes(pairs_CSO)
-    pairs_CSO = unify_same_time_paths(pairs_CSO)
-    write_results(f'./assignments/{name}_result_CSO_routes.txt', pairs_CSO, 'CSO')
+    if _compute_CSO:
+        pairs_CSO = []
+        read_input(f'./assignments/{name}_result_SO_CSO_OD_pairs.txt', pairs_CSO)
+        pairs_CSO = calculate_routes(pairs_CSO)
+        pairs_CSO = unify_same_time_paths(pairs_CSO)
+        write_results(f'./assignments/{name}_result_CSO_routes.txt', pairs_CSO, 'CSO')
     
     
     # use the greedy algorithm to create assignment
@@ -89,13 +92,13 @@ if __name__ == "__main__":
             print("Converged in ", convergence[1], " steps")
         print("Difference for individual between UE and SO: ", pairUE.routes[0].time - mean[-1]/len_simul, pairUE.routes[0].time)
         diff = diff + pairUE.routes[0].time - mean[-1]/len_simul
-        print("Mean: ", mean)
-        print("Variance: ", variance)
-        print("History: ", history)
-        print("Agents: ", agents)
-        print("Fairness: ", results['fairness'])
-        print("Almost convergence: ", results['almost_convergence'])
-        print("Fairness normalized: ", results['fairness_norm'])
+        # print("Mean: ", mean)
+        # print("Variance: ", variance)
+        # print("History: ", history)
+        # print("Agents: ", agents)
+        # print("Fairness: ", results['fairness'])
+        # print("Almost convergence: ", results['almost_convergence'])
+        # print("Fairness normalized: ", results['fairness_norm'])
     
     print("Total difference: ", diff)
     if diff < 0:

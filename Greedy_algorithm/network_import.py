@@ -27,7 +27,8 @@ def import_network(
 
     network_file_csv = network_file.split(".")[0].split("/")[-1] + ".csv"
     demand_file_csv = demand_file.split(".")[0].split("/")[-1] + ".csv"
-
+    print("network_file_csv", network_file_csv)
+    print("demand_file_csv", demand_file_csv)
     network_file_csv = PathUtils.processed_networks_folder / network_file_csv
     demand_file_csv = PathUtils.processed_networks_folder / demand_file_csv
 

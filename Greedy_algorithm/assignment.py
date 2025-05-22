@@ -1,4 +1,5 @@
 import heapq
+import math
 import time
 
 import networkx as nx
@@ -6,9 +7,123 @@ import scipy
 import matplotlib.pyplot as plt
 
 from network_import import *
-from utils import PathUtils, BPRcostFunction, constantCostFunction, greenshieldsCostFunction
-from typesFW import *
-# TODO: zmienic input Ue na ścieżki, a nie krawędzie - czas ma być całościowy, nie krawędziowy.
+from utils import PathUtils
+
+
+class FlowTransportNetwork:
+
+    def __init__(self):
+        self.linkSetWithOD = {}
+        self.linkSet = {}
+        self.nodeSet = {}
+
+        self.tripSet = {}
+        self.zoneSet = {}
+        self.originZones = {}
+
+        self.networkx_graph = None
+
+    def to_networkx(self):
+        if self.networkx_graph is None:
+            self.networkx_graph = nx.DiGraph([(int(begin),int(end)) for (begin,end) in self.linkSet.keys()])
+        return self.networkx_graph
+
+    def reset_flow(self):
+        for link in self.linkSet.values():
+            link.reset_flow()
+
+    def reset(self):
+        for link in self.linkSet.values():
+            link.reset()
+
+
+class Zone:
+    def __init__(self, zoneId: str):
+        self.zoneId = zoneId
+
+        self.lat = 0
+        self.lon = 0
+        self.destList = []  # list of zone ids (strs)
+
+
+class Node:
+    """
+    This class has attributes associated with any node
+    """
+
+    def __init__(self, nodeId: str):
+        self.Id = nodeId
+
+        self.lat = 0
+        self.lon = 0
+
+        self.outLinks = []  # list of node ids (strs)
+        self.inLinks = []  # list of node ids (strs)
+
+        # For Dijkstra
+        self.label = np.inf
+        self.pred = None
+
+
+class Link:
+    """
+    This class has attributes associated with any link
+    """
+
+    def __init__(self,
+                 init_node: str,
+                 term_node: str,
+                 capacity: float,
+                 length: float,
+                 fft: float,
+                 b: float,
+                 power: float,
+                 speed_limit: float,
+                 toll: float,
+                 linkType
+                 ):
+        self.init_node = init_node
+        self.term_node = term_node
+        self.max_capacity = float(capacity)  # veh per hour
+        self.length = float(length)  # Length
+        self.fft = float(fft)  # Free flow travel time (min)
+        self.beta = float(power)
+        self.alpha = float(b)
+        self.speedLimit = float(speed_limit)
+        self.toll = float(toll)
+        self.linkType = linkType
+
+        self.curr_capacity_percentage = 1
+        self.capacity = self.max_capacity
+        self.flow = 0.0
+        self.cost = self.fft
+
+    # Method not used for assignment
+    def modify_capacity(self, delta_percentage: float):
+        assert -1 <= delta_percentage <= 1
+        self.curr_capacity_percentage += delta_percentage
+        self.curr_capacity_percentage = max(0, min(1, self.curr_capacity_percentage))
+        self.capacity = self.max_capacity * self.curr_capacity_percentage
+
+    def reset(self):
+        self.curr_capacity_percentage = 1
+        self.capacity = self.max_capacity
+        self.reset_flow()
+
+    def reset_flow(self):
+        self.flow = 0.0
+        self.cost = self.fft
+
+
+class Demand:
+    def __init__(self,
+                 init_node: str,
+                 term_node: str,
+                 demand: float
+                 ):
+        self.fromZone = init_node
+        self.toNode = term_node
+        self.demand = float(demand)
 
 
 def DijkstraHeap(origin, network: FlowTransportNetwork):
@@ -37,6 +152,52 @@ def DijkstraHeap(origin, network: FlowTransportNetwork):
                 network.nodeSet[newNode].pred = newPred
 
 
+def BPRcostFunction(optimal: bool,
+                    fft: float,
+                    alpha: float,
+                    flow: float,
+                    capacity: float,
+                    beta: float,
+                    length: float,
+                    maxSpeed: float
+                    ) -> float:
+    if capacity < 1e-3:
+        return np.finfo(np.float32).max
+    if optimal:
+        return fft * (1 + (alpha * math.pow((flow * 1.0 / capacity), beta)) * (beta + 1))
+    return fft * (1 + alpha * math.pow((flow * 1.0 / capacity), beta))
+
+
+def constantCostFunction(optimal: bool,
+                         fft: float,
+                         alpha: float,
+                         flow: float,
+                         capacity: float,
+                         beta: float,
+                         length: float,
+                         maxSpeed: float
+                         ) -> float:
+    if optimal:
+        return fft + flow
+    return fft
+
+
+def greenshieldsCostFunction(optimal: bool,
+                             fft: float,
+                             alpha: float,
+                             flow: float,
+                             capacity: float,
+                             beta: float,
+                             length: float,
+                             maxSpeed: float
+                             ) -> float:
+    if capacity < 1e-3:
+        return np.finfo(np.float32).max
+    if optimal:
+        return (length * (capacity ** 2)) / (maxSpeed * (capacity - flow) ** 2)
+    return length / (maxSpeed * (1 - (flow / capacity)))
+
+
 def updateTravelTime(network: FlowTransportNetwork, optimal: bool = False, costFunction=BPRcostFunction):
     """
     This method updates the travel time on the links with the current flow
@@ -53,7 +214,7 @@ def updateTravelTime(network: FlowTransportNetwork, optimal: bool = False, costF
                                                )
 
 
-def findAlpha(x_bar, network: FlowTransportNetwork, optimal: bool = False, costFunction=BPRcostFunction, verbose=False):
+def findAlpha(x_bar, network: FlowTransportNetwork, optimal: bool = False, costFunction=BPRcostFunction):
     """
     This uses unconstrained optimization to calculate the optimal step size required
     for Frank-Wolfe Algorithm
@@ -75,66 +236,11 @@ def findAlpha(x_bar, network: FlowTransportNetwork, optimal: bool = False, costF
                                    )
             sum_derivative = sum_derivative + (x_bar[l] - network.linkSet[l].flow) * tmpCost
         return sum_derivative
-    # case when both signs are the same
-    if verbose and df(0) * df(1) > 0:
-        print(f"Both signs are {"positive" if df(0) > 0 else "negative"}")
-        if df(0) > 0:
-            return 0
-        else:
-            return 1
-        
+
     sol = scipy.optimize.root_scalar(df, x0=np.array([0.5]), bracket=(0, 1))
     assert 0 <= sol.root <= 1
     return sol.root
 
-def checkConstraints(x_bar, x_bar_od, network: FlowTransportNetwork, alpha: float = 1.0, optimal: bool = False, costFunction=BPRcostFunction, verbose=False) -> bool:
-    """
-    This method checks if the assignment alpha * x_bar + (1 - alpha) * network.linkSet[l].flow satisfies the CSO constraint
-    """
-    # for each OD pair check if the CSO constraint is satisfied - if not return False
-    # CSO constraint - for each OD pair sum of time on links should be less than or equal to the Q_od * T_od^UE where Q_od is the demand and T_od^UE is the travel time in the UE assignment
-    
-    odTimes = {od: 0.0 for od in network.tripSet}
-    for l in network.linkSet:
-        flow = alpha * x_bar[l] + (1 - alpha) * network.linkSet[l].flow
-        tmpTime = costFunction(False,
-                               network.linkSet[l].fft,
-                                   network.linkSet[l].alpha,
-                                   flow,
-                                   network.linkSet[l].capacity,
-                                   network.linkSet[l].beta,
-                                   network.linkSet[l].length,
-                                   network.linkSet[l].speedLimit
-                                   )
-        for od in network.tripSet:
-            od_flow = alpha * x_bar_od[l + od] + (1 - alpha) * network.linkSetWithOD[l + od].flow
-            odTimes[od] += od_flow * tmpTime
-        
-    for od in network.tripSet:
-        if network.tripSet[od].demand == 0:
-            continue
-        # print(od, odTimes[od], network.tripTime[od])
-        if odTimes[od] > network.tripTime[od]:
-            return False
-    return True
-
-
-def makeAlphaFeasible(x_bar, x_bar_od, network: FlowTransportNetwork, alpha: float, optimal: bool = True, costFunction=BPRcostFunction, verbose=False):
-    """
-    This method modifies the x_bar to satisfy the CSO constraint - simple binary search
-    """
-    
-    low = 0
-    high = alpha
-    if verbose:
-        print("Making alpha feasible ", time.time())
-    while high - low > 1e-6:
-        mid = (low + high) / 2
-        if checkConstraints(x_bar, x_bar_od, network, mid, optimal, costFunction, verbose):
-            high = mid
-        else:
-            low = mid
-    return high
 
 def tracePreds(dest, network: FlowTransportNetwork):
     """
@@ -173,7 +279,7 @@ def loadAON(network: FlowTransportNetwork, computeXbar: bool = True):
     return SPTT, x_bar, x_bar_od
 
 
-def readDemand(demand_df: pd.DataFrame, network: FlowTransportNetwork, CSO: bool = False):
+def readDemand(demand_df: pd.DataFrame, network: FlowTransportNetwork):
     for index, row in demand_df.iterrows():
 
         init_node = str(int(row["init_node"]))
@@ -188,26 +294,26 @@ def readDemand(demand_df: pd.DataFrame, network: FlowTransportNetwork, CSO: bool
         if term_node not in network.zoneSet[init_node].destList:
             network.zoneSet[init_node].destList.append(term_node)
 
-        for link in network.linkSet:
-            for od in network.tripSet:
-                # print(link, od)
-                # print(network.linkSet[link])
-                if link + od not in network.linkSetWithOD:
-                    network.linkSetWithOD[link + od] = Link(init_node=network.linkSet[link].init_node,
-                                                            term_node=network.linkSet[link].term_node,
-                                                            capacity=network.linkSet[link].capacity,
-                                                            length=network.linkSet[link].length,
-                                                            fft=network.linkSet[link].fft,
-                                                            b=network.linkSet[link].alpha,
-                                                            power=network.linkSet[link].beta,
-                                                            speed_limit=network.linkSet[link].speedLimit,
-                                                            toll=network.linkSet[link].toll,
-                                                            linkType=network.linkSet[link].linkType
-                                                            )
+    for link in network.linkSet:
+        for od in network.tripSet:
+            # print(link, od)
+            # print(network.linkSet[link])
+            network.linkSetWithOD[link + od] = Link(init_node=network.linkSet[link].init_node,
+                                                        term_node=network.linkSet[link].term_node,
+                                                        capacity=network.linkSet[link].capacity,
+                                                        length=network.linkSet[link].length,
+                                                        fft=network.linkSet[link].fft,
+                                                        b=network.linkSet[link].alpha,
+                                                        power=network.linkSet[link].beta,
+                                                        speed_limit=network.linkSet[link].speedLimit,
+                                                        toll=network.linkSet[link].toll,
+                                                        linkType=network.linkSet[link].linkType
+                                                        )
+    print(len(network.tripSet), "OD pairs")
     print(len(network.zoneSet), "OD zones")
 
 
-def readNetwork(network_df: pd.DataFrame, UE_od_link_df: pd.DataFrame, UE_trips_df: pd.DataFrame, network: FlowTransportNetwork):
+def readNetwork(network_df: pd.DataFrame, network: FlowTransportNetwork):
     for index, row in network_df.iterrows():
 
         init_node = str(int(row["init_node"]))
@@ -243,45 +349,6 @@ def readNetwork(network_df: pd.DataFrame, UE_od_link_df: pd.DataFrame, UE_trips_
 
     print(len(network.nodeSet), "nodes")
     print(len(network.linkSet), "links")
-    
-    if UE_od_link_df is not None:
-        print("Reading the UE link flows")
-        ueFlows = {}
-        for index, row in UE_od_link_df.iterrows():
-            origin = str(int(row["origin"]))
-            destination = str(int(row["destination"]))
-            link_origin = str(int(row["link_origin"]))
-            link_destination = str(int(row["link_destination"]))
-            flow = row["flow"]
-            link = (link_origin, link_destination)
-            od = (origin, destination)
-            if link not in ueFlows:
-                ueFlows[link] = 0.0
-            ueFlows[link] += flow
-            network.linkSetWithOD[link+od] = Link(init_node=network.linkSet[link].init_node,
-                                                            term_node=network.linkSet[link].term_node,
-                                                            capacity=network.linkSet[link].capacity,
-                                                            length=network.linkSet[link].length,
-                                                            fft=network.linkSet[link].fft,
-                                                            b=network.linkSet[link].alpha,
-                                                            power=network.linkSet[link].beta,
-                                                            speed_limit=network.linkSet[link].speedLimit,
-                                                            toll=network.linkSet[link].toll,
-                                                            linkType=network.linkSet[link].linkType
-                                                            )
-            network.linkSetWithOD[link+od].flow = flow
-        network.ueFlows = ueFlows
-    if UE_trips_df is not None:
-        print("Reading the UE travel times")
-        tripTime = {}
-        for index, row in UE_trips_df.iterrows():
-            
-            init_node = str(int(row["init_node"]))
-            term_node = str(int(row["term_node"]))
-            UE_time = row["travelTime"]
-            UE_flow = row["flow"]
-            tripTime[init_node, term_node] = UE_time * UE_flow # total time on the link weighted by the flow
-        network.tripTime = tripTime
 
 
 def get_TSTT(network: FlowTransportNetwork, costFunction=BPRcostFunction, use_max_capacity: bool = True):
@@ -313,23 +380,15 @@ def assignment_loop(network: FlowTransportNetwork,
                     accuracy: float = 0.001,
                     maxIter: int = 1000,
                     maxTime: int = 60,
-                    verbose: bool = True,
-                    CSO: bool = False
-                    ) -> float:
+                    verbose: bool = True):
     """
     For explaination of the algorithm see Chapter 7 of:
     https://sboyles.github.io/blubook.html
     PDF:
     https://sboyles.github.io/teaching/ce392c/book.pdf
     """
-    if not CSO:
-        network.reset_flow()
-    else:
-        network.set_UE_flow()
-        updateTravelTime(network=network,
-                         optimal=systemOptimal,
-                         costFunction=costFunction)
-        
+    network.reset_flow()
+
     iteration_number = 1
     gap = np.inf
     TSTT = np.inf
@@ -338,7 +397,7 @@ def assignment_loop(network: FlowTransportNetwork,
     # Check if desired accuracy is reached
     while gap > accuracy:
 
-        # Get x_bar through all-or-nothing assignment
+        # Get x_bar throug all-or-nothing assignment
         _, x_bar, x_bar_od = loadAON(network=network)
 
         if algorithm == "MSA" or iteration_number == 1:
@@ -348,24 +407,12 @@ def assignment_loop(network: FlowTransportNetwork,
             alpha = findAlpha(x_bar,
                               network=network,
                               optimal=systemOptimal,
-                              costFunction=costFunction,
-                              verbose=verbose)
-            
-            if CSO:
-                # check if the CSO constraint is satisfied, else binary search for the feasible alpha
-                if not checkConstraints(x_bar, x_bar_od, network, alpha, systemOptimal, costFunction, verbose):
-                    alpha = makeAlphaFeasible(x_bar, x_bar_od, network, alpha, systemOptimal, costFunction, verbose)
-                    if verbose:
-                        print("Alpha made feasible:", alpha, " ", time.time())
+                              costFunction=costFunction)
         else:
             print("Terminating the program.....")
             print("The solution algorithm ", algorithm, " does not exist!")
             raise TypeError('Algorithm must be MSA or FW')
 
-        # Condition for too small alpha
-        if CSO and alpha < 1e-6:
-            print("Alpha too small, reached the boundary of the constraint, terminating the assignment")
-            return TSTT
         # Apply flow improvement
         for l in network.linkSet:
             network.linkSet[l].flow = alpha * x_bar[l] + (1 - alpha) * network.linkSet[l].flow
@@ -397,17 +444,6 @@ def assignment_loop(network: FlowTransportNetwork,
         TSTT = get_TSTT(network=network, costFunction=costFunction)
 
         iteration_number += 1
-        writeResults(
-            network=network,
-            output_file=f'./testing/{iteration_number}_result.txt',
-            costFunction=costFunction,
-            systemOptimal=systemOptimal,
-            verbose=True,
-            graph=False
-        )
-        
-        if iteration_number % 100 == 0 and verbose:
-            print("Iteration number:", iteration_number, "Current gap:", round(gap, 5))
         if iteration_number > maxIter:
             if verbose:
                 print(
@@ -473,7 +509,7 @@ def writeResults(network: FlowTransportNetwork, output_file: str, costFunction=B
         tmpOut = str(od[0]) + "\t" + str(od[1]) + "\t" + str(network.tripSet[od].demand)
         outFile.write(tmpOut + "\n")
         for i in network.linkSet:
-            if network.linkSetWithOD[i + od].flow == 0.0:
+            if(network.linkSetWithOD[i + od].flow == 0.0):
                 continue
             tmpOut = str(network.linkSet[i].init_node) + "\t" + str(
                 network.linkSet[i].term_node) + "\t" + str(
@@ -505,11 +541,8 @@ def writeResults(network: FlowTransportNetwork, output_file: str, costFunction=B
 
 def load_network(net_file: str,
                  demand_file: str = None,
-                 UE_link_file: str = None,
-                 UE_trip_file: str = None,
                  force_net_reprocess: bool = False,
-                 verbose: bool = True,
-                 CSO: bool = False
+                 verbose: bool = True
                  ) -> FlowTransportNetwork:
     readStart = time.time()
 
@@ -521,18 +554,16 @@ def load_network(net_file: str,
     if verbose:
         print(f"Loading network {net_name}...")
 
-    net_df, demand_df, UE_od_link_df, UE_trips_df = import_network(
+    net_df, demand_df, _, _ = import_network(
         net_file,
         demand_file,
-        UE_link_file,
-        UE_trip_file,
         force_reprocess=force_net_reprocess
     )
 
     network = FlowTransportNetwork()
 
-    readNetwork(net_df, UE_od_link_df, UE_trips_df, network=network)
-    readDemand(demand_df, network=network, CSO=CSO)
+    readNetwork(net_df, network=network)
+    readDemand(demand_df, network=network)
 
     network.originZones = set([k[0] for k in network.tripSet])
 
@@ -553,8 +584,7 @@ def computeAssignment(net_file: str,
                       maxTime: int = 60,
                       results_file: str = None,
                       force_net_reprocess: bool = False,
-                      verbose: bool = True,
-                      CSO: tuple = (False, None, None) # (bool, str, str)
+                      verbose: bool = True
                       ) -> float:
     """
     This is the main function to compute the user equilibrium UE (default) or system optimal (SO) traffic assignment
@@ -579,16 +609,15 @@ def computeAssignment(net_file: str,
            by default the result file is saved with the same name as the input network with the suffix "_flow.tntp" in the same folder
     :param force_net_reprocess: True if the network files should be reprocessed from the tntp sources
     :param verbose: print useful info in standard output
-    :param CSO: tuple (bool, str, str) where the first element is True if the CSO constraint should be applied, the second element is the path to the UE initial flows, while the third is the travel time of trips in UE assignment
     :return: Totoal system travel time
     """
 
-    network = load_network(net_file=net_file, demand_file=demand_file, UE_link_file=CSO[1], UE_trip_file=CSO[2], verbose=verbose, force_net_reprocess=force_net_reprocess, CSO=CSO[0])
+    network = load_network(net_file=net_file, demand_file=demand_file, verbose=verbose, force_net_reprocess=force_net_reprocess)
 
     if verbose:
         print("Computing assignment...")
     TSTT = assignment_loop(network=network, algorithm=algorithm, systemOptimal=systemOptimal, costFunction=costFunction,
-                           accuracy=accuracy, maxIter=maxIter, maxTime=maxTime, verbose=verbose, CSO=CSO[0])
+                           accuracy=accuracy, maxIter=maxIter, maxTime=maxTime, verbose=verbose)
 
     if results_file is None:
         results_file = '_'.join(net_file.split("_")[:-1] + ["flow.tntp"])
@@ -607,39 +636,25 @@ if __name__ == '__main__':
 
     # This is an example usage for calculating System Optimal and User Equilibrium with Frank-Wolfe
 
-    net_file = str(PathUtils.sioux_falls_net_file )
+    net_file = str(PathUtils.eastern_massachusetts_net_file )
     name = net_file.split("/")[-1].split("_")[0]
-    # total_system_travel_time_optimal = computeAssignment(net_file=net_file,
+    total_system_travel_time_optimal = computeAssignment(net_file=net_file,
                                                          
-    #                                                      algorithm="FW",
-    #                                                      costFunction=BPRcostFunction,
-    #                                                      systemOptimal=True,
-    #                                                      verbose=True,
-    #                                                      accuracy=0.0001,
-    #                                                      maxIter=10000,
-    #                                                      maxTime=6000000,results_file=f'./assignments/{name}_result_SO.txt',force_net_reprocess=True)
+                                                         algorithm="FW",
+                                                         costFunction=BPRcostFunction,
+                                                         systemOptimal=True,
+                                                         verbose=True,
+                                                         accuracy=0.00001,
+                                                         maxIter=3000,
+                                                         maxTime=6000000,results_file=f'../assignments/{name}_result_SO.txt',force_net_reprocess=True)
 
-    total_system_travel_time_optimal_CSO = computeAssignment(net_file=net_file,
+    total_system_travel_time_equilibrium = computeAssignment(net_file=net_file,
                                                              algorithm="FW",
-                                                                costFunction=BPRcostFunction,
-                                                                systemOptimal=True,
-                                                                verbose=True,
-                                                                accuracy=0.0001,
-                                                                maxIter=100,
-                                                                maxTime=6000000,
-                                                                results_file=f'./assignments/{name}_result_SO_CSO.txt',
-                                                                force_net_reprocess=True,
-                                                                CSO=(True, f'./processed_networks/{name}_UE_OD_pairs.csv', f'./processed_networks/{name}_trips_UE.csv'))
-    
-    print("CSO - SO = ", total_system_travel_time_optimal_CSO, 1268541.494860965, total_system_travel_time_optimal_CSO - 1268541.494860965)
-    
-    # total_system_travel_time_equilibrium = computeAssingment(net_file=net_file,
-    #                                                          algorithm="FW",
-    #                                                          costFunction=BPRcostFunction,
-    #                                                          systemOptimal=False,
-    #                                                          verbose=True,
-    #                                                          accuracy=0.00001,
-    #                                                          maxIter=10000,
-    #                                                          maxTime=6000000, results_file=f'../assignments/{name}_result_UE.txt')
+                                                             costFunction=BPRcostFunction,
+                                                             systemOptimal=False,
+                                                             verbose=True,
+                                                             accuracy=0.00001,
+                                                             maxIter=10000,
+                                                             maxTime=6000000, results_file=f'../assignments/{name}_result_UE.txt')
 
-    # print("UE - SO = ", total_system_travel_time_equilibrium - total_system_travel_time_optimal)
+    print("UE - SO = ", total_system_travel_time_equilibrium - total_system_travel_time_optimal)

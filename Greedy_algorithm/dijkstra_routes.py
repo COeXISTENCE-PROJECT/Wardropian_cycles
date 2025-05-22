@@ -90,6 +90,8 @@ def average_paths(pairs: list):
         for route in pair.routes:
             avg_time += route.time * route.flow
             flow += route.flow
+        if flow == 0:
+            continue
         avg_time /= flow
         for route in pair.routes:
             route.time = avg_time
@@ -162,8 +164,8 @@ def calculate_routes(pairs: list):
                 for i in range(len(route) - 1):
                     if graph[route[i]][route[i+1]]['flow'] == 0:
                         graph.remove_edge(route[i], route[i+1])
-                
-                pair.add_routes(od_route)
+                if od_route.flow != 0:
+                    pair.add_routes(od_route)
                 if _debug:
                     print("route:", route)
                     print(min_flow)
