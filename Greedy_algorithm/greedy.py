@@ -146,13 +146,21 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
         "almost_convergence": almost_convergence
     }
 
+
+def find_period(arr):
+    n = len(arr)
+    for p in range(1, n + 1):
+        if all(arr[i] == arr[i % p] for i in range(n)):
+            return p
+    return n  # If no period is found, return length (i.e. no repetition)
+
 # Example usage of the run_simulation function
 if __name__ == "__main__":
-    num_agents = 9
-    route_data = [(2, 15.0), (3, 14.0), (4, 9.0)]
+    num_agents = 21
+    route_data = [(14, 55.0), (3, 57.0), (4, 56)]
     avg_time = sum(q * t for q, t in route_data) / num_agents
     thresholds = [0.3, 0.1, 0.05]
-    results = run_simulation(num_agents, route_data, thresholds,max_steps=10000, eps=0.1)
+    results = run_simulation(num_agents, route_data, thresholds,max_steps=100000, eps=0.1)
 
     # Output the results
     print("Simulation Results:")
@@ -163,3 +171,4 @@ if __name__ == "__main__":
     print("Converged:", results["convergence"][0])  
     print("Convergence thresholds:", results["almost_convergence"])
     print("average time", avg_time)
+    print("one agent history", [results["history"][i][0] for i in range(len(results["history"]))], "period: ", find_period([results["history"][i][0] for i in range(len(results["history"]))]))

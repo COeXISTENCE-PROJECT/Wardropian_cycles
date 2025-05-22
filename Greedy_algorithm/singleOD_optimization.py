@@ -102,11 +102,11 @@ def prepare_network(net_file, UE_OD_file, selected_OD):
     return new_network_file_csv, new_demand_file_csv
 
 
-_compute_initial_assignment = False   
+_compute_initial_assignment = True   
 _skip_computation = False
     
 if __name__ == "__main__":
-    net_file = str(PathUtils.barcelona_net_file)
+    net_file = str(PathUtils.berlin_prenzlauberg_center_net_file)
     name = net_file.split("/")[-1].split("_")[0]
     if not _skip_computation:
         if _compute_initial_assignment:
@@ -133,7 +133,7 @@ if __name__ == "__main__":
                                                                         algorithm="FW",
                                                                         costFunction=BPRcostFunction,
                                                                         systemOptimal=True,
-                                                                        verbose=False,
+                                                                        verbose=True,
                                                                         accuracy=0.000001,
                                                                         maxIter=6000,
                                                                         maxTime=6000000, results_file=f'./assignments/sioux_pairs/{name}_{pairUE.origin}_{pairUE.destination}_result_UE.txt')
@@ -172,6 +172,8 @@ if __name__ == "__main__":
     diff = 0
     diff_percent = 0
     tot_flow = 0
+
+    rows = []
     for pairSO, pairUE in zip(pairs_SO, pairs_UE):
         if pairSO.origin != pairUE.origin or pairSO.destination != pairUE.destination:
             raise ValueError("The origin and destination of the pairs do not match")
@@ -192,6 +194,7 @@ if __name__ == "__main__":
         print(f"Total flow: {sum_flow}")
         print(f"Average time: {sum_time/sum_flow}")
         print(f"UE:")
+        rows.append([pairSO.origin, pairSO.destination, sum_time/sum_flow, pairUE.routes[0].time, pairUE.routes[0].time - sum_time/sum_flow, sum_flow, len(pairSO.routes), [route.time for route in pairSO.routes], [route.flow for route in pairSO.routes]])
         for route in pairUE.routes:
             print(f"Route: {route.path} - {route.time} - {route.flow}")
         print()
@@ -199,6 +202,11 @@ if __name__ == "__main__":
         diff += dff * sum_flow
         diff_percent += dff * 100 / (sum_time/sum_flow) * sum_flow
         tot_flow += sum_flow
+    
+    df = pd.DataFrame(rows, columns=["origin", "destination", "SO_time", "UE_time", "diff", "flow", "SO_routes_num", "SO_routes_time", "SO_routes_flow"])
+    df.to_csv(path_or_buf=f'./algorithm_results/single_OD/{name}_OD_to_UE.csv',
+                sep=',',
+                index=False)
     
     print(f"Total difference: {diff}")
     print(f"Total flow: {tot_flow}")
