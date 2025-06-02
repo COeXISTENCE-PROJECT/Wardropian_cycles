@@ -2,6 +2,8 @@ from assignment import computeAssignment, BPRcostFunction
 from utils import PathUtils, num_of_routes
 from dijkstra_routes import read_input, write_results, calculate_routes, unify_same_time_paths, average_paths
 from greedy import run_simulation, prep_data
+import pandas as pd
+
 
 _compute_assignments = False
 _compute_CSO = False
@@ -69,9 +71,8 @@ if __name__ == "__main__":
     
     diff = 0
     len_simul = 200
+    results = {}
     for pairSO, pairUE, in zip(pairs_SO, pairs_UE):
-        if pairSO.destination != 101:
-            continue
         if pairSO.origin != pairUE.origin or pairSO.destination != pairUE.destination:
             print("Error: OD pairs do not match")
             break
@@ -83,8 +84,8 @@ if __name__ == "__main__":
         print("Running simulation for ", pairSO.origin, pairSO.destination)
         agents, routes = prep_data(routes)
         thresholds = [0.33, 0.2, 0.1]
-        print("Agents: ", agents)
-        print("Routes: ", routes)
+        # print("Agents: ", agents)
+        # print("Routes: ", routes)
         results = run_simulation(agents, routes, thresholds,len_simul, 0.0)
         history = results['history']
         mean = results['mean']
@@ -96,14 +97,31 @@ if __name__ == "__main__":
             print("Converged in ", convergence[1], " steps")
         print("Difference for individual between UE and SO: ", pairUE.routes[0].time - mean[-1]/len_simul, pairUE.routes[0].time)
         diff = diff + pairUE.routes[0].time - mean[-1]/len_simul
-        # print("Mean: ", mean)
-        # print("Variance: ", variance)
-        # print("History: ", history)
-        # print("Agents: ", agents)
-        # print("Fairness: ", results['fairness'])
-        # print("Almost convergence: ", results['almost_convergence'])
-        # print("Fairness normalized: ", results['fairness_norm'])
-        break
+        print("Mean: ", mean)
+        print("Variance: ", variance)
+        print("History: ", history)
+        print("Agents: ", agents)
+        print("Fairness: ", results['fairness'])
+        print("Almost convergence: ", results['almost_convergence'])
+        print("Fairness normalized: ", results['fairness_norm'])  
+        res = {
+            "origin": pairSO.origin,
+            "destination": pairSO.destination,
+            "mean": mean[-1]/len_simul,
+            "variance": variance[-1],
+            "convergence": convergence[0],
+            "convergence_iter": convergence[1],
+            "history": history,
+            "agents": agents,
+            "fairness": results['fairness'],
+            "almost_convergence": results['almost_convergence'],
+            "fairness_norm": results['fairness_norm'],
+        }
+        results[pairSO.origin, pairSO.destination] = res
+    # save results to file
+    
+    df = pd.DataFrame.from_dict(results, orient='index')
+
     print("Total difference: ", diff)
     if diff < 0:
         print("UE is better, we lost ")

@@ -4,7 +4,7 @@ from utils import OD_pair, PathUtils
 from dijkstra_routes import read_input
 from assignment_singleOD import computeAssignment, BPRcostFunction
 from dijkstra_routes import read_input, write_results, calculate_routes, unify_same_time_paths, average_paths
-
+from analytical import analytical_simulation
 
 # workflow of the single OD optimization:
 # 1. Calculate the UE for the full network (assume its done in separate script)
@@ -102,11 +102,11 @@ def prepare_network(net_file, UE_OD_file, selected_OD):
     return new_network_file_csv, new_demand_file_csv
 
 
-_compute_initial_assignment = True   
+_compute_initial_assignment = False   
 _skip_computation = False
     
 if __name__ == "__main__":
-    net_file = str(PathUtils.berlin_prenzlauberg_center_net_file)
+    net_file = str(PathUtils.eastern_massachusetts_net_file)
     name = net_file.split("/")[-1].split("_")[0]
     if not _skip_computation:
         if _compute_initial_assignment:
@@ -202,6 +202,17 @@ if __name__ == "__main__":
         diff += dff * sum_flow
         diff_percent += dff * 100 / (sum_time/sum_flow) * sum_flow
         tot_flow += sum_flow
+        analytical_solution = analytical_simulation([pairSO])[0]
+        print(analytical_solution.keys(), len(pairSO.routes))
+        if analytical_solution["naive"] == 0:
+            continue
+        print("len full cycles: ", analytical_solution["naive"], "len GCD cycles: ", analytical_solution["gcd"])
+        print("optimized inequity: ", analytical_solution["inequity"])
+        first_ineq = analytical_solution["inequity"][0]
+        analytical_solution["normalized_ineq"] = analytical_solution["inequity"]/first_ineq
+        print("normalized inequity: ", analytical_solution["normalized_ineq"])
+
+    
     
     df = pd.DataFrame(rows, columns=["origin", "destination", "SO_time", "UE_time", "diff", "flow", "SO_routes_num", "SO_routes_time", "SO_routes_flow"])
     df.to_csv(path_or_buf=f'./algorithm_results/single_OD/{name}_OD_to_UE.csv',
