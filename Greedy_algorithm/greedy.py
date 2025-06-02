@@ -1,6 +1,7 @@
 import math
 import csv
 from functools import reduce
+import pandas as pd
 from utils import Route, Agent
 
 
@@ -160,8 +161,11 @@ if __name__ == "__main__":
     route_data = [(14, 55.0), (3, 57.0), (4, 56)]
     avg_time = sum(q * t for q, t in route_data) / num_agents
     thresholds = [0.3, 0.1, 0.05]
-    results = run_simulation(num_agents, route_data, thresholds,max_steps=100000, eps=0.1)
+    results = run_simulation(num_agents, route_data, thresholds,max_steps=10000, eps=0.1)
 
+    df = pd.DataFrame(results)
+    # Save results to a CSV file
+    df.to_csv("simulation_results.csv", index=False)
     # Output the results
     print("Simulation Results:")
     print("History:", results["history"])
