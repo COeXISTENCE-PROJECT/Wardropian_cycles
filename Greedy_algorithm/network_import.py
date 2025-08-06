@@ -8,8 +8,8 @@ from utils import PathUtils
 def import_network(
     network_file: str,
     demand_file: str,
-    UE_od_link_assignment_file: str = None,
-    UE_trip_times_file: str = None,
+    UE_od_link_assignment_file: str = "",
+    UE_trip_times_file: str = "",
     force_reprocess: bool = False
     ):
     """
@@ -109,7 +109,7 @@ def _demand_file2trips(demand_file: str):
 
     return tripSet
 
-def _demand_file2matrix(demand_file: str, omx_write_file_path: str = None):  # Remember .omx
+def _demand_file2matrix(demand_file: str, omx_write_file_path: str = ""):  # Remember .omx
 
     f = open(demand_file, 'r')
     all_rows = f.read()

@@ -132,18 +132,20 @@ def calculate_routes(pairs: list):
         o = pair.origin
         d = pair.destination
         
-        if _debug:
-            print(o, d)
-            print(graph.edges(data=True))
-            #plot graph
-            pos = nx.spring_layout(graph)
-            nx.draw(graph, pos, with_labels=True)
-            labels = nx.get_edge_attributes(graph, 'time')
-            nx.draw_networkx_edge_labels(graph, pos, edge_labels=labels)
-            plt.show()
+        # if _debug:
+        #     print(o, d)
+        #     print(graph.edges(data=True))
+        #     #plot graph
+        #     pos = nx.spring_layout(graph)
+        #     nx.draw(graph, pos, with_labels=True)
+        #     labels = nx.get_edge_attributes(graph, 'time')
+        #     nx.draw_networkx_edge_labels(graph, pos, edge_labels=labels)
+        #     plt.show()
         
         while True:
             try:
+                if _debug:
+                    print("Calculating route from", o, "to", d)
                 route = nx.dijkstra_path(graph, o, d, weight='time')
                 routes[(o, d)] = route
                 # find the minimum flow on the route

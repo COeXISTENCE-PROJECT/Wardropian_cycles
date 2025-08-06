@@ -1,0 +1,9 @@
+OD PAIRS
+init_node	term_node	demand
+init_node	term_node	flow	travelTimeOnLink
+21	8	400.0
+7	8	400.0	5.55171405190716
+18	7	400.0	2.0632083638576533
+20	18	400.0	4.260367748423722
+21	20	400.0	8.081655681331679
+

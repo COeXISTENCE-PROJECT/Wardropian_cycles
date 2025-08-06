@@ -120,6 +120,7 @@ def round_trip_time_and_flow(line: str, precision: int = 2) -> Tuple[int, int, f
 def num_of_routes(routes: list) -> int:
     cntr = 0
     for route in routes:
+        print(route.flow)
         # calculate number of routes with flow > 1
         if route.flow > 1:
             cntr += 1
@@ -158,7 +159,7 @@ def BPRcostFunction(optimal: bool,
                     maxSpeed: float
                     ) -> float:
     if capacity < 1e-3:
-        return np.finfo(np.float32).max
+        return float('inf')
     if optimal:
         return fft * (1 + (alpha * math.pow((flow * 1.0 / capacity), beta)) * (beta + 1))
     return fft * (1 + alpha * math.pow((flow * 1.0 / capacity), beta))
@@ -188,7 +189,7 @@ def greenshieldsCostFunction(optimal: bool,
                              maxSpeed: float
                              ) -> float:
     if capacity < 1e-3:
-        return np.finfo(np.float32).max
+        return float('inf')
     if optimal:
         return (length * (capacity ** 2)) / (maxSpeed * (capacity - flow) ** 2)
     return length / (maxSpeed * (1 - (flow / capacity)))

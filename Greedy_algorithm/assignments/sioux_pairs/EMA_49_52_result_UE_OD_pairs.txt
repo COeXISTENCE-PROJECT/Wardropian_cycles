@@ -1,0 +1,7 @@
+OD PAIRS
+init_node	term_node	demand
+init_node	term_node	flow	travelTimeOnLink
+49	52	5.497575
+49	48	5.497575	0.2445070658787247
+48	52	5.497575	0.2510315192328747
+

@@ -1,0 +1,7 @@
+OD PAIRS
+init_node	term_node	demand
+init_node	term_node	flow	travelTimeOnLink
+36	43	162.812439
+36	44	162.812439	0.11612601057730021
+44	43	162.812439	0.0692891206014989
+

@@ -1,0 +1,7 @@
+OD PAIRS
+init_node	term_node	demand
+init_node	term_node	flow	travelTimeOnLink
+48	51	60.560394
+48	52	60.560394	0.2510337368226652
+52	51	60.560394	0.21239313420909714
+

@@ -1,0 +1,7 @@
+OD PAIRS
+init_node	term_node	demand
+init_node	term_node	flow	travelTimeOnLink
+52	21	3310.4
+52	65	3310.4	0.7505752403236099
+65	21	3310.4	0.755485598265784
+

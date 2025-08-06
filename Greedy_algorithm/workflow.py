@@ -9,7 +9,7 @@ _compute_assignments = False
 _compute_CSO = False
 
 if __name__ == "__main__":
-    net_file = str(PathUtils.barcelona_net_file)
+    net_file = str(PathUtils.anaheim_net_file)
     name = net_file.split("/")[-1].split("_")[0]
     if _compute_assignments:
         total_system_travel_time_optimal = computeAssignment(net_file=net_file,
@@ -17,18 +17,18 @@ if __name__ == "__main__":
                                                             costFunction=BPRcostFunction,
                                                             systemOptimal=True,
                                                             verbose=True,
-                                                            accuracy=0.000005,
+                                                            accuracy=0.00005,
                                                             maxIter=6000,
-                                                            maxTime=6000000,results_file=f'./assignments/{name}_result_SO.txt',force_net_reprocess=True)
+                                                            maxTime=600000,results_file=f'./assignments/{name}_result_SO.txt',force_net_reprocess=True)
 
         total_system_travel_time_equilibrium = computeAssignment(net_file=net_file,
                                                                 algorithm="FW",
                                                                 costFunction=BPRcostFunction,
                                                                 systemOptimal=False,
                                                                 verbose=True,
-                                                                accuracy=0.000005,
+                                                                accuracy=0.00005,
                                                                 maxIter=6000,
-                                                                maxTime=6000000, results_file=f'./assignments/{name}_result_UE.txt')
+                                                                maxTime=600000, results_file=f'./assignments/{name}_result_UE.txt')
 
         if _compute_CSO:
             total_system_travel_time_constrained_optimal = computeAssignment(net_file=net_file,
@@ -39,7 +39,8 @@ if __name__ == "__main__":
                                                                 accuracy=0.00005,
                                                                 maxIter=6000,
                                                                 maxTime=6000000, results_file=f'./assignments/{name}_result_CSO.txt',
-                                                                CSO=(True,f'./assignments/{name}_result_UE.txt'))
+                                                                # CSO=(True,f'./assignments/{name}_result_UE.txt'))
+            )
 
         print("Computed for: ", name)
         # print("UE - SO = ", total_system_travel_time_equilibrium - total_system_travel_time_optimal)
@@ -79,6 +80,12 @@ if __name__ == "__main__":
         if num_of_routes(pairSO.routes) < 2:
             # print("Not enough routes for ", pairSO.origin, pairSO.destination)
             continue
+        if pairSO.origin == 34 and pairSO.destination == 15:
+            print("Special case for pair: ", pairSO.origin, pairSO.destination)
+            print("Routes: ", pairSO.routes)
+            for r in pairSO.routes:
+                print("Route: ", r.time, r.flow, r.id)
+            exit(0)
         routes = pairSO.routes
         agents = pairSO.flow
         print("Running simulation for ", pairSO.origin, pairSO.destination)
@@ -86,6 +93,7 @@ if __name__ == "__main__":
         thresholds = [0.33, 0.2, 0.1]
         # print("Agents: ", agents)
         # print("Routes: ", routes)
+        # return np.finfo(np.float32).max
         results = run_simulation(agents, routes, thresholds,len_simul, 0.0)
         history = results['history']
         mean = results['mean']
@@ -117,7 +125,7 @@ if __name__ == "__main__":
             "almost_convergence": results['almost_convergence'],
             "fairness_norm": results['fairness_norm'],
         }
-        results[pairSO.origin, pairSO.destination] = res
+        results[pairSO.origin, pairSO.destination] = res # type: ignore
     # save results to file
     
     df = pd.DataFrame.from_dict(results, orient='index')

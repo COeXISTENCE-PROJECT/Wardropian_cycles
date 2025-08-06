@@ -1,6 +1,6 @@
 from collections import deque
 from utils import *
-from dijkstra_routes import read_input, calculate_routes, unify_same_time_paths
+from dijkstra_routes import read_input, calculate_routes, unify_same_time_paths, write_results
 from math import gcd
 from random import randint
 from utils import Route, OD_pair, Agent
@@ -154,7 +154,7 @@ def analytical_simulation(pairs):
 def cycle_test():
     # raw_route_data = [(14, 55.0), (3, 57.0), (4, 56)]
     raw_route_data = [(4,15), (6,14), (8,9)]
-    max_ineq = 9 # max diff squared
+    max_ineq = 3 # max diff squared
     routes = [Route(t, q, j) for j, (q, t) in enumerate(raw_route_data)]
     print("Routes: ", routes)
     opt_cycle,avg_time_opt= optimal_cycle_order(routes)
@@ -179,43 +179,48 @@ def cycle_test():
     inequity_opt = [0] + inequity_opt
     inequity_stupid = [0] + inequity_stupid
     inequity_random_avg = [0] + list(inequity_random_avg)
-    plt.plot(inequity_opt, label='Optimal Cycle')
-    plt.plot(inequity_stupid, label='Stupid Cycle')
-    plt.plot(inequity_random_avg, label='Average Random Cycle')
-    plt.axhline(y=0, color='r', linestyle='--', label='Zero Inequity')
-    plt.axhline(y=max_ineq, color='g', linestyle='--', label='Inequity bound from Proposition 3')
-    plt.xlabel('Days')
-    plt.ylabel('Inequity')
-    plt.title('Inequity over Time for Different Cycle Orders')
+    # squre roots of inequities
+    deviation_opt = [x**0.5 for x in inequity_opt]
+    deviation_stupid = [x**0.5 for x in inequity_stupid]
+    deviation_random_avg = [x**0.5 for x in inequity_random_avg]
+    plt.plot(deviation_opt, label='Cycle order from Prop. 2.14')
+    plt.plot(deviation_stupid, label='Cycle order from Sec. 2.3')
+    plt.plot(deviation_random_avg, label='Average of 20 random cycle orders')
+    plt.axhline(y=0, color='r', linestyle='--', label='Average travel time of the OD pair')
+    plt.axhline(y=max_ineq, color='g', linestyle='--', label='Bound proven in Sec. 2.5')
+    plt.xlabel('Cycle duration (days)')
+    plt.ylabel('Sum of absolute value of deviations \nfrom the average travel time (eq. 5)')
+    # plt.title('Comparison of cycle time deviation\n using different cycle orders')
     plt.xticks(range(0,len(inequity_opt),2))
     # move legend outside the plot
     plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
-    plt.savefig('inequity_cycle_test.png')
+    plt.savefig('inequity_cycle_test.png', bbox_inches='tight', dpi=300, transparent=True)
     plt.show()
     
 
 # Example usage of the analytical_simulation function    
 if __name__ == "__main__":
     
-    # pairs_SO = []
-    # for i in range(1,10):
-    #     pair = OD_pair(i, i+1, 0.0)
-    #     for j in range(1,randint(2,5)):
-    #         time = randint(1,10)
-    #         flow = randint(1,10)
-    #         pair.add_routes(Route(time, flow, j))
-    #     pair.recalculate_flow()
-    #     pairs_SO.append(pair)
+    pairs_SO = []
+    for i in range(1,10):
+        pair = OD_pair(i, i+1, 0.0)
+        for j in range(1,randint(2,5)):
+            time = randint(1,10)
+            flow = randint(1,10)
+            pair.add_routes(Route(time, flow, j))
+        pair.recalculate_flow()
+        pairs_SO.append(pair)
+    cycle_test()
+    exit(0)
 
-    net_file = str(PathUtils.barcelona_net_file)
+    net_file = str(PathUtils.anaheim_net_file)
     name = net_file.split("/")[-1].split("_")[0]
     
     OD_pairs = []
     read_input(f'./assignments/{name}_result_SO_OD_pairs.txt', OD_pairs)
     OD_pairs = calculate_routes(OD_pairs)
     OD_pairs = unify_same_time_paths(OD_pairs)
-    # write_results(f'./assignments/{name}_result_CSO_routes.txt', OD_pairs, 'CSO')
-
+    write_results(f'./assignments/{name}_result_SO_routes_2.txt', OD_pairs, 'SO')
         
     res = analytical_simulation(OD_pairs)
     

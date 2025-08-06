@@ -24,7 +24,7 @@ def prep_data(route_data):
     total_agents = sum(q for q, _ in route_data)
     return total_agents, route_data
 
-def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0, debug=False):
+def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0.0, debug=False):
     """
     Runs the simulation for a given number of agents and route data.
 
@@ -82,7 +82,7 @@ def run_simulation(num_agents, route_data, thresholds=[], max_steps=10000, eps=0
         mean.append(step_mean)
         variance.append(step_variance)
         fairness.append(step_fairness)
-        fairness_norm.append(step_fairness /fairness[0]) # normalize fairness to make it comparable
+        fairness_norm.append(step_fairness / step_mean) # fairness normalized by mean time
         if(len(mean) != len(variance)):
             print("Error: mean and variance are not the same length")
             print("Mean: ", len(mean))

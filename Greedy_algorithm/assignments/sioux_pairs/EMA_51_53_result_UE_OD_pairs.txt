@@ -1,0 +1,7 @@
+OD PAIRS
+init_node	term_node	demand
+init_node	term_node	flow	travelTimeOnLink
+51	53	69.876441
+51	52	69.876441	0.22136326021597963
+52	53	69.876441	0.12430322766531866
+
