@@ -67,25 +67,3 @@ class Environment:
         Reset the environment
         """
         self.__initializeRoutes()
-
-    
-
-    def simulate(self, n_episodes: int):
-        """
-        Simulate the environment for n_episodes
-        """
-
-        scale = self.env_params["time_scales_ratio"]
-
-        for month in range(n_episodes):
-            for day in range(scale):
-                self.assignmentStep()
-
-            MS, changed = self.transitionStep()
-
-            logging.info(f"Market Share: {MS}, Changed: {changed}")
-
-            if self.__checkConvergence(MS, changed):
-                break
-
-        # TODO: add the history of the episode and what to return

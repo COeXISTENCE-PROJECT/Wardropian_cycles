@@ -59,8 +59,9 @@ def createRoutesForPoA(n: int, PoA: float, C: float) -> tuple:
     x0 = [1] * n
     # initial guess on q_max - sum up to C
 
-    qmax = [random.uniform(0, 1) for _ in range(n)]
-    qmax = [q * C / sum(qmax) for q in qmax]
+    qmax = [random.uniform(0.2, 1) for _ in range(n)]
+    sum_qmax = sum(qmax)
+    qmax = [q * C / sum_qmax for q in qmax]
 
     # bounds
     bounds = [(0, 5) for _ in range(n)]
@@ -75,7 +76,7 @@ def createRoutesForPoA(n: int, PoA: float, C: float) -> tuple:
     t0 = res.x
     routes = [partial(BPRCostFunction, t0=t0[i], qmax=qmax[i]) for i in range(n)]
 
-    if _debug:
+    if True:
         print("Routes:", routes)
         Nash, _ = findUE(1, routes)
         SO, _ = findSO(1, routes)

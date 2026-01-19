@@ -1,7 +1,7 @@
 {
     "env_params": {
         "Q": 1000,
-        "split": 3,
+        "destinations": 2, 
         "days": 500,
         "fresh_after": 500,
         "fresh_share": 0,
