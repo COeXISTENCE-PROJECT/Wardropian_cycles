@@ -1,6 +1,6 @@
 {
     "env_params": {
-        "Q": 1000,
+        "Q": 100,
         "destinations": 2, 
         "days": 500,
         "fresh_after": 500,
@@ -8,7 +8,7 @@
         "granularity": 0.001,
         "n_routes": 3,
         "PoA": 1.1,
-        "congestion": 0.8,
+        "congestion": 0.9,
         "p_disruption": 0,
         "noise":0
     }

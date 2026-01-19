@@ -73,10 +73,10 @@ def createRoutesForPoA(n: int, PoA: float, C: float) -> tuple:
         print("PoA Result:", res)
 
     # print the travel times for Nash Equilibrium and Social Optimum
-    t0 = res.x
+    t0 = res.x *13
     routes = [partial(BPRCostFunction, t0=t0[i], qmax=qmax[i]) for i in range(n)]
 
-    if True:
+    if _debug:
         print("Routes:", routes)
         Nash, _ = findUE(1, routes)
         SO, _ = findSO(1, routes)
@@ -88,7 +88,11 @@ def createRoutesForPoA(n: int, PoA: float, C: float) -> tuple:
         sumSO = sum([routes[i](SO[i]) for i in range(n)])
 
         print("PoA:", sumNash / sumSO)
-
+    SO = findSO(1, routes)[0]
+    Nash = findUE(1, routes)[0]
+    all_flows = SO + Nash
+    if min(all_flows) < 0.001:
+        return createRoutesForPoA(n, PoA, C) # retry
     return res.x, routes
 
 
