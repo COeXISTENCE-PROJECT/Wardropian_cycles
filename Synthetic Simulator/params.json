@@ -10,7 +10,7 @@
         "PoA": 1.1,
         "congestion": 0.9,
         "p_disruption": 0.001,
-        "noise":0.01
+        "noise":0.1
     }
     
 }
